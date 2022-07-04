@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SymSpell" Version="6.7.1" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Tadrebat.Entity\Employment.Entity.csproj" />
+    <ProjectReference Include="..\Tadrebat.Enum\Employment.Enum.csproj" />
+    <ProjectReference Include="..\Tadrebat.ModelsGlobal\Employment.ModelsGlobal.csproj" />
+  </ItemGroup>
+
+</Project>

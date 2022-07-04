@@ -1,0 +1,304 @@
+<section class="our-dashbord dashbord">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-xl-3 dn-smd">
+                <app-employer-menu [pageName]="'postjob'"></app-employer-menu>
+            </div>
+            <div class="col-sm-12 col-lg-8 col-xl-9">
+                <div class="my_profile_form_area">
+                    <form novalidate #modelForm="ngForm">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h4 class="fz20 mb20">{{'EmployerPostJobPageTitle' | translate }}</h4>
+                            </div>
+                            <div class="col-lg-12 mt30">
+                                <div class="my_profile_thumb_edit"></div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="formGroupExampleInput1">{{'EmployerPostJobTitle' | translate }}*</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput1"
+                                        [(ngModel)]="modelObj.Name" required #modelNameVar="ngModel" name="modelName"
+                                        [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }"
+                                        placeholder="{{'EmployerPostJobTitleEnter' | translate }}">
+                                    <div class="valError" *ngIf="modelNameVar.touched && modelNameVar.errors?.required">
+                                        {{'EmployerPostJobTitleError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="formGroupExampleInput2">{{'EmployerPostJobCompany' | translate }}*</label>
+                                    <select class="browser-default custom-select" data-actions-box="true"
+                                        [(ngModel)]="modelObj.CompanyId" required #modelCompanyVar="ngModel"
+                                        name="modelCompany"
+                                        [ngClass]="{'is-invalid': (modelCompanyVar.touched || modelCompanyVar.dirty) && !modelCompanyVar.valid }">
+                                        <option value="-1">{{'EmployerPostJobCompanySelect' | translate }}</option>
+                                        <option *ngFor="let item of userProfile?.MyCompanies" value="{{item._id}}">
+                                            {{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valError"
+                                        *ngIf="modelCompanyVar.touched && modelCompanyVar.errors?.required">{{'EmployerPostJobCompanyError' | translate }}
+                                       </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="my_resume_textarea">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">{{'EmployerPostJobResponsibilities' | translate }}*</label>
+                                        <angular-editor  class="editor" [config]="textEditorConfig" [placeholder]="'EmployerPostJobResponsibilitiesEnter' | translate" required minlength="100"
+                                        #modelDescription="ngModel" name="modelDescription"
+                                        [ngClass]="{'is-invalid': (modelDescription.touched || modelDescription.dirty) && !modelDescription.valid }"
+                                        [(ngModel)]="modelObj.Description"></angular-editor>
+                                    <div class="valError" *ngIf="modelDescription.touched && modelDescription.errors?.required">
+                                        {{'EmployerPostJobResponsibilitiesError' | translate }}</div>
+                                    </div>
+                                    <div class="valErrorTextArea"
+                                            *ngIf="modelDescription.touched && modelDescription.errors?.minlength?.requiredLength >  +modelDescription.errors?.minlength?.actualLength">
+                                            {{'EmployerPostJobResponsibilitiesErrorLength' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="my_resume_textarea">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">{{'EmployerPostJobSkills' | translate }}*</label>
+                                        <angular-editor  class="editor" [config]="textEditorConfig" [placeholder]="'EmployerPostJobSkillsEnter' | translate" required minlength="100"
+                                        #modelSkills="ngModel" name="modelSkills"
+                                        [ngClass]="{'is-invalid': (modelSkills.touched || modelSkills.dirty) && !modelSkills.valid }"
+                                        [(ngModel)]="modelObj.Skills"></angular-editor>
+                                    <div class="valError" *ngIf="modelSkills.touched && modelSkills.errors?.required">
+                                        {{'EmployerPostJobSkillsError' | translate }} </div>
+                                    </div>
+                                    <div class="valErrorTextArea"
+                                            *ngIf="modelSkills.touched && +modelSkills.errors?.minlength?.requiredLength >  +modelSkills.errors?.minlength?.actualLength">
+                                            {{'EmployerPostJobSkillsErrorLength' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="my_resume_textarea">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">{{'EmployerPostJobBenefits' | translate }}*</label>
+                                        <angular-editor  class="editor" [config]="textEditorConfig" [placeholder]="'EmployerPostJobBenefitsEnter' | translate" required minlength="100"
+                                        #modelBenefits="ngModel" name="modelBenefits"
+                                        [ngClass]="{'is-invalid': (modelBenefits.touched || modelBenefits.dirty) && !modelBenefits.valid }"
+                                        [(ngModel)]="modelObj.Benefits"></angular-editor>
+                                    <div class="valError" *ngIf="modelBenefits.touched && modelBenefits.errors?.required">
+                                        {{'EmployerPostJobBenefitsError' | translate }}</div>
+                                    </div>
+                                    <div class="valErrorTextArea"
+                                            *ngIf="modelBenefits.touched && +modelBenefits.errors?.minlength?.requiredLength >  +modelBenefits.errors?.minlength?.actualLength">
+                                            {{'EmployerPostJobBenefitsLength' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="formGroupExampleInput1">{{'EmployerPostJobType' | translate }}*</label><br>
+                                    <select class="browser-default custom-select" data-actions-box="true"
+                                        [(ngModel)]="modelObj.Type" required #modelJobTypeVar="ngModel"
+                                        name="modelJobType"
+                                        [ngClass]="{'is-invalid': (modelJobTypeVar.touched || modelJobTypeVar.dirty) && !modelJobTypeVar.valid }">
+                                        <option value="-1">{{'EmployerPostJobTypeSelect' | translate }}</option>
+                                        <option value="1">{{'EmployerPostJobTypeFull' | translate }}</option>
+                                        <option value="2">{{'EmployerPostJobTypePart' | translate }}</option>
+                                        <option value="3">{{'EmployerPostJobFreelance' | translate }}</option>
+                                    </select>
+                                    <div class="valError"
+                                        *ngIf="modelJobTypeVar.touched && modelJobTypeVar.errors?.required">
+                                        {{'EmployerPostJobTypeError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="formGroupExampleInputDate">{{'EmployerPostJobDeadline' | translate }}*</label>
+                                    <div class="input-group ZeroBoxShadow">
+                                        <input class="form-control" placeholder="dd-mm-yyyy" readonly name="dp" 
+                                            (dateSelect)="onEndDateSelect($event)" [(ngModel)]="modelEndDate"  [minDate]="dateToday"
+                                            ngbDatepicker #d="ngbDatepicker">
+                                        <div class="input-group-append calenderHeight">
+                                            <button class="btn calcender" (click)="d.toggle()" type="button"><i
+                                                    class="fa fa-calendar" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="formGroupExampleInput1">{{'EmployerPostJobField' | translate }}*</label><br>
+                                    <select class="browser-default custom-select" [(ngModel)]="modelObj.JobFieldId"
+                                        required #modelJobFieldVar="ngModel" name="modelJobField"
+                                        [ngClass]="{'is-invalid': (modelJobFieldVar.touched || modelJobFieldVar.dirty) && (!modelJobFieldVar.valid || modelObj.JobFieldId == '' || modelObj.JobFieldId == '-1') }"
+                                        (change)="onJobFieldSelect()">
+                                        <option value="-1">{{'EmployerPostJobFieldSelect' | translate }}</option>
+                                        <option *ngFor="let item of LkupJobField" value="{{item._id}}">{{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valErrorSelect"
+                                        *ngIf="modelJobFieldVar.touched && (modelJobFieldVar.errors?.required || modelObj.JobFieldId == '' || modelObj.JobFieldId == '-1')">
+                                        {{'EmployerPostJobFieldError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="formGroupExampleInput1">{{'EmployerPostJobSubField' | translate }}*</label><br>
+                                    <select class="browser-default custom-select" [(ngModel)]="modelObj.JobSubFieldId"
+                                        required #modelJobSubFieldVar="ngModel" name="modelJobSubField"
+                                        [ngClass]="{'is-invalid': (modelJobSubFieldVar.touched || modelJobSubFieldVar.dirty) && (!modelJobSubFieldVar.valid || modelObj.JobSubFieldId == '' || modelObj.JobSubFieldId == '-1') }">
+                                        <option value="-1">{{'EmployerPostJobSubFieldSelect' | translate }}</option>
+                                        <option *ngFor="let item of LkupJobSubField" value="{{item._id}}">{{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valErrorSelect"
+                                        *ngIf="modelJobSubFieldVar.touched && (modelJobSubFieldVar.errors?.required || modelObj.JobSubFieldId == '' || modelObj.JobSubFieldId == '-1')">
+                                        {{'EmployerPostJobSubFieldError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="formGroupExampleInput1">{{'EmployerPostJobExperience' | translate }}*</label><br>
+                                    <select class="browser-default custom-select" data-actions-box="true"
+                                        [(ngModel)]="modelObj.ExperienceId" required #modelExperienceVar="ngModel"
+                                        name="modelExperience"
+                                        [ngClass]="{'is-invalid': (modelExperienceVar.touched || modelExperienceVar.dirty) && !modelExperienceVar.valid }">
+                                        <option value="-1">{{'EmployerPostJobExperienceEnter' | translate }}</option>
+                                        <option *ngFor="let item of LkupExperience" value="{{item._id}}">{{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valError"
+                                        *ngIf="modelExperienceVar.touched && modelExperienceVar.errors?.required">
+                                        {{'EmployerPostJobExperienceError' | translate }}</div>
+                                </div>
+                            </div>
+                            <!-- <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="formGroupExampleInput1">{{'EmployerPostJobGender' | translate }}*</label><br>
+                                    <select class="browser-default custom-select" data-actions-box="true"
+                                        [(ngModel)]="modelObj.Gender" required #modelGenderVar="ngModel"
+                                        name="modelGender"
+                                        [ngClass]="{'is-invalid': (modelGenderVar.touched || modelGenderVar.dirty) && !modelGenderVar.valid }">
+                                        <option value="-1">{{'EmployerPostJobGenderSelect' | translate }}</option>
+                                        <option value="1">{{'EmployerPostJobGenderMale' | translate }}</option>
+                                        <option value="2">{{'EmployerPostJobGenderFemale' | translate }}</option>
+                                        <option value="3">{{'EmployerPostJobGenderBoth' | translate }}</option>
+                                    </select>
+                                    <div class="valError"
+                                        *ngIf="modelGenderVar.touched && modelGenderVar.errors?.required">
+                                        {{'EmployerPostJobGenderError' | translate }}</div>
+                                </div>
+                            </div> -->
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="formGroupExampleInput1">{{'EmployerPostJobIndustry' | translate }}*</label><br>
+                                    <select class="browser-default custom-select" data-actions-box="true"
+                                        [(ngModel)]="modelObj.IndustryId" required #modelIndustryVar="ngModel"
+                                        name="modelIndustry"
+                                        [ngClass]="{'is-invalid': (modelIndustryVar.touched || modelIndustryVar.dirty) && !modelIndustryVar.valid }">
+                                        <option value="-1">{{'EmployerPostJobIndustrySelect' | translate }}</option>
+                                        <option *ngFor="let item of LkupIndustry" value="{{item._id}}">{{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valError"
+                                        *ngIf="modelIndustryVar.touched && modelIndustryVar.errors?.required">
+                                        {{'EmployerPostJobIndustryError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="formGroupExampleInput1">{{'EmployerPostJobQualification' | translate }}*</label><br>
+                                    <select class="browser-default custom-select" data-actions-box="true"
+                                        [(ngModel)]="modelObj.QualificationId" required #modelQualificationVar="ngModel"
+                                        name="modelQualification"
+                                        [ngClass]="{'is-invalid': (modelQualificationVar.touched || modelQualificationVar.dirty) && !modelQualificationVar.valid }">
+                                        <option value="-1">{{'EmployerPostJobQualificationSelect' | translate }}</option>
+                                        <option *ngFor="let item of LkupQualification" value="{{item._id}}">
+                                            {{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valError"
+                                        *ngIf="modelQualificationVar.touched && modelQualificationVar.errors?.required">
+                                        {{'EmployerPostJobQualificationError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="formGroupExampleInput1">{{'JobRemuneration' | translate }}</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput1"
+                                        [(ngModel)]="modelObj.Remuneration"  #modelRemunerationVar="ngModel" name="modelRemuneration"
+                                        [ngClass]="{'is-invalid': (modelRemunerationVar.touched || modelRemunerationVar.dirty) && !modelRemunerationVar.valid }"
+                                        placeholder="{{'EmployerPostJobRemunerationEnter' | translate }}">
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <h4 class="fz18 mb20">{{'EmployerPostJobAddress' | translate }}</h4>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="exampleFormControlInput9">{{'EmployerPostJobCountry' | translate }}*</label><br>
+                                    <select class="browser-default custom-select" [(ngModel)]="modelObj.CountryId"
+                                        required #modelCountryVar="ngModel" name="modelCountry"
+                                        [ngClass]="{'is-invalid': (modelCountryVar.touched || modelCountryVar.dirty) && (!modelCountryVar.valid || modelObj.CountryId == '' || modelObj.CountryId == '-1') }"
+                                        (change)="onCountrySelect()">
+                                        <option value="-1">{{'EmployerPostJobCountrySelect' | translate }}</option>
+                                        <option *ngFor="let item of LkupCountry" value="{{item._id}}">{{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valErrorSelect"
+                                        *ngIf="modelCountryVar.touched && (modelCountryVar.errors?.required || modelObj.CountryId == '' || modelObj.CountryId == '-1')">
+                                        {{'EmployerPostJobCountryError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="exampleFormControlInput9">{{'EmployerPostJobCity' | translate }}*</label><br>
+                                    <select class="browser-default custom-select" [(ngModel)]="modelObj.CityId" required
+                                        #modelCityVar="ngModel" name="modelCity"
+                                        [ngClass]="{'is-invalid': (modelCityVar.touched || modelCityVar.dirty) && (!modelCityVar.valid || modelObj.CityId == '' || modelObj.CityId == '-1') }">
+                                        <option value="-1">{{'EmployerPostJobCitySelect' | translate }}</option>
+                                        <option *ngFor="let item of LkupCity" value="{{item._id}}">{{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valErrorSelect"
+                                        *ngIf="modelCityVar.touched && (modelCityVar.errors?.required || modelObj.CityId == '' || modelObj.CityId == '-1')">
+                                        {{'EmployerPostJobCityError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="my_resume_textarea">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea2">{{'EmployerPostJobFullddress' | translate }}</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                            name="modelAddress" [(ngModel)]="modelObj.Address"
+                                            placeholder="{{'EmployerPostJobAddressEnter' | translate }}"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="my_profile_input">
+                                    <button *ngIf="CanSaveDraft()" class="btn btn-lg w-100 btn-thm" (click)="SaveDraft(modelForm)"
+                                        [title]="'EmployerPostJobDraftDesc' | translate"
+                                        [disabled]="modelObj.Name == '' || modelObj.CompanyId == '-1' || modelObj.CompanyId == '' ">
+                                        {{'EmployerPostJobDraft' | translate }}</button>
+                                </div>
+                            </div>
+                            <div  class="col-lg-4" >
+                                <div class="my_profile_input">
+                                    <button *ngIf="CanSavePublish()" class="btn btn-lg w-100 btn-orange" (click)="SavePublish(modelForm)"
+                                        [title]="modelForm.valid ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                                        [disabled]="!modelForm.valid">{{'EmployerPostJobPublish' | translate }}</button>
+                                    <button *ngIf="CanSaveDraftPublish()" class="btn btn-lg w-100 btn-orange" (click)="SaveDraftPublish(modelForm)"
+                                        [title]="modelForm.valid ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                                        [disabled]="!modelForm.valid">{{'EmployerPostJobDraftPublish' | translate }}</button>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 pull-right">
+                                <div class="my_profile_input">
+                                    <button class="btn btn-lg w-100 btn-transparent" (click)="onCancel()">{{'GenericCancel' | translate }}</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

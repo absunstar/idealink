@@ -1,0 +1,276 @@
+<!-- <app-search></app-search> -->
+
+<section class="our-faq bgc-fa mt50">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-xl-3 dn-smd leftSide">
+                <form novalidate (ngSubmit)="submit()">
+                    <div class="faq_search_widget mb30">
+                        <h4 class="fz20 mb15">{{'SeekerSearchKeywords' | translate }}</h4>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" (keydown.enter)="FilterData()"
+                                [(ngModel)]="modelSearch.filterText"
+                                placeholder="{{'SeekerSearchSearchBy' | translate }}" name="filterText"
+                                aria-label="Recipient's username" (keydown)="search($event)" [matAutocomplete]="auto" aria-describedby="button-addon2">
+                                <mat-autocomplete #auto="matAutocomplete">
+                                    <mat-option *ngFor="let item of currentDatas" [value]="item" >
+                                    <!-- <div *ngIf="item != ''">  -->
+                                        <!-- {{item.Name}}  -->
+                                        {{ item }}
+                                         <!-- {{ item.JobField }} -->
+                                    <!-- </div> -->
+                                    </mat-option>
+                                </mat-autocomplete>
+                           
+                                <div class="input-group-append">
+                                <button class="btn font-weight-lighter" type="button" id="button-addon2"
+                                    (click)="aipfiltercall()"><span class="flaticon-search"></span></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cl_carrer_lever mb30">
+                        <div class="searchLast" style="font-size: 12px;" *ngIf="onlySkillHTM.length >= 1"> 
+                            <p  style="font-size: 12px;">{{'RecentSearch'|translate}} : </p>
+                            <span class="history" *ngFor="let item of (onlySkillHTM | slice: -3);let i= index" (click)="skillset(i,item)">{{htmlDecode(item)}}</span>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="cl_carrer_lever mb30" *ngIf="LkupExperience">
+                        <p class="titles">{{'EmployerSearchExperience' | translate }} ({{LkupExperience.length}})</p>
+                        <mat-checkbox class="example-margin" *ngFor="let item of LkupExperience" value="{{item._id}}" [checked]="!item.IsActive" (change)="FilterData1($event,item)" multiple>{{item.Name}}
+                        </mat-checkbox>
+                        <!-- <mat-select class="browser-default custom-select" data-actions-box="true" multiple
+                            (selectionChange)="FilterData()" [(ngModel)]="modelSearch.ExperienceId"
+                            #modelExperienceVar="ngModel" placeholder="{{'EmployerSearchExperience' | translate }}"
+                            name="modelExperience">
+                            <mat-option *ngFor="let item of LkupExperience" value="{{item._id}}">{{item.Name}}
+                            </mat-option>
+                        </mat-select> -->
+
+                    </div> 
+                    <div class="cl_carrer_lever mb30" *ngIf="SearchbyGender">
+                        <p class="titles">{{'EmployerSearchByGender' | translate }}  ({{SearchbyGender.length}})</p>
+                        <mat-checkbox class="example-margin" *ngFor="let item of SearchbyGender" value="{{item._id}}" [checked]="!item.IsActive" (change)="FilterData2($event,item)" multiple>{{item.Name |translate}}
+                        </mat-checkbox>
+                        <!-- <mat-select class="browser-default custom-select" data-actions-box="true" multiple
+                            (selectionChange)="FilterData()" [(ngModel)]="modelSearch.GenderId"
+                            #modelExperienceVar="ngModel" placeholder="{{'EmployerSearchByGender' | translate }}"
+                            name="modelExperience">
+                            <mat-option value="1">{{'EmployerPostJobGenderMale' | translate }}</mat-option>
+                            <mat-option value="2">{{'EmployerPostJobGenderFemale' | translate }}</mat-option>
+                        </mat-select> -->
+                    </div>
+                    <div class="cl_carrer_lever mb30" *ngIf="LkupLanguage">
+                        <p class="titles">{{'SeekerSearchLanguage' | translate }}   ({{LkupLanguage.length}})</p>
+                        <mat-checkbox class="example-margin" *ngFor="let item of LkupLanguage" value="{{item._id}}" [checked]="!item.IsActive" (change)="FilterData3($event,item)" multiple>{{item.Name}}
+                        </mat-checkbox>
+                        <!-- <mat-select class="browser-default custom-select" data-actions-box="true" multiple
+                            (selectionChange)="FilterData()" [(ngModel)]="modelSearch.LanguageId"
+                            #modelLanguageVar="ngModel" placeholder="{{'SeekerSearchLanguage' | translate }}"
+                            name="modelLanguage">
+                            <mat-option *ngFor="let item of LkupLanguage" value="{{item._id}}">{{item.Name}}
+                            </mat-option>
+                        </mat-select> -->
+                    </div>
+
+                    <div class="cl_carrer_lever mb30" *ngIf="LkupQualification">
+                        <p class="titles">{{'EmployerSearchQualification' | translate }}  ({{LkupQualification.length}})</p>
+                        <mat-checkbox class="example-margin" *ngFor="let item of LkupQualification" value="{{item._id}}" [checked]="!item.IsActive" (change)="FilterData4($event,item)" multiple>{{item.Name}}
+                        </mat-checkbox>
+                        <!-- <mat-select class="browser-default custom-select" data-actions-box="true" multiple
+                            (selectionChange)="FilterData()" [(ngModel)]="modelSearch.Qualificationid"
+                            #modelQualificationVar="ngModel"
+                            placeholder="{{'EmployerSearchQualification' | translate }}" name="modelQualification">
+                            <mat-option *ngFor="let item of LkupQualification" value="{{item._id}}">{{item.Name}}
+                            </mat-option>
+                        </mat-select> -->
+                    </div>
+                    <div class="cl_carrer_lever mb30" *ngIf="LkupCountry">
+                        <p class="titles">{{'EmployerPostJobCountrySelect' | translate }}  ({{LkupCountry.length}})</p>
+                        <mat-checkbox class="example-margin" *ngFor="let item of LkupCountry" value="{{item._id}}" [checked]="!item.IsActive" (change)="onCountrySelect($event,item)" multiple>{{item.Name}}
+                        </mat-checkbox>
+                        <!-- <mat-select class="browser-default SearchDropdown" data-actions-box="true" 
+                            (selectionChange)="onCountrySelect()" [(ngModel)]="modelSearch.CountryId"
+                            #modelQualificationVar="ngModel" 
+                            placeholder="{{'EmployerPostJobCountry' | translate }}" name="modelCountry">
+                            <mat-option value="">{{'EmployerPostJobCountrySelect' | translate }}</mat-option>
+                            <mat-option *ngFor="let item of LkupCountry" value="{{item._id}}">{{item.Name}}
+                            </mat-option>
+                        </mat-select> -->
+                    </div>
+                    <div class="cl_carrer_lever mb30" *ngIf="LkupCity">
+                        <p class="titles">{{'EmployerPostJobCitySelect' | translate }}  ({{LkupCity?.length}})</p>
+                        <mat-checkbox class="example-margin" *ngFor="let item of LkupCity" value="{{item._id}}" [checked]="!item.IsActive" (change)="FilterData5($event,item)" multiple>{{item.Name}}
+                        </mat-checkbox>
+                        <!-- <mat-select class="browser-default SearchDropdown" data-actions-box="true" 
+                            (selectionChange)="FilterData()" [(ngModel)]="modelSearch.CityId"
+                            #modelQualificationVar="ngModel"
+                            placeholder="{{'EmployerPostJobCity' | translate }}" name="modelCity">
+                            <mat-option value="">{{'EmployerPostJobCitySelect' | translate }}</mat-option>
+                            <mat-option *ngFor="let item of LkupCity" value="{{item._id}}">{{item.Name}}
+                            </mat-option>
+                        </mat-select> -->
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-12 col-lg-9 col-xl-9">
+                <div class="row">
+                    <div class="col-md-10 col-lg-10 col-xl-10">
+                        <div class="mb30" *ngIf="arrayCheck4.length>0 || arrayCheck.length > 0 || arrayCheck1.length > 0 || arrayCheck5.length > 0 || arrayCheck2.length > 0 || arrayCheck3.length > 0">  
+                            {{'Filterby'|translate}}:
+                            <!-- <ng-template  > -->
+                                <span class="filterData" *ngFor="let item of arrayCheck ;let i = index"   (click)="filterCheck(i,item)"> {{ item.Name}} <span class="closeIcon">&#10006;</span> </span>
+                                <span class="filterData" *ngFor="let item of arrayCheck1 ;let i = index"   (click)="filterCheck2(i,item)"> {{ item.Name}} <span class="closeIcon">&#10006;</span> </span>
+                                <span class="filterData" *ngFor="let item of arrayCheck2 ;let i = index"   (click)="filterCheck3(i,item)"> {{ item.Name}} <span class="closeIcon">&#10006;</span> </span>
+                                <span class="filterData" *ngFor="let item of arrayCheck3 ;let i = index"   (click)="filterCheck4(i,item)"> {{ item.Name}} <span class="closeIcon">&#10006;</span> </span>
+                                <span class="filterData" *ngFor="let item of arrayCheck4 ;let i = index"   (click)="filterCheck5(i,item)"> {{ item.Name}} <span class="closeIcon">&#10006;</span> </span>
+                                <span class="filterData" *ngFor="let item of arrayCheck5 ;let i = index"   (click)="filterCheck6(i,item)"> {{ item.Name}} <span class="closeIcon">&#10006;</span> </span>
+
+                                
+                            <!-- </ng-template> -->
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-lg-2 col-xl-2">
+                        <div class="removeFilter" *ngIf="arrayCheck4.length>0 || arrayCheck.length > 0 || arrayCheck1.length > 0 || arrayCheck5.length > 0 || arrayCheck2.length > 0 || arrayCheck3.length > 0">
+                            <a href="javascript:void(0)" class="clearFilter" (click)="removeFilter()">{{'ClearAll'|translate}}</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="candidate_job_alart_btn">
+                            <h4 class="fz20 mb15">{{lstResult?.totalCount}}
+                                <!-- <span > {{ 'SeekerSearchCandidatesFoundCli' | translate }}</span> -->
+                              <span *ngIf="lstResult?.totalCount>1 && lstResult?.totalCount>10 || lstResult?.totalCount==1"> {{ 'SeekerSearchCandidatesFound' | translate }}</span> 
+                              <span *ngIf="lstResult?.totalCount>=2 && lstResult?.totalCount<11 || lstResult?.totalCount==0 "> {{ 'SeekerSearchCandidatesFoundNs' | translate }}</span>
+                            </h4>
+                            <button
+                                class="btn btn-thm btns dn db-991 float-right">{{'EmployerSearchShowFilter' | translate }}</button>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="content_details">
+                            <div class="details">
+                                <a href="javascript:void(0)" class="closebtn"
+                                    onclick="closeNav()"><span>{{'EmployerSearchHideFilter' | translate }}</span><i>×</i></a>
+                                <div class="faq_search_widget mb30">
+                                    <h4 class="fz20 mb15">{{'SeekerSearchKeywords' | translate }}</h4>
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" [(ngModel)]="modelSearch.filterText"
+                                            placeholder="{{'SeekerSearchSearchBy1' | translate }}" name="filterText"
+                                            aria-label="Recipient's username" aria-describedby="button-addon2">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-thm" type="button" id="button-addon4"><span
+                                                    class="flaticon-search"></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="faq_search_widget mb30">
+                                    <mat-select class="browser-default custom-select" data-actions-box="true" multiple
+                                        (selectionChange)="FilterData()" [(ngModel)]="modelSearch.ExperienceId"
+                                        #modelExperienceVar="ngModel"
+                                        placeholder="{{'EmployerSearchExperience' | translate }}"
+                                        name="modelExperience">
+                                        <mat-option *ngFor="let item of LkupExperience" value="{{item._id}}">
+                                            {{item.Name}}
+                                        </mat-option>
+                                    </mat-select>
+                                </div> 
+
+                                <div class="faq_search_widget mb30">
+                                    <mat-select class="browser-default custom-select" data-actions-box="true" multiple
+                                        (selectionChange)="FilterData()" [(ngModel)]="modelSearch.GenderId"
+                                        #modelExperienceVar="ngModel"
+                                        placeholder="{{'EmployerSearchGender' | translate }}" name="modelExperience">
+                                        <mat-option value="1">{{'EmployerPostJobGenderMale' | translate }}</mat-option>
+                                        <mat-option value="2">{{'EmployerPostJobGenderFemale' | translate }}
+                                        </mat-option>
+                                    </mat-select>
+                                </div> 
+                                 <div class="faq_search_widget mb30">
+                                    <mat-select class="browser-default custom-select" data-actions-box="true" multiple
+                                        (selectionChange)="FilterData()" [(ngModel)]="modelSearch.LanguageId"
+                                        #modelLanguageVar="ngModel"
+                                        placeholder="{{'SeekerSearchLanguage' | translate }}" name="modelLanguage">
+                                        <mat-option *ngFor="let item of LkupLanguage" value="{{item._id}}">{{item.Name}}
+                                        </mat-option>
+                                    </mat-select>
+                                </div>
+
+                                <div class="faq_search_widget mb30">
+                                    <mat-select class="browser-default custom-select" data-actions-box="true" multiple
+                                        (selectionChange)="FilterData()" [(ngModel)]="modelSearch.Qualificationid"
+                                        #modelQualificationVar="ngModel"
+                                        placeholder="{{'EmployerSearchQualification' | translate }}"
+                                        name="modelQualification">
+                                        <mat-option *ngFor="let item of LkupQualification" value="{{item._id}}">
+                                            {{item.Name}}
+                                        </mat-option>
+                                    </mat-select>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12" *ngFor="let item of pagedItems">
+                        <div class="candidate_list_view">
+                            <div class="thumb">
+                                <img class="img-fluid rounded-circle ProfilePicture ProfilePictureSmaller" src="{{item.ProfilePicture}}"> 
+                                <!-- <div class="cpi_av_rating"><span>{{FormateGender(item.Gender)}}</span></div> -->
+                            </div>
+                            <div class="content">
+                                <h4 class="title">{{item.Name}}</h4>
+                                <p>{{item.JobTitle}}</p>
+                                <p><span class="flaticon-location-pin"></span>
+                                    {{item?.Country?.Name == '' ? "'EmployerCompanyViewCountryNA' | translate" : item.Country.Name}},
+                                    {{ item?.City?.Name == '' ? "'EmployerCompanyViewCityNA' | translate" : item.City.Name}}
+                                </p>
+                                <p><span class="flaticon-mortarboard"></span>
+                                    {{FormatGenericSubItem(item?.Qualification)}}
+                                </p>
+                                <p><span class="flaticon-controls"></span>
+                                    {{FormatGenericSubItem(item?.Experience)}}
+                                </p>
+                            </div>
+                            <a class="btn btn-transparent float-right fn-lg" routerLink="/JobSeeker/Resume/{{item._id}}"
+                                routerLinkActive="router-link-active"
+                                href="#">{{'ViewProfile' | translate }}<span
+                                    class="flaticon-right-arrow"></span></a>
+                        </div>
+                    </div> 
+                   <div class="col-lg-12" *ngIf="0 ==pagedItems.length">
+                        <div class="text-center bg-red noresult">
+                            <span class="font-italic">{{'SeekerSearchNoCandidatesFound' | translate }}
+                            </span><span>&#9785;</span>
+                        </div>
+                    </div> 
+                     <div class="col-lg-12" *ngIf="pagedItems.length > 5">
+                        <!-- <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()"
+                            (previousPageEvent)="getPreviousPage()" (loadPageCurrentEvent)="getloadPageCurrent()">
+                        </app-custom-pagination> -->
+                        <div class="mbp_pagination" >
+                            <ul *ngIf="pager.pages && pager.pages.length" class="page_navigation">
+                                <!-- <li class="page-item" [ngClass]="{disabled:pager.currentPage === 1}">
+                                    <a class="page-link" (click)="setPage(1)">First</a>
+                                </li> -->
+                                <li class="page-item" [ngClass]="{disabled:pager.currentPage === 1}">
+                                    <a class="page-link" (click)="setPage(pager.currentPage - 1)"><span
+                                        class="flaticon-left-arrow"></span> {{'PagePrevious' | translate }}</a>
+                                </li>
+                                <li class="page-item" *ngFor="let page of pager.pages" [ngClass]="{active:pager.currentPage === page}">
+                                    <a  class="page-link" (click)="setPage(page)">{{page}}</a>
+                                </li>
+                                <li class="page-item" [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+                                    <a class="page-link" (click)="setPage(pager.currentPage + 1)"> {{'PageNext' | translate }} <span
+                                        class="flaticon-right-arrow"></span> </a>
+                                </li>
+                                <!-- <li class="page-item" [ngClass]="{disabled:pager.currentPage === pager.totalPages}">
+                                    <a class="page-link" (click)="setPage(pager.totalPages)">Last</a>
+                                </li> -->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

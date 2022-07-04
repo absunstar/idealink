@@ -1,0 +1,716 @@
+<!-- Candidate Personal Info-->
+<section class="bgc-fa mt65">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-xl-8">
+                <div class="candidate_personal_info">
+                    <div class="thumb">
+                        <div *ngIf="objJobSeeker?.IsMyResume" class="uploaddiv">
+                            <input type="file" id="imgupload" style="display:none" class="uploadbtnImage"
+                                accept=".png,.jpg,.jpeg" (change)="handleFileInput($event.target.files,3)" />
+                            <label for='imgupload' class="lbluploadbtnImage"><img
+                                    src="/assets/images/resource/upload.png"></label>
+
+                        </div>
+                        <img class="img-fluid rounded-circle ProfilePicture" src="{{objJobSeeker.ProfilePicture}}"
+                            alt="cs2.jpg">
+                        <div class="cpi_av_rating"><span>
+                                {{FormateGender()}}
+                            </span></div>
+                    </div>
+                    <div class="details">
+                        <h3>{{FormatString(objJobSeeker?.Name, 'Name')}} <small class="verified"><i
+                                    class="fa fa-check-circle"></i></small>
+                            <span *ngIf="objJobSeeker?.IsMyResume" class="list-inline-item ml-2 bg-blue"><a
+                                    (click)="UpdateInfo(content)" data-toggle="tooltip" data-placement="bottom"
+                                    title="{{'GenericEdit' | translate }}"><span
+                                        class="flaticon-edit"></span></a></span>
+                        </h3>
+                        <p>{{FormatString(objJobSeeker?.JobTitle, 'Job Title')}}</p>
+                        <ul class="address_list">
+                            <li class="list-inline-item"><a href="#"><span
+                                        class="flaticon-location-pin text-thm pr-2"></span></a></li>
+                            <li class="list-inline-item"><a href="#">{{FormatLocation()}}</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-4">
+                <div class="candidate_personal_overview">
+                    <div class="col col-sm-12 col-lg-12"
+                        *ngIf=" (isEmployer && IsFavourite) || IsAdmin || objJobSeeker.IsMyResume">
+                        <!-- *ngIf="objJobSeeker.ContactPermissionHasPermission ==1 || IsAdmin || objJobSeeker.IsMyResume"> -->
+                        <div class="grid">
+                            <p><a><span class="flaticon-link text-thm pr-4"></span>{{FormatString(objJobSeeker?.Website,
+                                    'SeekerResumeWebsite' | translate)}}</a>
+                            </p>
+                            <p><a><span
+                                        class="flaticon-phone-call text-thm pr-4"></span>{{FormatString(objJobSeeker?.Phone,'SeekerResumePhone'
+                                    | translate)}}</a>
+                            </p>
+                            <p><a><span
+                                        class="flaticon-mail text-thm pr-4"></span>{{FormatString(objJobSeeker?.Email,'SeekerResumeEmail'
+                                    | translate)}}</a>
+                            </p>
+                            <p><a><i
+                                        class="fa fa-linkedin text-thm pr-4"></i>{{FormateSocial(objJobSeeker?.SocialLinkedin)}}</a>
+                            </p>
+
+                        </div>
+                    </div>
+                    <button *ngIf="isEmployer && !IsFavourite" class="btn btn-block btn-thm mb15"
+                        (click)="onAddFavourite(objJobSeeker._id)"><span class="flaticon-favorites fz24 pr10"></span>
+                        {{'SeekerResumeShortlist' | translate }}</button>
+                    <span *ngIf="isEmployer && !IsFavourite">{{"ResumeShortListInfo" | translate}}</span>
+                    <button *ngIf="isEmployer && IsFavourite" class="btn btn-block btn-danger  mb15 "
+                        (click)="onRemoveFavourite(objJobSeeker._id)"><span class="flaticon-favorites fz24 pr10"></span>
+                        {{'GenericRemove' | translate}} {{'SeekerResumeShortlist' | translate }}</button>
+                    <!-- <button *ngIf="isEmployer && (objJobSeeker.ContactPermissionHasPermission == 0 )"
+                        class="btn btn-block btn-primary mb15"
+                        (click)="onRequestContactPermission(objJobSeeker._id)"><span
+                            class="flaticon-alarm fz24 pr10"></span>
+                        {{'RequestContactInformation'  | translate }}</button>
+                    <button *ngIf="isEmployer && objJobSeeker.ContactPermissionHasPermission == -1"
+                        class="btn btn-block btn-primary mb15" disabled="disabled"
+                        ><span
+                            class="flaticon-alarm fz24 pr10"></span>
+                        {{ 'RequestPending' | translate }}</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sticky Header -->
+<section class="sticky_heading bgc-f3 h80 p0 bg-green">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="sticky-nav-tabs ">
+                    <div class="sticky-nav-tabs-container ">
+                        <li class="list-inline-item"><a class="sticky-nav-tab"
+                                (click)="scrollToElement(tab1)">{{'SeekerResumeAbout' | translate }}</a></li>
+                        <li class="list-inline-item"><a class="sticky-nav-tab"
+                                (click)="scrollToElement(tab2)">{{'SeekerResumeEducation' | translate }}</a></li>
+                        <li class="list-inline-item"><a class="sticky-nav-tab"
+                                (click)="scrollToElement(tab3)">{{'SeekerResumeWork' | translate }}</a></li>
+                        <li class="list-inline-item"><a class="sticky-nav-tab"
+                                (click)="scrollToElement(tab4)">{{'SeekerResumeCertificates' | translate }}</a></li>
+                        <li class="list-inline-item"><a class="sticky-nav-tab"
+                                (click)="scrollToElement(tab5)">{{'SeekerResumeExtra' | translate }}</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Candidate Personal Info Details-->
+<section class="bgc-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="row">
+                    <div #tab1 class="col-lg-12">
+                        <div class="candidate_about_info">
+                            <h4 class="fz20 mb30">{{'SeekerResumeAboutMe' | translate }}
+                                <span *ngIf="!IsEditDescription && objJobSeeker?.IsMyResume"
+                                    class="list-inline-item padding5 bg-blue"><a (click)="onEditDescription()"
+                                        data-toggle="tooltip" data-placement="bottom"
+                                        title="{{'GenericEdit' | translate }}"><span
+                                            class="flaticon-edit"></span></a></span>
+                                <span *ngIf="IsEditDescription && objJobSeeker?.IsMyResume"
+                                    class="list-inline-item padding5 bg-red"><a (click)="onCancelDescription()"
+                                        data-toggle="tooltip" data-placement="bottom"
+                                        title="{{'GenericCancel' | translate }}"><span
+                                            class="flaticon-close"></span></a></span>
+                                <span *ngIf="IsEditDescription && objJobSeeker?.IsMyResume"
+                                    class="list-inline-item padding5 bg-green"><a (click)="onSaveDescription()"
+                                        data-toggle="tooltip" data-placement="bottom"
+                                        title="{{'GenericSave' | translate }}"><span
+                                            class="flaticon-open-envelope-with-letter"></span></a></span>
+                            </h4>
+                            <div *ngIf="!IsEditDescription" class="editor" [innerHTML]="modelJobSeeker.About"></div>
+                            <div>
+                                <angular-editor *ngIf="IsEditDescription && objJobSeeker?.IsMyResume" class="editor"
+                                    [config]="textEditorConfig" minlength="100" [(ngModel)]="modelJobSeeker.About"
+                                    required #modelAboutVar="ngModel" name="modelAbout"
+                                    placeholder="{{'SeekerResumeAboutDesc' | translate }}"></angular-editor>
+                            </div>
+                        </div>
+                    </div>
+                    <div #tab2 class="col-lg-12">
+                        <div class="my_resume_eduarea style2">
+                            <h4 class="title">{{'SeekerResumeEducation' | translate }} <span
+                                    *ngIf="objJobSeeker?.IsMyResume" class="list-inline-item ml-2 bg-blue"><a
+                                        (click)="OpenEducation(Education,true,'','Education',1)" data-toggle="tooltip"
+                                        data-placement="bottom"
+                                        title="{{'SeekerResumeAddEducation' | translate }}"><span
+                                            class="ResumeEditbtn"><b>+</b></span></a></span>
+
+                            </h4>
+                            <div class="content" *ngFor="let item of objJobSeeker.Education">
+                                <div class="circle bgc-thm"></div>
+                                <p class="edu_center">{{item.Name}}<small>{{item.StartDate | date:'MMM, y'}} -
+                                        {{item.EndDate | date:'MMM, y'}}</small>
+                                    <span *ngIf="objJobSeeker?.IsMyResume"
+                                        class="list-inline-item padding5 bg-blue ml-2"><a
+                                            (click)="OpenEducation(Education,false,item.Name,'Education',1,item)"
+                                            data-toggle="tooltip" data-placement="bottom"
+                                            title="{{'GenericEdit' | translate }}"><span
+                                                class="flaticon-edit "></span></a></span>
+                                    <span *ngIf="objJobSeeker?.IsMyResume" class="list-inline-item padding5 bg-red"><a
+                                            (click)="onEduRemove(item._id,1)" data-toggle="tooltip"
+                                            data-placement="bottom" title="{{'GenericDeactivate' | translate }}"><span
+                                                class="flaticon-rubbish-bin"></span></a></span>
+                                </p>
+                                <h4 class="edu_stats">{{item.SubTitle}}</h4>
+                                <p class="mb0">{{item.Description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div #tab3 class="my_resume_eduarea style2">
+                            <h4 class="title">{{'SeekerResumeWork' | translate }}
+                                <span class="list-inline-item ml-2 bg-blue" *ngIf="objJobSeeker?.IsMyResume"><a
+                                        (click)="OpenEducation(Education,true,'','Work History',2)"
+                                        data-toggle="tooltip" data-placement="bottom"
+                                        title="{{'SeekerResumeAddWork' | translate }}"><span
+                                            class="ResumeEditbtn"><b>+</b></span></a></span>
+                            </h4>
+                            <div class="content" *ngFor="let item of objJobSeeker.WorkHistory">
+                                <div class="circle bgc-thm"></div>
+                                <p class="edu_center">{{item.Name}}<small>{{item.StartDate | date:'MMM, y'}} -
+                                        {{item.EndDate | date:'MMM, y'}}</small>
+                                    <span *ngIf="objJobSeeker?.IsMyResume"
+                                        class="list-inline-item padding5 bg-blue ml-2"><a
+                                            (click)="OpenEducation(Education,false,item.Name,'Work History',2,item)"
+                                            data-toggle="tooltip" data-placement="bottom"
+                                            title="{{'GenericEdit' | translate }}"><span
+                                                class="flaticon-edit "></span></a></span>
+                                    <span *ngIf="objJobSeeker?.IsMyResume" class="list-inline-item padding5 bg-red"><a
+                                            (click)="onEduRemove(item._id,2)" data-toggle="tooltip"
+                                            data-placement="bottom" title="{{'GenericDeactivate' | translate }}"><span
+                                                class="flaticon-rubbish-bin"></span></a></span>
+                                </p>
+                                <h4 class="edu_stats">{{item.SubTitle}}</h4>
+                                <p class="mb0">{{item.Description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div #tab4 class="my_resume_eduarea style2">
+                            <h4 class="title">{{'SeekerResumeCertificates' | translate }}
+                                <span *ngIf="objJobSeeker?.IsMyResume" class="list-inline-item ml-2 bg-blue"><a
+                                        (click)="OpenCertificate(Certificate,true)" data-toggle="tooltip"
+                                        data-placement="bottom"
+                                        title="{{'SeekerResumeAddCertificate' | translate }}"><span
+                                            class="ResumeEditbtn"><b>+</b></span></a></span>
+                                            <span>
+                                                <a (click)="Import()">{{"Import" | translate }}</a>
+                                            </span>
+
+                            </h4>
+                            <div class="content" *ngFor="let item of objJobSeeker.Certification">
+                                <div class="circle bgc-thm"></div>
+                                <p class="edu_center">{{item.Name}}<small>{{item.StartDate | date:'MMM, y'}} </small>
+                                    <span *ngIf="objJobSeeker?.IsMyResume"
+                                        class="list-inline-item padding5 bg-blue ml-2"><a
+                                            (click)="OpenCertificate(Certificate,false,item)" data-toggle="tooltip"
+                                            data-placement="bottom" title="{{'GenericEdit' | translate }}"><span
+                                                class="flaticon-edit "></span></a></span>
+                                    <span *ngIf="objJobSeeker?.IsMyResume" class="list-inline-item padding5 bg-red"><a
+                                            (click)="onCertRemove(item._id)" data-toggle="tooltip"
+                                            data-placement="bottom" title="{{'GenericDeactivate' | translate }}"><span
+                                                class="flaticon-rubbish-bin"></span></a></span>
+                                    <span *ngIf="item.CertificatePath && item.CertificatePath != ''"><a target="_blank"
+                                            href="{{item.CertificatePath}}">{{"ResumeCertificateDownload" | translate}}</a></span>
+                                </p>
+                                <p class="mb0">{{item.Description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div #tab5 class="my_resume_eduarea style2">
+                            <h4 class="title">{{'SeekerResumeExtra' | translate }}
+                                <span class="list-inline-item ml-2 bg-blue" *ngIf="objJobSeeker?.IsMyResume"><a
+                                        (click)="OpenEducation(Education,true,'','Extra-Curricular',3)"
+                                        data-toggle="tooltip" data-placement="bottom"
+                                        title="{{'SeekerResumeAddExtra' | translate }}"><span
+                                            class="ResumeEditbtn"><b>+</b></span></a></span>
+                            </h4>
+                            <div class="content" *ngFor="let item of objJobSeeker.ExtraCurricular">
+                                <div class="circle bgc-thm"></div>
+                                <p class="edu_center">{{item.Name}}<small>{{item.StartDate | date:'MMM, y'}} -
+                                        {{item.EndDate | date:'MMM, y'}}</small>
+                                    <span *ngIf="objJobSeeker?.IsMyResume"
+                                        class="list-inline-item padding5 bg-blue ml-2"><a
+                                            (click)="OpenEducation(Education,false,item.Name,'Extra-Curricular',3,item)"
+                                            data-toggle="tooltip" data-placement="bottom"
+                                            title="{{'GenericEdit' | translate }}"><span
+                                                class="flaticon-edit "></span></a></span>
+                                    <span *ngIf="objJobSeeker?.IsMyResume" class="list-inline-item padding5 bg-red"><a
+                                            (click)="onEduRemove(item._id,3)" data-toggle="tooltip"
+                                            data-placement="bottom" title="{{'GenericDeactivate' | translate }}"><span
+                                                class="flaticon-rubbish-bin"></span></a></span>
+                                </p>
+                                <h4 class="edu_stats">{{item.SubTitle}}</h4>
+                                <p class="mb0">{{item.Description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <h4 class="pull-right">
+                    <span *ngIf="!IsEditProfile && objJobSeeker?.IsMyResume"
+                        class="list-inline-item padding5 bg-blue"><a (click)="onEditProfile()" data-toggle="tooltip"
+                            data-placement="bottom" title="{{'GenericEdit' | translate }}"><span
+                                class="flaticon-edit"></span></a></span>
+                    <span *ngIf="IsEditProfile && objJobSeeker?.IsMyResume" class="list-inline-item padding5 bg-red"><a
+                            (click)="onCancelProfile()" data-toggle="tooltip" data-placement="bottom"
+                            title="{{'GenericCancel' | translate }}"><span class="flaticon-close"></span></a></span>
+                    <span *ngIf="IsEditProfile && objJobSeeker?.IsMyResume"
+                        class="list-inline-item padding5 bg-green"><a (click)="onSaveProfile()" data-toggle="tooltip"
+                            data-placement="bottom" title="{{'GenericSave' | translate }}"><span
+                                class="flaticon-open-envelope-with-letter"></span></a></span>
+                </h4>
+                <div class="candidate_working_widget bgc-fa bg-green">
+                    <div class="icon text-thm"><span class="flaticon-controls"></span></div>
+                    <div class="details">
+                        <h4>{{'SeekerResumeExperience' | translate }}</h4>
+                        <p *ngIf="!IsEditProfile "><b>{{FormatGenericSubItem(objJobSeeker?.Experience)}}</b></p>
+                        <p *ngIf="IsEditProfile && objJobSeeker?.IsMyResume"><select
+                                class="browser-default custom-select" data-actions-box="true"
+                                [(ngModel)]="modelJobSeeker.ExperienceId" required #modelExperienceVar="ngModel"
+                                name="modelExperience">
+                                <option value="-1">{{'EmployerPostJobExperienceEnter' | translate }}</option>
+                                <option *ngFor="let item of LkupExperience" value="{{item._id}}">{{item.Name}}
+                                </option>
+                            </select></p>
+                    </div>
+                    <div class="icon text-thm"><span class="flaticon-old-age-man"></span></div>
+                    <div class="details">
+                        <h4>{{'SeekerResumeAge' | translate }}</h4>
+                        <p *ngIf="!IsEditProfile "><b>{{FormatAge()}}</b></p>
+                        <div class="input-group" *ngIf="IsEditProfile && objJobSeeker?.IsMyResume">
+                            <input class="form-control" placeholder="dd-mm-yyyy" readonly name="dpob"
+                                [maxDate]="dateToday" [minDate]="dateOld" (dateSelect)="onDOBSelect($event)"
+                                [(ngModel)]="modelDOB" ngbDatepicker #dob="ngbDatepicker">
+                            <div class="input-group-append">
+                                <button class="btn calcender" (click)="dob.toggle()" type="button"><i
+                                        class="fa fa-calendar" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="icon text-thm"><span class="flaticon-paper"></span></div>
+                    <div class="details">
+                        <h4>{{'SeekerResumeLanguages' | translate }}</h4>
+                        <p *ngIf="!IsEditProfile "><b>{{FormatLanguage()}}</b></p>
+                        <p *ngIf="IsEditProfile && objJobSeeker?.IsMyResume">
+                            <mat-select multiple class="browser-default custom-select" data-actions-box="true"
+                                [(ngModel)]="modelJobSeeker.Languages" required #modelLanguageVar="ngModel"
+                                name="modelLanguage" placeholder="{{'SeekerResumeSelectLanguage' | translate }}">
+                                <mat-option *ngFor="let item of LkupLanguage" value="{{item._id}}">{{item.Name}}
+                                </mat-option>
+                            </mat-select>
+                        </p>
+                    </div>
+                    <div class="icon text-thm"><span class="flaticon-mortarboard"></span></div>
+                    <div class="details">
+                        <h4>{{'DataQualification' | translate }}</h4>
+                        <p *ngIf="!IsEditProfile "><b>{{FormatGenericSubItem(objJobSeeker?.Qualification)}}</b></p>
+                        <p *ngIf="IsEditProfile && objJobSeeker?.IsMyResume">
+                            <select class="browser-default custom-select" data-actions-box="true"
+                                [(ngModel)]="modelJobSeeker.QualificationId" required #modelQualificationVar="ngModel"
+                                name="modelQualification">
+                                <option value="-1">{{'SeekerResumeSelectQualification' | translate }}</option>
+                                <option *ngFor="let item of LkupQualification" value="{{item._id}}">{{item.Name}}
+                                </option>
+                            </select>
+                        </p>
+                    </div>
+                </div>
+                <h4 class="fz20 mb30">{{'SeekerResumeAttachments' | translate }}</h4>
+                <div *ngIf="objJobSeeker?.IsMyResume">
+                    <input type="file" id="imgupload1" style="display:none" class="uploadbtnImage"
+                        accept=".pdf,.doc.docx" (change)="handleFileInput($event.target.files,1)" />
+                    <label for='imgupload1' class="lbluploadbtnImage"><img
+                            src="/assets/images/resource/upload.png">{{'SeekerResumeUploadConverLetter' | translate
+                        }}</label>
+
+                </div>
+                <div *ngIf="(objJobSeeker.CoverLetterFile != '' && !objJobSeeker.IsMyResume) || (objJobSeeker.CoverLetterFile != '' && objJobSeeker.IsMyResume)"
+                    class="candidate_document_widget">
+                    <a href="{{objJobSeeker.CoverLetterFile}}" target="_blank">
+                        <div class="details">
+                            <div class="icon"><span class="flaticon-pdf"></span></div>
+                            <h4 class="title">{{'SeekerResumeCoverLetter' | translate }}</h4>
+                            <p>PDF</p>
+                        </div>
+                    </a>
+                </div>
+                <div *ngIf="objJobSeeker?.IsMyResume">
+                    <input type="file" id="imgupload2" style="display:none" class="uploadbtnImage"
+                        accept=".pdf,.doc.docx" (change)="handleFileInput($event.target.files,2)" />
+                    <label for='imgupload2' class="lbluploadbtnImage"><img
+                            src="/assets/images/resource/upload.png">{{'SeekerResumeUploadResume' | translate }}</label>
+
+                </div>
+                <div *ngIf="(objJobSeeker.ResumeFile != '' && !objJobSeeker.IsMyResume) || (objJobSeeker.ResumeFile != '' && objJobSeeker.IsMyResume)"
+                    class="candidate_document_widget">
+                    <a href="{{objJobSeeker.ResumeFile}}" target="_blank">
+                        <div class="icon"><span class="flaticon-pdf"></span></div>
+                        <div class="details">
+                            <h4 class="title">{{'HomeResume' | translate }}</h4>
+                            <p>PDF</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div>
+    <ng-template role="dialog" #content let-modal class="modal fade">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header white-text text-center">
+
+                    <h6 class="modal-title">
+                        {{'SeekerResumeUpdateProfile' | translate }}
+                    </h6>
+                </div>
+                <div class="modal-body">
+
+                    <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>{{'GenericName' | translate }}</mat-label>
+                                    <input matInput id="modelNameId" type="text"
+                                        placeholder="{{'GenericRequiredName' | translate }}" required
+                                        [(ngModel)]="modelJobSeeker.Name" #modelNameVar="ngModel" name="modelName"
+                                        [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }" />
+                                    <mat-error *ngIf="modelNameVar.errors?.required">{{'SeekerResumeNameError' |
+                                        translate }}
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>{{'GenericJobTitle' | translate }}</mat-label>
+                                    <input matInput id="modelJobTitleId" type="text"
+                                        placeholder="{{'SeekerResumeEnter' | translate }}" required
+                                        [(ngModel)]="modelJobSeeker.JobTitle" #modelJobTitleVar="ngModel"
+                                        name="modelJobTitle"
+                                        [ngClass]="{'is-invalid': (modelJobTitleVar.touched || modelJobTitleVar.dirty) && !modelJobTitleVar.valid }" />
+                                    <mat-error *ngIf="modelJobTitleVar.errors?.required">{{'SeekerResumeError' |
+                                        translate }}
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <mat-form-field class="example-full-width">
+                                    {{'GenericEmail' | translate }}
+                                    <input matInput id="modelEmailId" type="text"
+                                        placeholder="{{'GenericRequiredEmail' | translate }}" required
+                                        [(ngModel)]="modelJobSeeker.Email" #modelEmailVar="ngModel" name="modelEmail"
+                                        [ngClass]="{'is-invalid': (modelEmailVar.touched || modelEmailVar.dirty) && !modelEmailVar.valid }" />
+                                    <mat-error *ngIf="modelEmailVar.errors?.required">{{'GenericEnterEmail' | translate
+                                        }}
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>{{'SeekerResumeWebsite' | translate }}</mat-label>
+                                    <input matInput id="modelWebsiteId" type="text" placeholder="Website"
+                                        [(ngModel)]="modelJobSeeker.Website" #modelWebsiteVar="ngModel"
+                                        name="modelWebsite" />
+                                </mat-form-field>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>{{'SeekerResumePhone' | translate }}</mat-label>
+                                    <input matInput id="modelPhoneId" type="text" placeholder="Phone"
+                                        [(ngModel)]="modelJobSeeker.Phone" #modelPhoneVar="ngModel" name="modelPhone" />
+
+                                </mat-form-field>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>{{'SeekerResumeLinkedin' | translate }}</mat-label>
+                                    <input matInput id="modelLinkedinId" type="text" placeholder="Linkedin"
+                                        [(ngModel)]="modelJobSeeker.SocialLinkedin" #modelLinkedinVar="ngModel"
+                                        name="modelLinkedin">
+                                </mat-form-field>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="exampleFormControlInput9">{{'EmployerPostJobCountry' | translate }}
+                                        *</label><br>
+                                    <select class="browser-default custom-select" [(ngModel)]="modelJobSeeker.CountryId"
+                                        required id="modelCountry" #modelCountryVar="ngModel" name="modelCountry"
+                                        [ngClass]="{'is-invalid': (modelCountryVar.touched || modelCountryVar.dirty) && (!modelCountryVar.valid || modelJobSeeker.CountryId == '' || modelJobSeeker.CountryId == '-1') }"
+                                        (change)="onCountrySelect()">
+                                        <option value="-1">{{'EmployerPostJobCountrySelect' | translate }}</option>
+                                        <option *ngFor="let item of LkupCountry" value="{{item._id}}">{{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valErrorSelect"
+                                        *ngIf="modelCountryVar.touched && (modelCountryVar.errors?.required || modelJobSeeker.CountryId == '' || modelJobSeeker.CountryId == '-1')">
+                                        {{'EmployerProfileCountryError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="exampleFormControlInput9">{{'EmployerPostJobCity' | translate }}
+                                        *</label><br>
+                                    <select class="browser-default custom-select" [(ngModel)]="modelJobSeeker.CityId"
+                                        required id="modelCity" #modelCityVar="ngModel" name="modelCity"
+                                        [ngClass]="{'is-invalid': (modelCityVar.touched || modelCityVar.dirty) && (!modelCityVar.valid || modelJobSeeker.CityId == '' || modelJobSeeker.CityId == '-1') }">
+                                        <option value="-1">{{'EmployerPostJobCitySelect' | translate }}</option>
+                                        <option *ngFor="let item of LkupCity" value="{{item._id}}">{{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valErrorSelect"
+                                        *ngIf="modelCityVar.touched && (modelCityVar.errors?.required || modelJobSeeker.CityId == '' || modelJobSeeker.CityId == '-1')">
+                                        {{'EmployerProfileCityError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="exampleFormControlInput9">{{'EmployerPostJobGender' | translate }}
+                                        *</label><br>
+                                    <select class="browser-default custom-select" [(ngModel)]="modelJobSeeker.Gender"
+                                        required
+                                        [ngClass]="{'is-invalid': (modelGenderVar.touched || modelGenderVar.dirty) && (!modelGenderVar.valid || modelJobSeeker.Gender == 0 || modelJobSeeker.Gender == -1) }"
+                                        id="modelGender" #modelGenderVar="ngModel" name="modelGender">
+                                        <option value="-1">{{'SeekerResumeSelectYourGender' | translate }}</option>
+                                        <option value="1">{{'EmployerPostJobGenderMale' | translate }}</option>
+                                        <option value="2">{{'EmployerPostJobGenderFemale' | translate }}</option>
+                                    </select>
+                                    <div class="valErrorSelect"
+                                        *ngIf="modelGenderVar.touched && (modelGenderVar.errors?.required || modelJobSeeker.Gender == 0 || modelJobSeeker.Gender == -1)">
+                                        {{'EmployerPostJobGenderError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 ">
+                                <button class="btn pull-right  btn-thm" type="submit" style="width:100px"
+                                    [title]="modelForm.valid ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                                    [disabled]="!modelForm.valid || !IsValidModel()">{{'GenericSave' | translate
+                                    }}</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn border-green btn-transparent"
+                        (click)="onCancelInfo();">{{'GenericClose' | translate }}</button>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</div>
+<div>
+    <ng-template role="dialog" #Education let-modal class="modal fade">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header white-text text-center">
+
+                    <h6 class="modal-title">
+                        {{(modelIsCreate ? 'GenericCreate' : 'GenericEditing') | translate}} : {{modelIsCreate?
+                        ("GenericNew" | translate) : modelNameEdited}}
+                    </h6>
+                </div>
+                <div class="modal-body">
+
+                    <form novalidate (ngSubmit)="modelSaveEduBtn(modelForm)" #modelForm="ngForm">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label *ngIf="modelIsEducation">{{'SeekerResumeUnviersityName' | translate }}
+                                    </mat-label>
+                                    <mat-label *ngIf="modelIsWork">{{'GenericCompanyName' | translate }}</mat-label>
+                                    <mat-label *ngIf="modelIsExtra">{{'SeekerExtraOrgName' | translate }}</mat-label>
+                                    <input matInput id="modelNameId" type="text" required
+                                        [(ngModel)]="modelEducation.Name" #modelNameVar="ngModel" name="modelName"
+                                        [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }" />
+                                    <mat-error *ngIf="modelIsEducation && modelNameVar.errors?.required">
+                                        {{'SeekerResumeUniversityError' | translate }}
+                                    </mat-error>
+                                    <mat-error *ngIf="modelIsWork && modelNameVar.errors?.required">
+                                        {{'SeekerResumeCompanyError' | translate }}
+                                    </mat-error>
+                                    <mat-error *ngIf="modelIsExtra && modelNameVar.errors?.required">
+                                        {{'SeekerResumeOrgError' | translate }}
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label *ngIf="modelIsEducation">{{'SeekerResumeFacultyName' | translate }}
+                                    </mat-label>
+                                    <mat-label *ngIf="modelIsWork || modelIsExtra">{{'GenericJobTitle' | translate }}
+                                    </mat-label>
+                                    <input matInput id="modelJobTitleId" type="text" required
+                                        [(ngModel)]="modelEducation.SubTitle" #modelJobTitleVar="ngModel"
+                                        name="modelJobTitle"
+                                        [ngClass]="{'is-invalid': (modelJobTitleVar.touched || modelJobTitleVar.dirty) && !modelJobTitleVar.valid }" />
+                                    <mat-error *ngIf="modelIsEducation && modelJobTitleVar.errors?.required">
+                                        {{'SeekerResumeFacultyError' | translate }}
+                                    </mat-error>
+                                    <mat-error *ngIf="(modelIsWork || modelIsExtra) && modelNameVar.errors?.required">
+                                        {{'EmployerPostJobTitleError' | translate }}
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-md-12 col-lg-6  mt-3 mb-3">
+                                <!-- <mat-form-field class="example-full-width">
+                                    <mat-label>{{'SeekerResumeStartDate' | translate }}</mat-label> -->
+                                <div class="input-group">
+                                    <input matInput class="form-control" placeholder="dd-mm-yyyy" readonly name="dps"
+                                        requried (dateSelect)="onEduStartSelect($event)" [(ngModel)]="modelEduStart"
+                                        ngbDatepicker #ds="ngbDatepicker" [maxDate]="dateToday">
+                                    <div class="input-group-append">
+                                        <button class="btn calcender" (click)="ds.toggle()" type="button"><i
+                                                class="fa fa-calendar" aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                                <!-- </mat-form-field> -->
+                            </div>
+                            <div class="col-md-12 col-lg-6 mt-3 mb-3">
+                                <!-- <mat-form-field class="example-full-width">
+                                    <mat-label>{{'SeekerResumeEndDate' | translate }}</mat-label> -->
+                                <div class="input-group">
+                                    <input matInput class="form-control" placeholder="dd-mm-yyyy" readonly name="dpe"
+                                        requried (dateSelect)="onEduEndSelect($event)" [(ngModel)]="modelEduEnd"
+                                        ngbDatepicker #de="ngbDatepicker">
+                                    <div class="input-group-append">
+                                        <button class="btn calcender" (click)="de.toggle()" type="button"><i
+                                                class="fa fa-calendar" aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+
+                                <!-- </mat-form-field> -->
+                                <mat-error class="matError" *ngIf="!IsDatesCorrect">{{'SeekerResumeDateError' |
+                                    translate }}
+                                </mat-error>
+                            </div>
+                            <div class="col-sm-12 ">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="9" minlength="100"
+                                    required [(ngModel)]="modelEducation.Description" required
+                                    #modelEduDescriptionVar="ngModel"
+                                    [ngClass]="{'is-invalid': (modelEduDescriptionVar.touched || modelEduDescriptionVar.dirty) && !modelEduDescriptionVar.valid }"
+                                    name="modelDescription" placeholder="Description (min: 100 char)"></textarea>
+                                <mat-error class="matError" *ngIf="modelEduDescriptionVar.errors?.required">
+                                    {{'JobFairCreateDescError' | translate }}
+                                </mat-error>
+                                <div class="valErrorTextArea"
+                                    *ngIf="modelEduDescriptionVar.touched && modelEduDescriptionVar.errors?.minlength?.requiredLength >  +modelEduDescriptionVar.errors?.minlength?.actualLength">
+                                    {{'TextMin100' | translate }}</div>
+
+                            </div>
+                            <div class="col-sm-12 mt-3">
+                                <button class="btn pull-right  btn-thm" type="submit" style="width:100px"
+                                    [title]="modelForm.valid ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                                    [disabled]="!modelForm.valid">{{'GenericSave' | translate }}</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn border-green btn-transparent"
+                        (click)="onCancelInfo();">{{'GenericClose' | translate }}</button>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</div>
+<div>
+    <ng-template role="dialog" #Certificate let-modal class="modal fade">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header white-text text-center">
+
+                    <h6 class="modal-title">
+                        <!-- {{modelIsCreate ? 'Create: New Certificate' : 'Editing : ' + modelNameEdited}} -->
+                        {{(modelIsCreate ? 'GenericCreate' : 'GenericEditing') | translate}} : {{modelIsCreate?
+                        ("GenericNew" | translate) : modelNameEdited}}
+                    </h6>
+                </div>
+                <div class="modal-body">
+
+                    <form novalidate (ngSubmit)="modelSaveCertBtn(modelForm)" #modelForm="ngForm">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <mat-form-field class="example-full-width">
+                                    <mat-label>{{'SeekerResumeCertificateName' | translate }}</mat-label>
+                                    <input matInput id="modelNameId" type="text"
+                                        placeholder="{{'GenericRequiredName' | translate }}" required
+                                        [(ngModel)]="modelCertificate.Name" #modelNameVar="ngModel" name="modelName"
+                                        [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }" />
+                                    <mat-error *ngIf="modelNameVar.errors?.required">{{'SeekerResumeCertificateError' |
+                                        translate }}
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <!-- <mat-form-field class="example-full-width">
+                                    <mat-label>{{'SeekerResumeStartDate' | translate }}</mat-label> -->
+
+                                <div class="input-group">
+                                    <input matInput class="form-control" placeholder="dd-mm-yyyy*" readonly name="dpc"
+                                        [maxDate]="dateToday" requried (dateSelect)="onCerttartSelect($event)"
+                                        [(ngModel)]="modelEduStart" required ngbDatepicker #dpc="ngbDatepicker">
+                                    <div class="input-group-append">
+                                        <button class="btn calcender" (click)="dpc.toggle()" type="button"><i
+                                                class="fa fa-calendar" aria-hidden="true"></i></button>
+                                    </div>
+                                </div>
+                                <!-- </mat-form-field> -->
+                            </div>
+                            <div class="col-sm-12 ">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="9" minlength="100"
+                                    required [(ngModel)]="modelCertificate.Description" required
+                                    #modelEduDescriptionVar="ngModel"
+                                    [ngClass]="{'is-invalid': (modelEduDescriptionVar.touched || modelEduDescriptionVar.dirty) && !modelEduDescriptionVar.valid }"
+                                    name="modelDescription" placeholder=" Description (min: 100 char)"></textarea>
+                                <mat-error *ngIf="modelEduDescriptionVar.errors?.required">{{'JobFairCreateDescError' |
+                                    translate }}
+                                </mat-error>
+                                <div class="valErrorTextArea"
+                                    *ngIf="modelEduDescriptionVar.touched && modelEduDescriptionVar.errors?.minlength?.requiredLength >  +modelEduDescriptionVar.errors?.minlength?.actualLength">
+                                    {{'TextMin100' | translate }}</div>
+                            </div>
+                            <div class="col-sm-12 mt-3 ">
+                                <span class="pr-3">{{'SeekerUploadCertificate' | translate }}</span>
+                                <input id="uploadFile" name="uploadFile" type="file" #uploadFile
+                                    placeholder="{{'SeekerUploadCertificate' | translate }}" accept=".pdf,.doc,.docx,.png,.jpg,.jpeg"
+                                    (change)="OnFileChanged(uploadFile.files)" style="display:none;">
+                                <button id="btuploadLogo" name="btuploadLogo" type="button" class="btn btn-success"
+                                    (click)="uploadFile.click()">{{'GenericSelectFile' | translate }}</button>
+                                <span class="ml-2"
+                                    *ngIf="modelCertificate.CertificatePath && modelCertificate.CertificatePath != ''"><a
+                                        target="_blank" href="{{modelCertificate.CertificatePath}}">{{"ResumeCertificateDownload" | translate}}</a></span>
+                            </div>
+                            <div class="col-sm-12 mt-3">
+                                <button class="btn pull-right  btn-thm" type="submit" style="width:120px"
+                                    [title]="modelForm.valid ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                                    [disabled]="!modelForm.valid || isClicked">{{'GenericSave' | translate }} <i
+                                        class="fa fa-spinner fa-spin" *ngIf="isClicked"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn border-green btn-transparent"
+                        (click)="onCancelInfo();">{{'GenericClose' | translate }}</button>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</div>

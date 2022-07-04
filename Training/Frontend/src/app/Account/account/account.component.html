@@ -1,0 +1,358 @@
+<section class="my-5">
+  <div class="container container-max">
+    <div class='row'>
+      <h4 class="mb-4">{{'pageTitleAccount' | translate }}</h4>
+    </div>
+    <div class='row'>
+      <div class="col-sm-6 md-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>{{'AccountSearchAccount' | translate }}</mat-label>
+          <input type="text" placeholder="{{'AccountTypePH' | translate }}" matInput [(ngModel)]="filtertxt">
+        </mat-form-field>
+      </div>
+      <div class="col-sm-6 md-form">
+        <mat-form-field>
+          <mat-label>{{'AccountUserType' | translate }}</mat-label>
+          <mat-select id="filterTypeId" placeholder="{{'AccountFilterType' | translate }}" [(ngModel)]="filterType"
+            name="filterTypeId">
+            <mat-option value="0">{{'AccountSelectType' | translate }}</mat-option>
+            <mat-option *ngFor="let item of lstUserType" value="{{item.Id}}">{{item.Name}}</mat-option>
+          </mat-select>
+        </mat-form-field>
+        <input type="submit" value="{{'GenericSearch' | translate }}" class="btn color-bg-02 white-text"
+          (click)="filterbtn()">
+      </div>
+      <div class="col-sm-12 md-form pull-right">
+        <input type="button" class="pull-right btn color-bg-01 white-text" value="{{'GenericCreateNew' | translate }}"
+          (click)="createBtn(content)">
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class='table-responsive'>
+        <table class='table' *ngIf='page.content && page.content.length'>
+          <thead>
+            <tr>
+              <th>{{'GenericName' | translate }}</th>
+              <th>{{'GenericEmail' | translate }}</th>
+              <th>{{'GenericType' | translate }}</th>
+              <th>{{'GenericAction' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let obj of page.content'>
+              <td>{{ obj.Name}}</td>
+              <td>{{ obj.Email}}</td>
+              <td>{{ ConvertUserType(obj.Type)}}</td>
+              <td>
+                <input *ngIf="obj.IsActive" type="button" class="btn btn-primary" value="{{'GenericEdit' | translate }}"
+                  (click)="openBackDropCustomClass(content,obj)">
+                <!-- <input
+                  *ngIf="obj.IsActive && (obj.Type == EnumUserTypes.Partner || obj.Type == EnumUserTypes.SubPartner || obj.Type == EnumUserTypes.Trainer)"
+                  type="button" class="btn btn-warning" value="Assign Entity"
+                  (click)="openBackDropCustomClass(contentEntity,obj)"> -->
+                <!-- <input *ngIf="obj.IsActive && (obj.Type == EnumUserTypes.SubPartner)" type="button"
+                  class="btn btn-warning" value="SubPartner Entity"
+                  (click)="openBackDropCustomClass(contentSubPartner,obj)"> -->
+                <input *ngIf="!obj.IsActive" type="button" class="btn btn-success"
+                  value="{{'GenericActivate' | translate }}" (click)="setActivate(obj.Id)">
+                <input *ngIf="obj.IsActive" type="button" class="btn btn-danger"
+                  value="{{'GenericDeactivate' | translate }}" (click)="setDeactivate(obj.Id)">
+                <input *ngIf="obj.IsActive" type="button" class="btn btn-warning"
+                  value="{{'AccountResendLink' | translate }}" (click)="ResendActivationLink(obj.Email)">
+                <input *ngIf="obj.IsActive" type="button" class="btn btn-success"
+                  value="{{'AccountPasswordLink' | translate }}" (click)="ResendPasswordLink(obj.Email)">
+                <input *ngIf="obj.IsActive && obj.Type == EnumUserTypes.Trainer.toString()" type="button"
+                  class="btn btn-info" value="{{'HeaderCertificate' | translate }}" (click)="Certificate(obj.Id)">
+                  <input *ngIf="obj.IsActive" type="button"
+                  class="btn btn-dark" value="{{'ChangeEmail' | translate }}" (click)="ChangeEmail(contentChangeEmail, obj.Email)">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()" (previousPageEvent)="getPreviousPage()"
+        (loadPageCurrentEvent)="getloadPageCurrent()">
+      </app-custom-pagination>
+    </div>
+    <div>
+      <ng-template role="dialog" #content let-modal class="modal fade">
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header color-bg-01 white-text text-center">
+
+              <h6 class="modal-title">
+                {{(modelIsCreate ? 'GenericCreate'   : 'GenericEditing') | translate}} :
+                {{modelIsCreate? ("GenericNew" | translate) : modelNameEdited}}
+              </h6>
+            </div>
+            <div class="modal-body pt-0">
+
+              <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+                <div class="form-group ">
+                  <mat-form-field class="example-full-width">
+                    <mat-label>{{'GenericName' | translate }}</mat-label>
+                    <input matInput id="modelNameId" type="text" placeholder="{{'GenericRequiredName' | translate }}"
+                      required [(ngModel)]="modelObj.Name" #modelNameVar="ngModel" name="modelName"
+                      [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }" />
+                    <mat-error *ngIf="modelNameVar.errors?.required">{{'GenericEnterName' | translate }}</mat-error>
+                  </mat-form-field>
+                </div>
+                <div class="form-group ">
+                  <mat-form-field class="example-full-width">
+                    <mat-label>{{'GenericEmail' | translate }}</mat-label>
+                    <input matInput oninput="this.value = this.value.toLowerCase()" id="modelEmailId" type="email"
+                      placeholder="{{'GenericRequiredEmail' | translate }}" [pattern]="emailPattern" required
+                      disabled="{{!modelIsCreate}}" [(ngModel)]="modelObj.Email" #modelEmailVar="ngModel"
+                      name="modelEmail"
+                      [ngClass]="{'is-invalid': (modelEmailVar.touched || modelEmailVar.dirty) && !modelEmailVar.valid }" />
+                    <mat-error *ngIf="modelEmailVar.errors?.required">{{'GenericEnterEmail' | translate }}</mat-error>
+                    <mat-error *ngIf="modelEmailVar.errors?.pattern">{{'GenericEnterEmailValid' | translate }}
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+                <div class="form-group ">
+                  <mat-form-field>
+                    <mat-label>{{'AccountUserType' | translate }}</mat-label>
+                    <mat-select id="modelTypeId" placeholder="{{'GenericRequiredType' | translate }}" required
+                      [(ngModel)]="modelObj.Type" #modelTypeListVar="ngModel" name="modelTypeList"
+                      [value]="modelObj.Type" disabled="{{!modelIsCreate}}"
+                      [ngClass]="{'is-invalid': (modelTypeListVar.touched || modelTypeListVar.dirty) && !modelTypeListVar.valid}">
+                      <mat-option value="">{{'AccountSelectType' | translate }}</mat-option>
+                      <mat-option *ngFor="let item of lstUserType" value="{{item.Id}}">{{item.Name}}</mat-option>
+                    </mat-select>
+                    <mat-error *ngIf="modelTypeListVar.errors?.required">{{'AccountErrorTypeSelect' | translate }}
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+                <div class="form-group " *ngIf="(modelIsCreate && (modelObj.Type == EnumUserTypes.Partner.toString() ||
+                                                    modelObj.Type == EnumUserTypes.SubPartner.toString() ||
+                                                    modelObj.Type == EnumUserTypes.Trainer.toString()))
+                                                || (modelObj.Type == EnumUserTypes.Trainer.toString())">
+                  <mat-form-field>
+                    <mat-label>{{'GenericPartnerEntity' | translate }}</mat-label>
+                    <mat-select multiple placeholder="{{'AccountSelectPartner' | translate }}" required
+                      [(ngModel)]="lstPartnersSelected" #modelMyPartnerListIds="ngModel" name="MyPartnerListIds"
+                      (selectionChange)="PartnerChange($event)"
+                      [ngClass]="{'is-invalid': (modelMyPartnerListIds.touched || modelMyPartnerListIds.dirty) && !modelMyPartnerListIds.valid}">
+                      <mat-option *ngFor="let obj of lstPartners" [value]="obj.Id">{{ obj.Name }}</mat-option>
+                    </mat-select>
+                    <mat-error *ngIf="modelMyPartnerListIds.errors?.required">{{'GenericEnterPartner' | translate }}
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+                <div class="form-group " *ngIf="(modelIsCreate && lstPartnersSelected?.length > 0 && (
+                                                    modelObj.Type == EnumUserTypes.SubPartner.toString() ||
+                                                    modelObj.Type == EnumUserTypes.Trainer.toString()))
+                                                  || (modelObj.Type == EnumUserTypes.Trainer.toString())">
+                  <mat-form-field>
+                    <mat-label>{{'GenericSubPartnerEntity' | translate }}</mat-label>
+                    <mat-select multiple placeholder="{{'AccountSelectSubPartner' | translate }}" required
+                      [(ngModel)]="lstSubPartnersSelected" #modelMySubPartnerListIds="ngModel"
+                      name="MySubPartnerListIds"
+                      [ngClass]="{'is-invalid': (modelMySubPartnerListIds.touched || modelMySubPartnerListIds.dirty) && !modelMySubPartnerListIds.valid}">
+                      <mat-option *ngFor="let obj of lstSubPartners" [value]="obj.Id">{{ obj.Name }}</mat-option>
+                    </mat-select>
+                    <mat-error *ngIf="modelMySubPartnerListIds.errors?.required">
+                      {{'AccountSelectSubError' | translate }}</mat-error>
+                  </mat-form-field>
+                </div>
+                <div class="form-group " *ngIf="modelObj.Type == EnumUserTypes.Trainer.toString()">
+                  <mat-form-field>
+                    <mat-label>{{'GenericCity' | translate }}</mat-label>
+                    <mat-select placeholder="{{'AccountSelectCity' | translate }}" required
+                      [(ngModel)]="modelObj.CityId" #modelCityIds="ngModel" name="CityIds"
+                      (selectionChange)="CityChange($event)"
+                      [ngClass]="{'is-invalid': (modelCityIds.touched || modelCityIds.dirty) && !modelCityIds.valid}">
+                      <mat-option *ngFor="let obj of lstCity" [value]="obj.Id">{{ obj.Name }}</mat-option>
+                    </mat-select>
+                    <mat-error *ngIf="modelCityIds.errors?.required">{{'AccountSelectCityError' | translate }}
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+                <div class="form-group " *ngIf="modelObj.Type == EnumUserTypes.Trainer.toString()">
+                  <mat-form-field>
+                    <mat-label>{{'AreaTitle' | translate }}</mat-label>
+                    <mat-select placeholder="{{'AccountSelectArea' | translate }}" required
+                      [(ngModel)]="modelObj.AreaId" #modelAreaIds="ngModel" name="AreaIds"
+                      [ngClass]="{'is-invalid': (modelAreaIds.touched || modelAreaIds.dirty) && !modelAreaIds.valid}">
+                      <mat-option *ngFor="let obj of lstArea" [value]="obj.Id">{{ obj.Name }}</mat-option>
+                    </mat-select>
+                    <mat-error *ngIf="modelAreaIds.errors?.required">{{'TrainingAreaSelectError' | translate }}
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+                <div class="form-group " *ngIf="modelObj.Type == EnumUserTypes.Trainer.toString()">
+                  <mat-form-field class="example-full-width">
+                    <mat-label>{{'AccountTrainerDetails' | translate }}</mat-label>
+                    <input matInput id="modelTrainingDetailsId" type="text"
+                      placeholder="{{'AccountTrainerDetails' | translate }}"
+                      [(ngModel)]="modelObj.TrainerTrainingDetails" #modelTrainingDetailsVar="ngModel"
+                      name="modelTrainingDetails" />
+                  </mat-form-field>
+                </div>
+                <div class="form-group " *ngIf="modelObj.Type == EnumUserTypes.Trainer.toString()">
+                  <mat-form-field class="example-full-width">
+                    <mat-label>{{'AccountTrainerStartDate' | translate }}</mat-label>
+                    <input matInput [owlDateTime]="dt1" id="modelStartDateId" type="text"
+                      placeholder="{{'AccountTrainerStartDate' | translate }}" [(ngModel)]="modelObj.TrainerStartDate"
+                      #modelStartDateVar="ngModel" (ngModelChange)="onStartDateSelect($event)" name="modelStartDate" />
+                    <mat-icon matSuffix [owlDateTimeTrigger]="dt1"><i class="fa fa-calendar"></i></mat-icon>
+                  </mat-form-field>
+                  <owl-date-time #dt1 [pickerType]="'calendar'"></owl-date-time>
+                </div>
+                <div class="form-group " *ngIf="modelObj.Type == EnumUserTypes.Trainer.toString()">
+                  <mat-form-field class="example-full-width">
+                    <mat-label>{{'AccountTrainerEndDate' | translate }}</mat-label>
+                    <input matInput [owlDateTime]="dt2" id="modelEndDateId" type="text"
+                      placeholder="{{'AccountTrainerEndDate' | translate }}" [(ngModel)]="modelObj.TrainerEndDate"
+                      #modelEndDateVar="ngModel" (ngModelChange)="onEndDateSelect($event)" name="modelEndDate" />
+                    <mat-icon matSuffix [owlDateTimeTrigger]="dt2"><i class="fa fa-calendar"></i></mat-icon>
+                  </mat-form-field>
+                  <owl-date-time #dt2 [pickerType]="'calendar'"></owl-date-time>
+                  <mat-error class="MatError" *ngIf="!IsDatesCorrect">{{'TrainingDateError' | translate }}</mat-error>
+                </div>
+
+                <div class="form-group pull-right md-form">
+                  <button class="btn color-bg-01 btn-sm white-text" type="submit"
+                    [disabled]="!modelForm.valid || isClicked || !IsDatesCorrect">{{'GenericSave' | translate }} <i
+                      class="fa fa-spinner fa-spin" *ngIf="isClicked"></i></button>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+
+              <button type="button" class="btn color-bg-02 btn-sm white-text"
+                (click)="modal.close('Close click')">{{'GenericClose' | translate }}</button>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </div>
+    <div>
+      <ng-template #contentEntity let-modal>
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header color-bg-01 white-text text-center">
+
+              <h6 class="modal-title">
+                {{'AccountAssignEntity' | translate }}: {{modelNameEdited}}</h6>
+            </div>
+            <div class="modal-body pt-0">
+              <mat-tab-group animationDuration="1000ms">
+                <mat-tab label="{{'GenericPartnerEntity' | translate }}"
+                  *ngIf="modelObj.Type == EnumUserTypes.Partner.toString() || modelObj.Type == EnumUserTypes.Trainer.toString()">
+                  <div>
+                    <cust-search-partner-entity (OnSelectedPartner)='OnSelectedPartner($event)'>
+                    </cust-search-partner-entity>
+                  </div>
+                  <div>
+                    <table class='table' *ngIf='modelObj.MyPartnerListIds && modelObj.MyPartnerListIds.length'>
+                      <thead>
+                        <tr>
+                          <th>{{'GenericName' | translate }}</th>
+                          <th>{{'GenericAction' | translate }}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor='let obj of modelObj.MyPartnerListIds'>
+                          <td>{{ obj.Name }}
+                          </td>
+                          <td>
+                            <input type="button" class="btn btn-danger" value="{{'GenericRemove' | translate }}"
+                              (click)="RemovePartner(obj.Id)">
+                          </td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </mat-tab>
+                <mat-tab label="{{'GenericSubPartnerEntity' | translate }}"
+                  *ngIf="modelObj.Type == EnumUserTypes.SubPartner.toString() || modelObj.Type == EnumUserTypes.Trainer.toString()">
+                  <div>
+                    <cust-search-sub-partner-entity (OnSelectedPartner)='OnSelectedSubPartner($event)'>
+                    </cust-search-sub-partner-entity>
+                  </div>
+                  <div>
+                    <table class='table' *ngIf='modelObj.MySubPartnerListIds && modelObj.MySubPartnerListIds.length'>
+                      <thead>
+                        <tr>
+                          <th>{{'GenericName' | translate }}</th>
+                          <th>{{'GenericAction' | translate }}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor='let obj of modelObj.MySubPartnerListIds'>
+                          <td>{{ obj.Name }}
+                          </td>
+                          <td>
+                            <input type="button" class="btn btn-danger" value="{{'GenericRemove' | translate }}"
+                              (click)="RemoveSubPartner(obj.Id)">
+                          </td>
+                        </tr>
+
+                      </tbody>
+                    </table>
+                  </div>
+                </mat-tab>
+              </mat-tab-group>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn color-bg-02 btn-sm white-text"
+                (click)="modal.close('Close click')">{{'GenericClose' | translate }}</button>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </div>
+    <div>
+      <ng-template #contentChangeEmail let-modal>
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header color-bg-01 white-text text-center">
+
+              <h6 class="modal-title">
+                {{'ChangeEmail' | translate}} 
+              </h6>
+            </div>
+            <div class="modal-body pt-0">
+
+              <form novalidate (ngSubmit)="ChangeEmailSave(modelForm)" #modelForm="ngForm">
+                <div class="form-group ">
+                  
+                    <mat-label><b>{{'OldEmail' | translate }}</b>: </mat-label>
+                    <mat-label>{{modelChangeEmail.EmailOld}} </mat-label>
+                </div>
+                <div class="form-group ">
+                  <mat-form-field class="example-full-width">
+                    <mat-label>{{'NewEmail' | translate }}</mat-label>
+                    <input matInput oninput="this.value = this.value.toLowerCase()" id="modelEmailId" type="email"
+                      placeholder="{{'GenericRequiredEmail' | translate }}" [pattern]="emailPattern" required
+                      [(ngModel)]="modelChangeEmail.EmailNew" #modelEmailVar="ngModel"
+                      name="modelEmail"
+                      [ngClass]="{'is-invalid': (modelEmailVar.touched || modelEmailVar.dirty) && !modelEmailVar.valid }" />
+                    <mat-error *ngIf="modelEmailVar.errors?.required">{{'GenericEnterEmail' | translate }}</mat-error>
+                    <mat-error *ngIf="modelEmailVar.errors?.pattern">{{'GenericEnterEmailValid' | translate }}
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+                <div class="form-group pull-right md-form">
+                  <button class="btn color-bg-01 btn-sm white-text" type="submit"
+                    [disabled]="!modelForm.valid">{{'GenericSave' | translate }}</button>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+
+              <button type="button" class="btn color-bg-02 btn-sm white-text"
+                (click)="modal.close('Close click')">{{'GenericClose' | translate }}</button>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</section>

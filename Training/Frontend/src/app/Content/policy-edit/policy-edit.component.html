@@ -1,0 +1,31 @@
+<section class="my-5">
+    <div class="container">
+        <div class='row'>
+            <h4 class="mb-4">{{'ContentPolicyTitle' | translate }}</h4>
+        </div>
+        <div class='row'>
+            <div class="modal-body pt-0">
+                <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+                    <div class="col-md-8">
+                        <div class="form-group ">
+                            <angular-editor class="editor" [config]="textEditorConfig" required
+                                #modelDescription="ngModel" name="modelDescription" rows="20"
+                                [ngClass]="{'is-invalid': (modelDescription.touched || modelDescription.dirty) && !modelDescription.valid }"
+                                [(ngModel)]="modelObj.Data"></angular-editor>
+                            <div class="valError" *ngIf="modelDescription.touched && modelDescription.errors?.required">
+                                {{'ContentDataError' | translate }}</div>
+
+
+                        </div>
+
+                        <div class="form-group pull-right md-form">
+                            <button class="btn color-bg-01 btn-sm white-text btnSave" type="submit"
+                                (click)="modelSaveBtn(modelForm)"
+                                [disabled]="!modelForm.valid">{{'GenericSave' | translate }}</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

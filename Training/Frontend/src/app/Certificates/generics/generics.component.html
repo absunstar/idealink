@@ -1,0 +1,141 @@
+<section class="my-5">
+  <div class="container">
+    <div class='row'>
+      <h4 class="mb-4">{{'CertificateGenerics' | translate }}</h4>
+    </div>
+    <div class='row'>
+      <h6 class="mb-4">{{'CertificateSysten' | translate }}</h6>
+    </div>
+    <div class='row'>
+      <div class="col-sm-6 md-form">
+        <span class="pr-2">{{'CertificateUploadTrainee' | translate }}</span>
+        <input id="uploadTrainee" name="uploadTrainee" type="file" #fileTrainee placeholder="{{'CertificateChoosefile' | translate }}"
+          accept="application/pdf" (change)="uploadFile(fileTrainee.files,2,$event)" style="display:none;">
+        <button id="btnuploadTrainee" name="btnuploadTrainee" type="button" class="btn btn-success"
+          (click)="fileTrainee.click()">{{'CertificateSelectFile' | translate }}</button>
+      </div>
+      <div class="col-sm-6 md-form pull-right">
+        <span class="pr-2">{{'CertificateUploadTrainer' | translate }}</span>
+        <input id="uploadTrainer" name="uploadTrainer" type="file" #fileTrainer placeholder="{{'CertificateChoosefile' | translate }}"
+          accept="application/pdf" (change)="uploadFile(fileTrainer.files,1,$event)" style="display:none;">
+        <button id="btnuploadTrainer" name="btnuploadTrainer" type="button" class="btn btn-success"
+          (click)="fileTrainer.click()">{{'CertificateSelectFile' | translate }}</button>
+      </div>
+    </div>
+    <div class="col-md-12 mt-2">
+      <div class='table-responsive'>
+        <table class='table' >
+          <thead>
+            <tr>
+              <th>{{'GenericType' | translate }}</th>
+              <th>{{'GenericAction' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let cert of lstSystemCertificate?.lstResult'>
+              <td>{{ GetType(cert.Type)}}</td>
+              <td>
+                <a class="mr-2" href="{{cert.FileName}}" target="_blank">{{'CertificateDownloadCertificate' | translate }}</a>  
+                <input *ngIf="!cert.IsActive" type="button" class="btn btn-success" value="{{'GenericActivate' | translate }}"
+                (click)="setActivate(cert._id)">
+                <input *ngIf="cert.IsActive" type="button" class="btn btn-danger" value="{{'GenericDeactivate' | translate }}"
+                (click)="setDeactivate(cert._id)">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class='row'>
+      <hr class="w-100" style="border-top: 4px solid rgba(0,0,0,.1);">
+    </div>
+    <div class='row'>
+      <h6 class="mb-4">{{'CertificatePartnerGeneric' | translate }}</h6>
+    </div>
+    <div class="row" style="margin-bottom:15px;">
+      <div class="col-sm-12 md-form pull-right mb-3">
+        <button type="button" class="pull-right btn color-bg-01 white-text" (click)="createBtn(content)">{{'CertificateAdd' | translate }}</button>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class='table-responsive'>
+        <table class='table' *ngIf='page.content && page.content.length'>
+          <thead>
+            <tr>
+              <th>{{'GenericPartner' | translate }}</th>
+              <th>{{'GenericType' | translate }}</th>
+              <th>{{'GenericAction' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let obj of page.content'>
+              <td>{{ obj.PartnerName}}</td>
+              <td>{{ GetType(obj.Type)}}</td>
+              <td>
+                <a class="mr-2" href="{{ obj.FileName}}" target="_blank">{{'CertificateDownloadCertificate' | translate }}</a>  
+                <input *ngIf="!obj.IsActive" type="button" class="btn btn-success" value="{{'GenericActivate' | translate }}"
+                (click)="setActivate(obj._id)">
+                <input *ngIf="obj.IsActive" type="button" class="btn btn-danger" value="{{'GenericDeactivate' | translate }}"
+                (click)="setDeactivate(obj._id)">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()" (previousPageEvent)="getPreviousPage()"
+        (loadPageCurrentEvent)="getloadPageCurrent()">
+      </app-custom-pagination>
+    </div>
+  </div>
+</section>
+
+<div>
+  <ng-template #content let-modal>
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header color-bg-01 white-text text-center">
+          <h6 class="modal-title">{{'CertificateUploadPartnerCertificate' | translate }}</h6>
+        </div>
+        <div class="modal-body pt-0">
+          <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+            <div class="form-group ">
+              <span class="pr-3">{{'CertificateFiletype' | translate }}:</span>
+              <input type="radio" checked="true" name="partnerFileType" (change)="onPartnerFileTypeChange($event,'Trainee')" class="mr-2"/>{{'GenericTrainee' | translate }}
+              <input type="radio" name="partnerFileType" (change)="onPartnerFileTypeChange($event,'Trainer')"  class="mr-2 ml-4"/>{{'GenericTrainer' | translate }}
+            </div>
+            <div class="form-group ">
+              <mat-form-field>
+                <mat-label>{{'GenericPartnerEntity' | translate }}</mat-label>
+                <mat-select placeholder="{{'GenericSelectPartner' | translate }} " required [(ngModel)]="lstPartnersSelected"
+                  #modelMyPartnerListIds="ngModel" name="MyPartnerListIds">
+                  <mat-option *ngFor="let obj of lstPartners" [value]="obj.Id">{{ obj.Name }}</mat-option>
+                </mat-select>
+                <mat-error *ngIf="modelMyPartnerListIds.errors?.required">{{'GenericEnterPartner' | translate }}</mat-error>
+              </mat-form-field>
+            </div>
+            <div class="form-group ">
+              <span class="pr-2">{{'CertificateUploadCertificate' | translate }}</span>
+              <input id="uploadPartnerCertificate" name="uploadPartnerCertificate" type="file" #filePartner
+                placeholder="{{'CertificateChoosefile' | translate }}" accept="application/pdf," (change)="OnParentFileChanged(filePartner.files)"
+                style="display:none;">
+              <button id="btuploadPartnerCertificate" name="btuploadPartnerCertificate" type="button"
+                class="btn btn-success" (click)="filePartner.click()">{{'CertificateSelectFile' | translate }}</button>
+            </div>
+            <div class="form-group pull-right">
+              <button class="btn color-bg-01 btn-sm white-text btnSave" type="submit"
+                
+                [disabled]="!modelForm.valid">{{'GenericSave' | translate }}</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+
+          <button type="button" class="btn color-bg-02 btn-sm white-text"
+            (click)="modal.close('Close click')">{{'GenericClose' | translate }}</button>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

@@ -1,0 +1,19 @@
+
+    <div class="user_profile">
+        <div class="media">
+              <img src="/assets/images/team/e1.png" class="align-self-start mr-3 rounded-circle" alt="8.jpg">
+              <div class="media-body">
+                <h5 class="mt-0">{{'HomeHi' | translate }} {{userName}}</h5>
+                <!-- <p>Bothell, WA, USA</p> -->
+            </div>
+        </div>
+    </div>
+    <div class="dashbord_nav_list">
+        <ul>
+            <!-- <li class="{{pageName.toLocaleLowerCase() == 'dashboard' ? 'active' : ''}}"><a routerLink="/JobSeeker/Dashboard"><span class="flaticon-dashboard"></span> Dashboard</a></li> -->
+            <li class="{{pageName.toLocaleLowerCase() == 'applied' ? 'active' : ''}}"><a href="/JobSeeker/History"><span class="flaticon-paper-plane"></span> {{'HomeJobHistory' | translate }}</a></li>
+            <li class="{{pageName.toLocaleLowerCase() == 'resume' ? 'active' : ''}}"><a routerLink="/JobSeeker/Resume/{{userId}}"><span class="flaticon-resume"></span> {{'HomeResume' | translate }}</a></li>
+            <li class="{{pageName.toLocaleLowerCase() == 'favourite' ? 'active' : ''}}"><a routerLink="/JobSeeker/ShortList"><span class="flaticon-favorites"></span> {{'HomeFavouriteJobs' | translate }}</a></li>
+            <!-- <li class="{{pageName.toLocaleLowerCase() == 'approve' ? 'active' : ''}}"><a routerLink="/JobSeeker/ApproveContact"><span class="flaticon-favorites"></span> {{'SeekerApprovalPageTitle' | translate }}</a></li> -->
+        </ul>
+    </div>

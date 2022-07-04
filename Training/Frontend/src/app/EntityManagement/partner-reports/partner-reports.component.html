@@ -1,0 +1,42 @@
+<section class="my-5">
+    <div class="container">
+      <div class='row'>
+        <h4 class="mb-4">{{'PartnerReport' | translate }}</h4>
+      </div>
+      <div class='row'>
+        <div class="col-sm-12 md-form">
+          <mat-form-field class="example-full-width">
+            <mat-label>{{'PartnerSearch' | translate }}</mat-label>
+            <input type="text" placeholder="{{'PartnerTypeName' | translate }}" matInput [(ngModel)]="filtertxt">
+          </mat-form-field>
+          <input type="submit" value="{{'GenericSearch' | translate }}"  class="btn color-bg-02 white-text" (click)="filterbtn()">
+        </div>
+       
+      </div>
+      <div class="col-md-12">
+        <div class='table-responsive'>
+          <table class='table' *ngIf='page.content && page.content.length'>
+            <thead>
+              <tr>
+                <th>{{'GenericName' | translate }}</th>
+                <th>{{'PartnerReportUserName' | translate }}</th>
+                <th>{{'PartnerReportPassword' | translate }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor='let obj of page.content'>
+                <td>{{ obj.Name}}</td>
+                <td>{{ obj.UserName}}</td>
+                <td>{{ obj.Password}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()" (previousPageEvent)="getPreviousPage()"
+          (loadPageCurrentEvent)="getloadPageCurrent()">
+        </app-custom-pagination>
+      </div>
+    </div>
+  </section>

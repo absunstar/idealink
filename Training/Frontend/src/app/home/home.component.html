@@ -1,0 +1,498 @@
+<section class="homeslide mb-5">
+    <div id="slideshow" class="carousel slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#slideshow" data-slide-to="1"></li>
+            <li data-target="#slideshow" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="slideshow" style="background-image: url(assets/img/test-img/slideshow-01.jpg)"></div>
+                <img src="assets/img/test-img/slideshow-01.jpg" class="img-fluid d-none" alt="" />
+                <div class="carousel-caption">
+                    <p class="p-pre-wrap">{{modelInfoData.Data}}</p>
+                </div>
+            </div>
+            <!-- <div class="carousel-item">
+                <div class="slideshow" style="background-image: url(assets/img/test-img/slideshow-02.jpg)"></div>
+                <img src="assets/img/test-img/slideshow-02.jpg" class="img-fluid d-none" alt="" />
+                <div class="carousel-caption">
+                    <p class="p-pre-wrap">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt quis,
+                        libero aenean mturpis.
+                        Maecenas hendrerit masa laoreet iaculipede mnisl ulamcorper. Tellus er sodales enim, in
+                        tincidunt mauris in odio. Massa ac laoreet iaculipede nisl ullamcorpermassa, ac consectetuer
+                        feipsum eget pede. Proin nunc, Donec massa, Nulla pulvinar, nisl ac convallis nonummy.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="slideshow" style="background-image: url(assets/img/test-img/slideshow-03.jpg)"></div>
+                <img src="assets/img/test-img/slideshow-03.jpg" class="img-fluid d-none" alt="" />
+                <div class="carousel-caption">
+                    <p class="p-pre-wrap">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt quis,
+                        libero aenean mturpis.
+                        Maecenas hendrerit masa laoreet iaculipede mnisl ulamcorper. Tellus er sodales enim, in
+                        tincidunt mauris in odio. Massa ac laoreet iaculipede nisl ullamcorpermassa, ac consectetuer
+                        feipsum eget pede. Proin nunc, Donec massa, Nulla pulvinar, nisl ac convallis nonummy.</p>
+                </div>
+            </div> -->
+        </div>
+        <a class="carousel-control-prev" href="#slideshow" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#slideshow" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+</section>
+
+
+
+<section class="mb-5" *ngIf="modelAboutData">
+    <div class="container">
+        <h1 class="mb-3 pt-5 text-center in-tit">{{modelAboutData.Name}}</h1>
+        <p class="w-75 mx-auto text-center p-pre-wrap">{{modelAboutData.Data}}</p>
+    </div>
+</section>
+
+
+<section class="mb-1 pt-5 border-top border-bottom">
+    <div class="container-fluid text-center">
+
+        <div class="counter-one">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 mb-5">
+                    <div class="counter-one">
+                        <div class="counter-content" data-count="97">
+                            <h1 class="counter-number mb-4">{{objStats.TraineeCount}}</h1>
+                            <h5>{{'GenericTrainee' | translate }}</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 mb-5">
+                    <div class="counter-one">
+                        <div class="counter-content" data-count="169">
+                            <h1 class="counter-number mb-4">{{objStats.TrainingCount}}</h1>
+                            <h5>{{'HeaderTraining' | translate }}</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 mb-5">
+                    <div class="counter-one">
+                        <div class="counter-content" data-count="30">
+                            <h1 class="counter-number mb-4">{{objStats.TrainerCount}}</h1>
+                            <h5>{{'GenericTrainer' | translate }}</h5>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- 
+<section class="mb-5 py-3">
+    <div class="container-fluid">
+        <h4 class="mb-3 pt-5 text-center">Our Services</h4>
+        <div class="row">
+
+            <div class="col-xl-4 col-md-6">
+                <div class="card">
+                    <a href="javascript:void(0)">
+                        <div class="card-header-img" style="background-image: url(assets/img/test-img/img-01.jpg)"></div>
+                        <img src="assets/img/test-img/img-01.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <div class="card-body pt-0">
+                        <a href="javascript:void(0)">
+                            <h5 class="card-title color-text-01 my-2">Service 01</h5>
+                        </a>
+                        <p class="p-pre-wrap max-text">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum
+                            incid unt quis, libero aenean mturpis. masa laoreet iaculipede mnisl ulamcorper. Tellus er
+                            sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl
+                            ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                            pulvinar, nisl ac convallis nonummy.</p>
+                    </div>
+                    <div class="card-footer">
+                        <ul class="footer-det">
+                            <li><a href="javascript:void(0)" class="btn color-bg-02 btn-sm white-text">More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6">
+                <div class="card">
+                    <a href="javascript:void(0)">
+                        <div class="card-header-img" style="background-image: url(assets/img/test-img/img-02.jpg)"></div>
+                        <img src="assets/img/test-img/img-15.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <div class="card-body pt-0">
+                        <a href="javascript:void(0)">
+                            <h5 class="card-title color-text-01 my-2">Service 02</h5>
+                        </a>
+                        <p class="p-pre-wrap max-text">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum
+                            incid unt quis, libero aenean mturpis. masa laoreet iaculipede mnisl ulamcorper. Tellus er
+                            sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl
+                            ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                            pulvinar, nisl ac convallis nonummy.</p>
+                    </div>
+                    <div class="card-footer">
+                        <ul class="footer-det">
+                            <li><a href="javascript:void(0)" class="btn color-bg-02 btn-sm white-text">More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-md-6">
+                <div class="card">
+                    <a href="javascript:void(0)">
+                        <div class="card-header-img" style="background-image: url(assets/img/test-img/img-03.jpg)"></div>
+                        <img src="assets/img/test-img/img-09.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <div class="card-body pt-0">
+                        <a href="javascript:void(0)">
+                            <h5 class="card-title color-text-01 my-2">Service 03</h5>
+                        </a>
+                        <p class="p-pre-wrap max-text">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum
+                            incid unt quis, libero aenean mturpis. masa laoreet iaculipede mnisl ulamcorper. Tellus er
+                            sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl
+                            ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                            pulvinar, nisl ac convallis nonummy.</p>
+                    </div>
+                    <div class="card-footer">
+                        <ul class="footer-det">
+                            <li><a href="javascript:void(0)" class="btn color-bg-02 btn-sm white-text">More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="py-5" data-stellar-background-ratio="0.5">
+    <div class="home-art-bg" style="background-image: url(assets/img/test-img/slideshow-04.jpg)">
+        <div class="mask"></div>
+        <div class="container-fluid text-mob-center">
+            <div class="row">
+
+                <div class="col-md-6 parallax-text">
+                    <h1 class="mt-5"><span>Ahmed Mahmoud</span> Trainer of The Month</h1>
+                    <p class="mt-5 p-pre-wrap">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt
+                        quis, libero aenean mturpis.
+                        Maecenas hendrerit masa laoreet iaculipede mnisl ulamcorper. Tellus er sodales enim, in
+                        tincidunt mauris in odio. Massa ac laoreet iaculipede nisl ullamcorpermassa, ac consectetuer
+                        feipsum eget pede. Proin nunc, Donec massa, Nulla pulvinar, nisl ac convallis nonummy.</p>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="icons-circle-img-02" style="background-image: url(assets/img/test-img/img-17.jpg)"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="mb-5">
+    <div class="container-fluid">
+        <h4 class="mb-3 text-center">{{'GenericTrainingCenter' | translate }}s</h4>
+        <div class="row slider autoplay">
+
+            <div class="col-xl-4 col-xxl-3 col-md-6">
+                <div class="card card-theme-02">
+                    <a href="javascript:void(0)">
+                        <div class="card-header-img" style="background-image: url(assets/img/test-img/img-04.jpg)"></div>
+                        <img src="assets/img/test-img/img-01.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <div class="card-body pt-0">
+                        <a href="javascript:void(0)">
+                            <h5 class="card-title color-text-01 my-2">{{'GenericTrainingCenter' | translate }} 01</h5>
+                        </a>
+                        <p class="card-dest mb-2"><i
+                                class="far fa-map-marker-alt color-text-02 mr-2"></i><strong>Destination:</strong> Cairo
+                        </p>
+                        <p class="p-pre-wrap max-text">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum
+                            incid unt quis, libero aenean mturpis. masa laoreet iaculipede mnisl ulamcorper. Tellus er
+                            sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl
+                            ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                            pulvinar, nisl ac convallis nonummy.</p>
+                    </div>
+                    <div class="card-footer">
+                        <ul class="footer-det">
+                            <li><a href="javascript:void(0)" class="btn color-bg-02 btn-sm white-text">More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-xxl-3 col-md-6">
+                <div class="card card-theme-02">
+                    <a href="javascript:void(0)">
+                        <div class="card-header-img" style="background-image: url(assets/img/test-img/img-05.jpg)"></div>
+                        <img src="assets/img/test-img/img-02.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <div class="card-body pt-0">
+                        <a href="javascript:void(0)">
+                            <h5 class="card-title color-text-01 my-2">{{'GenericTrainingCenter' | translate }} 02</h5>
+                        </a>
+                        <p class="card-dest mb-2"><i
+                                class="far fa-map-marker-alt color-text-02 mr-2"></i><strong>Destination:</strong>
+                            Alexandria</p>
+                        <p class="p-pre-wrap max-text">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum
+                            incid unt quis, libero aenean mturpis. masa laoreet iaculipede mnisl ulamcorper. Tellus er
+                            sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl
+                            ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                            pulvinar, nisl ac convallis nonummy.</p>
+                    </div>
+                    <div class="card-footer">
+                        <ul class="footer-det">
+                            <li><a href="javascript:void(0)" class="btn color-bg-02 btn-sm white-text">More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-xxl-3 col-md-6">
+                <div class="card card-theme-02">
+                    <a href="javascript:void(0)">
+                        <div class="card-header-img" style="background-image: url(assets/img/test-img/img-06.jpg)"></div>
+                        <img src="assets/img/test-img/img-03.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <div class="card-body pt-0">
+                        <a href="javascript:void(0)">
+                            <h5 class="card-title color-text-01 my-2">{{'GenericTrainingCenter' | translate }} 03</h5>
+                        </a>
+                        <p class="card-dest mb-2"><i
+                                class="far fa-map-marker-alt color-text-02 mr-2"></i><strong>Destination:</strong> Aswan
+                        </p>
+                        <p class="p-pre-wrap max-text">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum
+                            incid unt quis, libero aenean mturpis. masa laoreet iaculipede mnisl ulamcorper. Tellus er
+                            sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl
+                            ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                            pulvinar, nisl ac convallis nonummy.</p>
+                    </div>
+                    <div class="card-footer">
+                        <ul class="footer-det">
+                            <li><a href="javascript:void(0)" class="btn color-bg-02 btn-sm white-text">More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-xxl-3 col-md-6">
+                <div class="card card-theme-02">
+                    <a href="javascript:void(0)">
+                        <div class="card-header-img" style="background-image: url(assets/img/test-img/img-07.jpg)"></div>
+                        <img src="assets/img/test-img/img-04.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <div class="card-body pt-0">
+                        <a href="javascript:void(0)">
+                            <h5 class="card-title color-text-01 my-2">{{'GenericTrainingCenter' | translate }} 04</h5>
+                        </a>
+                        <p class="card-dest mb-2"><i
+                                class="far fa-map-marker-alt color-text-02 mr-2"></i><strong>Destination:</strong> Luxor
+                        </p>
+                        <p class="p-pre-wrap max-text">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum
+                            incid unt quis, libero aenean mturpis. masa laoreet iaculipede mnisl ulamcorper. Tellus er
+                            sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl
+                            ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                            pulvinar, nisl ac convallis nonummy.</p>
+                    </div>
+                    <div class="card-footer">
+                        <ul class="footer-det">
+                            <li><a href="javascript:void(0)" class="btn color-bg-02 btn-sm white-text">More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-xxl-3 col-md-6">
+                <div class="card card-theme-02">
+                    <a href="javascript:void(0)">
+                        <div class="card-header-img" style="background-image: url(assets/img/test-img/img-08.jpg)"></div>
+                        <img src="assets/img/test-img/img-05.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <div class="card-body pt-0">
+                        <a href="javascript:void(0)">
+                            <h5 class="card-title color-text-01 my-2">{{'GenericTrainingCenter' | translate }} 05</h5>
+                        </a>
+                        <p class="card-dest mb-2"><i
+                                class="far fa-map-marker-alt color-text-02 mr-2"></i><strong>Destination:</strong>
+                            Hurghada</p>
+                        <p class="p-pre-wrap max-text">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum
+                            incid unt quis, libero aenean mturpis. masa laoreet iaculipede mnisl ulamcorper. Tellus er
+                            sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl
+                            ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                            pulvinar, nisl ac convallis nonummy.</p>
+                    </div>
+                    <div class="card-footer">
+                        <ul class="footer-det">
+                            <li><a href="javascript:void(0)" class="btn color-bg-02 btn-sm white-text">More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-xxl-3 col-md-6">
+                <div class="card card-theme-02">
+                    <a href="javascript:void(0)">
+                        <div class="card-header-img" style="background-image: url(assets/img/test-img/img-09.jpg)"></div>
+                        <img src="assets/img/test-img/img-06.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <div class="card-body pt-0">
+                        <a href="javascript:void(0)">
+                            <h5 class="card-title color-text-01 my-2">{{'GenericTrainingCenter' | translate }} 06</h5>
+                        </a>
+                        <p class="card-dest mb-2"><i
+                                class="far fa-map-marker-alt color-text-02 mr-2"></i><strong>Destination:</strong> El
+                            Suez</p>
+                        <p class="p-pre-wrap max-text">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum
+                            incid unt quis, libero aenean mturpis. masa laoreet iaculipede mnisl ulamcorper. Tellus er
+                            sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl
+                            ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                            pulvinar, nisl ac convallis nonummy.</p>
+                    </div>
+                    <div class="card-footer">
+                        <ul class="footer-det">
+                            <li><a href="javascript:void(0)" class="btn color-bg-02 btn-sm white-text">More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="" data-stellar-background-ratio="0.5">
+    <div class="home-art-bg" style="background-image: url(assets/img/test-img/slideshow-05.jpg)">
+        <img src="assets/img/test-img/slideshow-06.jpg" class="img-fluid d-none" alt="" />
+        <div class="mask"></div>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 mb-5 inf-lis">
+                    <a href="javascript:void(0)">
+                        <div class="icons-circle-img mb-1" style="background-image: url(assets/img/test-img/img-10.jpg)"></div>
+                        <img src="assets/img/test-img/img-07.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <h5 class="my-2">News &amp; Events 01</h5>
+                    <p class="p-pre-wrap max-text-02 mb-1">Lorem ipsum dolor sit amet, sectetu adip scing varius
+                        interdum incid unt quis, libero aenean mturpis. Maecenas hendrerit masa laoreet iaculipede mnisl
+                        ulamcorper. Tellus er sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede
+                        nisl ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                        pulvinar, nisl ac convallis nonummy.</p>
+                    <a href="javascript:void(0)" class="link-color-04">Read More<i
+                            class="fal fa-arrow-circle-right ml-2"></i></a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5 inf-lis">
+                    <a href="javascript:void(0)">
+                        <div class="icons-circle-img mb-1" style="background-image: url(assets/img/test-img/img-11.jpg)"></div>
+                        <img src="assets/img/test-img/img-08.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <h5 class="my-2">News &amp; Events 02</h5>
+                    <p class="p-pre-wrap max-text-02 mb-1">Lorem ipsum dolor sit amet, sectetu adip scing varius
+                        interdum incid unt quis, libero aenean mturpis. Maecenas hendrerit masa laoreet iaculipede mnisl
+                        ulamcorper. Tellus er sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede
+                        nisl ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                        pulvinar, nisl ac convallis nonummy.</p>
+                    <a href="javascript:void(0)" class="link-color-04">Read More<i
+                            class="fal fa-arrow-circle-right ml-2"></i></a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5 inf-lis">
+                    <a href="javascript:void(0)">
+                        <div class="icons-circle-img mb-1" style="background-image: url(assets/img/test-img/img-12.jpg)"></div>
+                        <img src="assets/img/test-img/img-09.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <h5 class="my-2">News &amp; Events 03</h5>
+                    <p class="p-pre-wrap max-text-02 mb-1">Lorem ipsum dolor sit amet, sectetu adip scing varius
+                        interdum incid unt quis, libero aenean mturpis. Maecenas hendrerit masa laoreet iaculipede mnisl
+                        ulamcorper. Tellus er sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede
+                        nisl ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                        pulvinar, nisl ac convallis nonummy.</p>
+                    <a href="javascript:void(0)" class="link-color-04">Read More<i
+                            class="fal fa-arrow-circle-right ml-2"></i></a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-5 inf-lis">
+                    <a href="javascript:void(0)">
+                        <div class="icons-circle-img mb-1" style="background-image: url(assets/img/test-img/img-13.jpg)"></div>
+                        <img src="assets/img/test-img/img-10.jpg" class="img-fluid d-none" alt="" />
+                    </a>
+                    <h5 class="my-2">News &amp; Events 04</h5>
+                    <p class="p-pre-wrap max-text-02 mb-1">Lorem ipsum dolor sit amet, sectetu adip scing varius
+                        interdum incid unt quis, libero aenean mturpis. Maecenas hendrerit masa laoreet iaculipede mnisl
+                        ulamcorper. Tellus er sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede
+                        nisl ullamcorpermassa, ac consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla
+                        pulvinar, nisl ac convallis nonummy.</p>
+                    <a href="javascript:void(0)" class="link-color-04">Read More<i
+                            class="fal fa-arrow-circle-right ml-2"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="pt-5 pb-5 gray-bg-01">
+    <div class="container">
+        <h4 class="mb-4 mt-3 text-center">Latest Testimonials</h4>
+        <div class="row slider autoplay-02">
+
+            <div class="col-xl-12 col-md-12 py-5 text-center">
+                <i class="fal fa-quote-left" style="font-size: 2rem; margin-right: 1rem;"></i>
+                <img src="assets/img/test-img/img-14.jpg" class="quote-img" alt="" />
+                <p class="p-pre-wrap">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt quis,
+                    libero aenean mturpis. Maecenas hendrerit masa laoreet iaculipede mnisl ulamcorper. Tellus er
+                    sodales enim, in tincidunt mauris in odio. Massa ac laoreet iaculipede nisl ullamcorpermassa, ac
+                    consectetuer feipsum eget pede. Proin nunc, Donec massa, Nulla pulvinar, nisl ac convallis nonummy.
+                </p>
+                <h6 class="mt-3">Mr. Guest Name / Country</h6>
+                <i class="fal fa-quote-right" style="font-size: 2rem; margin-left: 1rem;"></i>
+            </div>
+
+            <div class="col-xl-12 col-md-12 py-5 text-center">
+                <i class="fal fa-quote-left" style="font-size: 2rem; margin-right: 1rem;"></i>
+                <img src="assets/img/test-img/img-15.jpg" class="quote-img" alt="" />
+                <p class="p-pre-wrap">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt quis,
+                    libero aenean mturpis.
+                    Maecenas hendrerit masa laoreet iaculipede mnisl ulamcorper. Tellus er sodales enim, in tincidunt
+                    mauris in odio. Massa ac laoreet iaculipede nisl ullamcorpermassa, ac consectetuer feipsum eget
+                    pede. Proin nunc, Donec massa, Nulla pulvinar, nisl ac convallis nonummy.</p>
+                <h6 class="mt-3">Miss. Guest Name / Country</h6>
+                <i class="fal fa-quote-right" style="font-size: 2rem; margin-left: 1rem;"></i>
+            </div>
+
+            <div class="col-xl-12 col-md-12 py-5 text-center">
+                <i class="fal fa-quote-left" style="font-size: 2rem; margin-right: 1rem;"></i>
+                <img src="assets/img/test-img/img-16.jpg" class="quote-img" alt="" />
+                <p class="p-pre-wrap">Lorem ipsum dolor sit amet, sectetu adip scing varius interdum incid unt quis,
+                    libero aenean mturpis.
+                    Maecenas hendrerit masa laoreet iaculipede mnisl ulamcorper. Tellus er sodales enim, in tincidunt
+                    mauris in odio. Massa ac laoreet iaculipede nisl ullamcorpermassa, ac consectetuer feipsum eget
+                    pede. Proin nunc, Donec massa, Nulla pulvinar, nisl ac convallis nonummy.</p>
+                <h6 class="mt-3">Mrs. Guest Name / Country</h6>
+                <i class="fal fa-quote-right" style="font-size: 2rem; margin-left: 1rem;"></i>
+            </div>
+
+        </div>
+    </div>
+</section> -->

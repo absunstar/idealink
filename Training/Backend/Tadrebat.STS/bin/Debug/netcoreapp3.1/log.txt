@@ -1,0 +1,30 @@
+
+Log Entry : 12:46:21 PM Tuesday, December 7, 2021
+  :
+  :Login Startmahmoud@test.com
+-------------------------------
+
+Log Entry : 12:46:34 PM Tuesday, December 7, 2021
+  :
+  :after get user ,EmailConfirmed - True
+-------------------------------
+
+Log Entry : 12:46:34 PM Tuesday, December 7, 2021
+  :
+  :Enter in If Condition
+-------------------------------
+
+Log Entry : 2:28:39 PM Saturday, December 11, 2021
+  :
+  :Login Startpratik_moda@idealake.com
+-------------------------------
+
+Log Entry : 2:28:39 PM Saturday, December 11, 2021
+  :
+  :after get user ,EmailConfirmed - True
+-------------------------------
+
+Log Entry : 2:28:39 PM Saturday, December 11, 2021
+  :
+  :Enter in If Condition
+-------------------------------

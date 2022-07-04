@@ -1,0 +1,65 @@
+D:\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Interface.deps.json
+D:\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Interface.dll
+D:\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Interface.pdb
+D:\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Entity.dll
+D:\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Enum.dll
+D:\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.ModelsGlobal.dll
+D:\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Entity.pdb
+D:\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Enum.pdb
+D:\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.ModelsGlobal.pdb
+D:\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.csprojAssemblyReference.cache
+D:\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.AssemblyInfoInputs.cache
+D:\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.AssemblyInfo.cs
+D:\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.csproj.CoreCompileInputs.cache
+D:\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.csproj.CopyComplete
+D:\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.dll
+D:\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Interface.deps.json
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Interface.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Interface.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Entity.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Enum.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.ModelsGlobal.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Entity.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Enum.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.ModelsGlobal.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.csproj.CopyComplete
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Interface.deps.json
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Interface.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Interface.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Entity.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Enum.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.ModelsGlobal.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Entity.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Enum.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.ModelsGlobal.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.csproj.CopyComplete
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Interface.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Interface.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Interface.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Entity.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Enum.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.ModelsGlobal.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Entity.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.Enum.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\bin\Release\netcoreapp3.1\Employment.ModelsGlobal.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.csproj.CopyComplete
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Interface\obj\Release\netcoreapp3.1\Employment.Interface.pdb

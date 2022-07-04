@@ -1,0 +1,52 @@
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\Test.exe
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\Test.deps.json
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.json
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.dev.json
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\Test.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\Test.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\bin\Debug\netcoreapp3.1\SymSpell.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\obj\Debug\netcoreapp3.1\Test.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\obj\Debug\netcoreapp3.1\Test.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\obj\Debug\netcoreapp3.1\Test.MvcApplicationPartsAssemblyInfo.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\obj\Debug\netcoreapp3.1\Test.RazorTargetAssemblyInfo.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\obj\Debug\netcoreapp3.1\Test.csproj.CopyComplete
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\obj\Debug\netcoreapp3.1\staticwebassets\Test.StaticWebAssets.Manifest.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\obj\Debug\netcoreapp3.1\staticwebassets\Test.StaticWebAssets.xml
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\obj\Debug\netcoreapp3.1\Test.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\obj\Debug\netcoreapp3.1\Test.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\Test.StaticWebAssets.xml
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\Test.exe
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\Test.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.dev.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\Test.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\Test.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\bin\Debug\netcoreapp3.1\SymSpell.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\obj\Debug\netcoreapp3.1\Test.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\obj\Debug\netcoreapp3.1\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\obj\Debug\netcoreapp3.1\Test.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\obj\Debug\netcoreapp3.1\Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\obj\Debug\netcoreapp3.1\staticwebassets\Test.StaticWebAssets.Manifest.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\obj\Debug\netcoreapp3.1\Test.RazorTargetAssemblyInfo.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\obj\Debug\netcoreapp3.1\Test.csproj.CopyComplete
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\obj\Debug\netcoreapp3.1\Test.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\obj\Debug\netcoreapp3.1\Test.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache

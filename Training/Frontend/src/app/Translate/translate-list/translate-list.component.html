@@ -1,0 +1,44 @@
+<section class="my-5">
+  <div class="container">
+    <div class='row'>
+      <h4 class="mb-4">{{title }}</h4>
+    </div>
+    <div class="col-md-12" *ngIf='lstData?.Data.length > 0'>
+      <div class='table-responsive'>
+        <table class='table'>
+          <thead>
+            <tr>
+              <th>English</th>
+              <th>عربى</th>
+              <th *ngIf="false">Française</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let obj of lstData.Data; let i = index '>
+              <td>{{ obj.Name}}</td>
+              <td>
+                <input type="text" id="Name2{{i}}" [(ngModel)]="lstData.Data[i].Name2" #modelName2Var="ngModel"
+                  name="modelName2">
+              </td>
+              <td *ngIf="false">
+                <input type="text" id="Name3{{i}}" [(ngModel)]="lstData.Data[i].Name3" #modelName3Var="ngModel"
+                  name="modelName3">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="form-group pull-right md-form">
+        <button class="btn color-bg-grey btn-sm btn-default white-text" type="submit"
+          (click)="OnRedrirectBack()">{{'GenericCancel' | translate }}</button>
+        <button class="btn color-bg-01 btn-sm white-text btnSave" type="submit"
+          (click)="modelSaveBtn()">{{'GenericSave' | translate }}</button>
+      </div>
+    </div>
+    <div class="" *ngIf="lstData?.Data.length  == 0">
+      <div class="text-center bg-red noresult">
+        <span class="font-italic">{{'PageNoResult' | translate }} </span><span>&#9785;</span>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,760 @@
+
+Log Entry : 4:35:04 PM Thursday, September 23, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 4:35:05 PM Thursday, September 23, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 4:35:06 PM Thursday, September 23, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 4:35:09 PM Thursday, September 23, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 4:35:14 PM Thursday, September 23, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 4:35:18 PM Thursday, September 23, 2021
+  :
+  :client.IdentityProviderRestrictions :System.Collections.Generic.HashSet`1[System.String]
+-------------------------------
+
+Log Entry : 4:35:30 PM Thursday, September 23, 2021
+  :
+  :provider.AuthenticationScheme : Google
+-------------------------------
+
+Log Entry : 4:35:42 PM Thursday, September 23, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 4:50:18 PM Thursday, September 23, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 4:50:20 PM Thursday, September 23, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 4:50:22 PM Thursday, September 23, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 4:50:26 PM Thursday, September 23, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 4:50:28 PM Thursday, September 23, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 4:50:31 PM Thursday, September 23, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 4:50:49 PM Thursday, September 23, 2021
+  :
+  :provider.AuthenticationScheme : Google
+-------------------------------
+
+Log Entry : 4:50:49 PM Thursday, September 23, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 4:52:14 PM Thursday, September 23, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 4:52:15 PM Thursday, September 23, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 4:52:16 PM Thursday, September 23, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 4:52:18 PM Thursday, September 23, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 4:52:23 PM Thursday, September 23, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 4:53:04 PM Thursday, September 23, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 4:53:04 PM Thursday, September 23, 2021
+  :
+  :provider.AuthenticationScheme : Google
+-------------------------------
+
+Log Entry : 4:53:04 PM Thursday, September 23, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 5:56:47 PM Thursday, September 23, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 5:56:47 PM Thursday, September 23, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 5:56:47 PM Thursday, September 23, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 5:56:47 PM Thursday, September 23, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 5:56:47 PM Thursday, September 23, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 5:56:47 PM Thursday, September 23, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 5:56:47 PM Thursday, September 23, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 6:00:22 PM Thursday, September 23, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 6:00:22 PM Thursday, September 23, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 6:00:22 PM Thursday, September 23, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 6:00:22 PM Thursday, September 23, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 6:00:22 PM Thursday, September 23, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 6:00:22 PM Thursday, September 23, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 6:00:22 PM Thursday, September 23, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 6:24:24 PM Thursday, September 23, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 6:24:25 PM Thursday, September 23, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 2:23:07 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 2:23:09 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 2:23:09 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 2:23:09 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 2:23:09 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 2:23:09 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 2:23:09 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 2:25:18 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 2:25:18 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 2:25:18 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 2:25:18 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 2:25:18 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 2:25:18 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 2:25:18 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 2:26:02 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 2:26:02 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 2:26:02 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 2:26:02 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 2:26:02 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 2:26:02 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 2:26:02 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 2:27:53 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 2:27:53 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 2:27:53 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 2:27:53 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 2:27:53 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 2:27:53 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 2:27:53 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 2:32:08 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 2:32:08 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 2:32:08 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 2:32:08 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 2:32:08 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 2:32:08 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 2:32:08 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 2:34:04 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 2:34:04 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 2:34:04 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 2:34:04 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 2:34:04 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 2:34:04 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 2:34:04 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 2:35:29 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 2:35:29 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 2:35:29 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 2:35:29 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 2:35:29 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 2:35:29 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 2:35:29 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 2:41:45 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 2:41:45 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 2:41:45 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 2:41:45 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 2:41:45 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 2:41:45 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 2:41:45 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 2:42:36 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 2:42:36 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 2:42:36 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 2:42:36 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 2:42:36 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 2:42:36 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 2:42:36 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 3:30:20 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 3:30:21 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 3:30:21 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 3:30:21 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 3:30:21 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 3:30:21 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 3:30:21 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 3:44:36 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 3:44:36 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 3:44:36 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 3:44:36 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 3:44:37 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 3:44:37 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 3:44:37 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 4:02:01 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 4:02:02 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 4:02:02 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 4:02:02 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 4:02:02 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 4:02:02 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 4:02:02 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 4:02:08 PM Friday, September 24, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 4:02:08 PM Friday, September 24, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 4:02:09 PM Friday, September 24, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 4:02:09 PM Friday, September 24, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 4:02:09 PM Friday, September 24, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 4:02:09 PM Friday, September 24, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 4:02:09 PM Friday, September 24, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 12:39:35 PM Sunday, September 26, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 12:39:35 PM Sunday, September 26, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 12:39:35 PM Sunday, September 26, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 12:39:35 PM Sunday, September 26, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 12:39:35 PM Sunday, September 26, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 12:39:35 PM Sunday, September 26, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 12:39:35 PM Sunday, September 26, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 12:40:35 PM Sunday, September 26, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 12:40:35 PM Sunday, September 26, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 12:40:35 PM Sunday, September 26, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 12:40:35 PM Sunday, September 26, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 12:40:35 PM Sunday, September 26, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 12:40:35 PM Sunday, September 26, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 12:40:35 PM Sunday, September 26, 2021
+  :
+  :last log of this method4
+-------------------------------
+
+Log Entry : 4:11:49 PM Monday, September 27, 2021
+  :
+  :function start
+-------------------------------
+
+Log Entry : 4:11:49 PM Monday, September 27, 2021
+  :
+  :after if condition 
+-------------------------------
+
+Log Entry : 4:11:49 PM Monday, September 27, 2021
+  :
+  :providers data :4
+-------------------------------
+
+Log Entry : 4:11:49 PM Monday, September 27, 2021
+  :
+  :Enter in if (context?.ClientId != null) 
+-------------------------------
+
+Log Entry : 4:11:49 PM Monday, September 27, 2021
+  :
+  :Enter in if (client != null)  allowLocal is True
+-------------------------------
+
+Log Entry : 4:11:49 PM Monday, September 27, 2021
+  :
+  :client.IdentityProviderRestrictions :0
+-------------------------------
+
+Log Entry : 4:11:49 PM Monday, September 27, 2021
+  :
+  :last log of this method4
+-------------------------------

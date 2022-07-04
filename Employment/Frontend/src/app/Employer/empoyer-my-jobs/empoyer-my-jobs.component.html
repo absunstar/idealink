@@ -1,0 +1,144 @@
+<section class="cnddte_fvrt our-dashbord dashbord">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-xl-3 dn-smd">
+                <app-employer-menu [pageName]="'managemyjobs'"></app-employer-menu>
+            </div>
+            <div class="col-sm-12 col-lg-8 col-xl-9">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h4 class="mb30">{{'EmployerMyJobsYouMange' | translate }}<b>{{jobStats?.JobCount}}</b> {{'EmployerMyJobsJobs' | translate }}</h4>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <div class="icon_boxs">
+                            <div class="icon"><span class="flaticon-work"></span></div>
+                            <div class="details">
+                                <h4>{{jobStats?.JobCount}} {{'EmployerMyJobsJobPosted' | translate }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <div class="icon_boxs">
+                            <div class="icon style2"><span class="flaticon-resume"></span></div>
+                            <div class="details">
+                                <h4>{{jobStats?.ApplicantCount}} {{'EmployerMyJobsApplications' | translate }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <div class="icon_boxs">
+                            <div class="icon style3"><span class="flaticon-work"></span></div>
+                            <div class="details">
+                                <h4>{{jobStats?.ActiveJobCount}} {{'EmployerMyJobsOpenJobs' | translate }}</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-6 mt-4">
+                        <div class="candidate_revew_select">
+                            <mat-form-field class="w-75">
+                                <mat-label>{{'EmployerMyJobsSearchFor' | translate }}</mat-label>
+                                <!-- {{'EmployerMyJobsSearchBy' | translate }} -->
+                                <input type="text" placeholder="Search by Job Title" matInput
+                                    [(ngModel)]="filtertxt" (keyup)="tableSearch($event)">
+                            </mat-form-field>
+                            <input type="submit" value="{{'GenericSubmit' | translate }}" class="btn btn-thm" (click)="filterbtn()">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="candidate_job_alart_btn text-right">
+                            <input type="button" class="pull-right btn btn-orange" value="{{'GenericCreateNew' | translate }}"
+                                (click)="createBtn()">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <hr>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="cnddte_fvrt_job candidate_job_reivew style2">
+                            <div class="table-responsive job_review_table">
+                                <table class="table">
+                                    <thead class="thead-light">
+                                        <tr>
+                                            <th scope="col">{{'EmployerMyJobsJobTitle' | translate }}</th>
+                                            <th scope="col">{{'EmployerMyJobsApplications' | translate }}</th>
+                                            <th scope="col">{{'EmployerMyJobsStatus' | translate }}</th>
+                                            <th scope="col"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="{{item.IsActive ? 'bg-green' : 'bg-red'}}"
+                                            *ngFor="let item of page.content |filterL:searchText">
+                                            <td scope="row">
+                                                <h4 class="ProfileTitle">{{item.Name}}</h4>
+                                                <h6>(<em>{{item?.Company?.Name == '' ? "'EmployerMyJobsCompanyNA' | translate" : item.Company.Name}}</em>)
+                                                </h6>
+                                                <p><span class="flaticon-location-pin"></span>
+                                                    {{item?.Country?.Name == '' ? "'EmployerCompanyViewCountryNA' | translate" : item.Country.Name}},
+                                                    {{ item?.City?.Name == '' ? "'EmployerCompanyViewCityNA' | translate" : item.City.Name}}
+                                                </p>
+                                                <ul>
+                                                    <li class="list-inline-item"><a href="#"><span
+                                                                class="flaticon-event"> {{'EmployerMyJobsCreated' | translate }}: </span></a></li>
+                                                    <li class="list-inline-item"><a class="color-black22"
+                                                            href="#"><b>{{item.CreatedAt | date:'MMM d, y'}}</b></a>
+                                                    </li>
+                                                    <li class="list-inline-item"><a href="#"><span
+                                                                class="flaticon-event"> {{'EmployerMyJobsExpiry' | translate }}: </span></a></li>
+                                                    <li class="list-inline-item"><a class="color-black22"
+                                                            href="#"><b>{{item.Deadline | date:'MMM d, y'}}</b></a></li>
+                                                </ul>
+                                            </td>
+                                            <td><span class="color-black22"><b>{{item?.ApplicantCount}}</b></span> {{'EmployerMyJobsApplication1' | translate }}</td>
+                                            <td class="text-thm2">{{GetStatus(item.Status)}}</td>
+                                            <td>
+                                                <ul class="view_edit_delete_list text-center">
+                                                    <li class="list-inline-item  bg-purple "><a
+                                                        [routerLink]="['/Employer/AppliedResume/' + item._id]" routerLinkActive="router-link-active"  data-toggle="tooltip"
+                                                        data-placement="bottom" title="Resume"><span
+                                                            class="flaticon-manager"></span></a></li>
+                                                    <li class="list-inline-item  bg-orange"><a
+                                                            (click)="onView(item._id)" data-toggle="tooltip"
+                                                            data-placement="bottom" title="{{'GenericView' | translate }}"><span
+                                                                class="flaticon-eye"></span></a></li>
+                                                    <li class="list-inline-item  bg-blue"><a (click)="onEdit(item._id)"
+                                                            data-toggle="tooltip" data-placement="bottom"
+                                                            title="{{'GenericEdit' | translate }}"><span class="flaticon-edit"></span></a></li>
+                                                    <li *ngIf="item.IsActive" class="list-inline-item  bg-red">
+                                                        <a (click)="setDeActivate(item._id)" data-toggle="tooltip"
+                                                            data-placement="bottom" title="{{'GenericDeactivate' | translate }}"><span
+                                                                class="flaticon-rubbish-bin"></span></a></li>
+                                                    <li *ngIf="!item.IsActive" class="list-inline-item  bg-green"><a
+                                                            (click)="setActivate(item._id)" data-toggle="tooltip"
+                                                            data-placement="bottom" title="{{'GenericActivate' | translate }}"><span
+                                                                class="flaticon-unlocked"></span></a></li>
+                                                </ul>
+                                            </td>
+                                        </tr>
+                                        <!-- <div id="myUL" *ngIf="filterL: searchText; else noResults" > -->
+                                            <!-- <tr *ngFor="let sfetch of searchData |filterL:searchText" class="{{sfetch.IsActive ? 'bg-green' : 'bg-red'}}">
+                                                <th scope="col">{{sfetch.Name }}</th>
+                                                <th scope="col">{{sfetch.Industry }}</th>
+                                                <th scope="col">{{sfetch.Status }}</th>
+                                                <th scope="col"></th>
+                                            </tr> -->
+                                        <!-- </div> -->
+                                        <!-- <ng-template #noResults>
+                                            <p>No results found for "{{searchText}}".</p>
+                                        </ng-template> -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()"
+                            (previousPageEvent)="getPreviousPage()" (loadPageCurrentEvent)="getloadPageCurrent()">
+                        </app-custom-pagination>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

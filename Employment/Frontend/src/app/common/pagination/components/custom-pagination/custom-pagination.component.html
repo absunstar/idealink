@@ -1,0 +1,27 @@
+<div class="" *ngIf="page.totalElements == 0">
+  <div class="text-center bg-red noresult">
+    <span class="font-italic">{{'PageNoResult' | translate }}</span><span>&#9785;</span>
+  </div>
+</div>
+<div class="mbp_pagination" *ngIf="page.totalElements > 0">
+  <ul class="page_navigation">
+    <li class="page-item">
+      <a class="page-link" [ngClass]="{'disabled': page.pageable.IsFirst }" (click)="previousPage()"><span
+          class="flaticon-left-arrow"></span>
+        {{'PagePrevious' | translate }}
+      </a>
+    </li>
+    <li *ngFor="let indexItem of page.pageable.PageDisplayList" class="page-item"
+      [ngClass]="{'active': page.pageable.pageCurrent == indexItem }">
+      <a class="page-link" [ngClass]="{'disabled': page.pageable.pageCurrent == indexItem }"
+        (click)="loadPageCurrent(indexItem)">{{indexItem}}</a>
+    </li>
+    <!-- </div> -->
+    <!-- [routerLink]=""-->
+    <li class="page-item">
+      <a class="page-link" [ngClass]="{'disabled': page.pageable.IsLast }" (click)="nextPage()">
+        {{'PageNext' | translate }} <span
+          class="flaticon-right-arrow"></span> </a>
+    </li>
+  </ul>
+</div>

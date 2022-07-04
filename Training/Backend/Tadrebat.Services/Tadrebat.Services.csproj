@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.1" />
+    <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SQL\SQL.csproj" />
+    <ProjectReference Include="..\Tadrebat.Entity\Tadrebat.Entity.csproj" />
+    <ProjectReference Include="..\Tadrebat.Enum\Tadrebat.Enum.csproj" />
+    <ProjectReference Include="..\Tadrebat.Interface\Tadrebat.Interface.csproj" />
+    <ProjectReference Include="..\Tadrebat.ModelsGlobal\Tadrebat.ModelsGlobal.csproj" />
+    <ProjectReference Include="..\Tadrebat.MongoDB.Interface\Tadrebat.MongoDB.Interface.csproj" />
+    <ProjectReference Include="..\Tadrebat.Persistance\Tadrebat.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>

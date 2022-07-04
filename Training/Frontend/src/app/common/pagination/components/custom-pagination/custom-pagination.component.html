@@ -1,0 +1,17 @@
+<div class="" *ngIf="page.totalElements == 0">
+  <div class="text-center bg-red noresult">
+    <span class="font-italic">{{'PageNoResult' | translate }} </span><span>&#9785;</span>
+  </div>
+</div>
+<div *ngIf="page && page.totalElements > 0" class="card-actions align-items-center justify-content-end">
+  <a class="btn btn-outline" [ngClass]="{'disabled': page.pageable.IsFirst }" (click)="previousPage()">
+    {{'PagePrevious' | translate }}
+  </a>
+  <li *ngFor="let indexItem of page.pageable.PageDisplayList" class="btn btn-outline"
+    [ngClass]="{'disabled pageActive': page.pageable.pageCurrent == indexItem }" (click)="loadPageCurrent(indexItem)">
+    <i>{{indexItem}}</i>
+  </li>
+  <li class="btn btn-outline" [ngClass]="{'disabled': page.pageable.IsLast }" (click)="nextPage()">
+    {{'PageNext' | translate }}
+  </li>
+</div>

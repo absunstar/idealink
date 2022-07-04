@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SimpleCaptchaNetCore</id>
+    <version>1.0.0</version>
+    <authors>ArturGub</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.AspNetCore.Http" version="2.2.2" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Http.Extensions" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.AspNetCore.Razor" version="2.2.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration" version="5.0.0" exclude="Build,Analyzers" />
+        <dependency id="SymSpell" version="6.7.1" exclude="Build,Analyzers" />
+        <dependency id="System.Drawing.Common" version="5.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.dll" target="lib\netcoreapp3.1\SimpleCaptcha.dll" />
+  </files>
+</package>

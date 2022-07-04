@@ -1,0 +1,153 @@
+.mat-checkbox {
+    display: block;
+}
+
+
+.contactForm  .input-group{
+    max-width: 350px;
+    display: inline-block;
+    margin-right: 25px;
+    width: 100%;
+    vertical-align: top;
+    box-shadow: none;
+}
+
+.contactForm  .input-group input {
+    width: 100%;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 20%);
+}
+.contactForm {
+    padding: 30px 15px;
+    padding-bottom: 0;
+    background-color: #fff;
+    border-radius: 16px;
+    -webkit-box-shadow: 0 1px 4px 0 rgb(0 106 194 / 20%);
+    box-shadow: 0 1px 4px 0 rgb(0 106 194 / 20%);
+    width: 100%;
+    margin-bottom: 16px;
+    /* background-color:#f4f7fa; */
+    color: #000;
+     /* #7c8ba2; */
+    /* min-height: 100px; */
+    /* text-align: center; */
+}
+
+
+.history {
+    position: relative;
+    /* max-width: 280px; */
+    background: #f4f7fa;
+    border-radius: 18px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+    padding-right: 18px;
+    padding-left: 18px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.locationBox {
+    text-align: left;
+}
+.currentLoc {
+    text-decoration: underline;
+    color: #4a90e2;
+    font-size: 12px;
+}
+.currentLocs {
+    text-decoration: underline;
+    color: #4a90e2;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+.filterData {
+    position: relative;
+    background-color: #fff;
+    text-transform: capitalize;
+    color: #3e4152;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    padding: 5px 26px 5px 10px;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    border-radius: 20px;
+    border: 1px solid #d4d5d9;
+    margin: 0 5px 5px 0;
+}
+
+.closeIcon {
+    position: absolute;
+    right: 10px;
+    top: 4px;
+}
+
+
+/* .searchLast {
+    text-align: right;
+} */
+
+
+.faq_search_widget input.form-control.smartSearch {
+    height: auto;
+}
+
+
+.titles {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #04a84f;
+}
+
+.leftSide {
+    overflow: hidden;
+    overflow-y: scroll;
+    /* height: 650px; */
+}
+.leftSide::-webkit-scrollbar {
+    width: 5px;
+}
+/* .leftSide::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.leftSide::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+} */
+
+.no-pad {
+    padding: 0 !important;
+}
+
+
+.removeFilter {
+    /* float: right; */
+    /* display: inline-block; */
+}
+
+
+.clearFilter {
+    color: red;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.filterCount {
+    border-radius: 50%;
+    background-color: rosybrown;
+    color: #fff;
+    /* position: relative; */
+    /* left: 0; */
+    padding-left: 0;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    text-align: center;
+}

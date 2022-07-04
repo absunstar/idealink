@@ -1,0 +1,540 @@
+<link rel="stylesheet" href="/assets/css/styleAR.css" *ngIf="IsRTL">
+<link rel="stylesheet" href="/assets/css/style.css" *ngIf="!IsRTL">
+<!-- Main Header Nav -->
+
+<div class="fullscreen" *ngIf="IsAppear">
+
+</div>
+
+<header class="header-nav menu_style_home_three navbar-scrolltofixed main-menu headerTag">
+    <div class="container-fluid">
+        <!-- Ace Responsive Menu -->
+        <nav>
+            <!-- Menu Toggle btn-->
+            <div class="menu-toggle">
+                <img class="nav_logo_img img-fluid" src="/assets/images/header-logo3.png" alt="header-logo3.png">
+                <button type="button" id="menu-btn">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <a href="index.html" class="navbar_brand float-left dn-smd"
+                style="width: 112px; height: 60px; display: block;">
+                <img class="img-fluid" src="/assets/images/logo.png">
+            </a>
+            <!-- Responsive Menu Structure-->
+            <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
+            <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+                <!-- <li class="">
+                    <a href="" routerLink="/"><span class="title">{{'HomeHome' | translate }}</span></a>
+                </li> -->
+                <li class="" *ngIf="isLoggedIn && !isAdmin">
+                    <a href="{{MCTURL}}" target="_blank"><span class="title">{{'Elearning' | translate }}</span></a>
+                </li>
+                <li class="" *ngIf="!isLoggedIn">
+                    <a href="" routerLink="/Job/Search"><span class="title">{{'HomeJobSearch' | translate }}</span></a>
+                </li>
+                <li class="" *ngIf="isLoggedIn  && isEmployer">
+                    <a href="" routerLink="/Employer/ManageMyJobs"><span class="title">{{'GenericJobEmployer' |
+                            translate }}</span></a>
+                </li>
+                <li class="" *ngIf="isLoggedIn  && isEmployer">
+                    <a href="" routerLink="/JobSeeker/Search"><span class="title">{{'HomeJobSeekerSearch' | translate
+                            }}</span></a>
+                </li>
+                <li class="" *ngIf="isLoggedIn  && isJobSeeker">
+                    <a href="" routerLink="/JobSeeker/History"><span class="title">{{'GenericJobSeeker' | translate
+                            }}</span></a>
+                </li>
+                <li class="" *ngIf="isLoggedIn  && isJobSeeker">
+                    <a href="" routerLink="/Employer/Search"><span class="title">{{'HomeJobSearch' | translate
+                            }}</span></a>
+                </li>
+                <li class="" *ngIf="isLoggedIn  && isAdmin">
+                    <a href="" routerLink="/DataManagement/Languages"><span class="title">{{'HomeDataManagement' |
+                            translate }}</span></a>
+                </li>
+                <li class="" *ngIf="isLoggedIn  && isAdmin">
+                    <a href="" routerLink="/account/account"><span class="title">{{'HomeAccountsManagement' | translate
+                            }}</span></a>
+                </li>
+                <li class="" *ngIf="isLoggedIn  && isAdmin">
+                    <a href="" routerLink="/Admin/CompanyList"><span class="title">{{'GenericCompanies' | translate
+                            }}</span></a>
+                </li>
+                <li class="" *ngIf="isLoggedIn  && isAdmin">
+                    <a href="" routerLink="/Admin/JobsList"><span class="title">{{'EmployerMyJobsJobs' | translate
+                            }}</span></a>
+                </li>
+                <li class="" *ngIf="isLoggedIn  && (isAdmin || isJobSeeker)">
+                    <a href="" routerLink="/JobFair/List"><span class="title">{{'HomeJobFairs' | translate }}</span></a>
+                </li>
+                <li class="" *ngIf="isLoggedIn  && isAdmin">
+                    <a href="" routerLink="/Config/JobFairCreate"><span class="title">{{'HomeFormConfiguration' |
+                            translate }}</span></a>
+                </li>
+                <li>
+                    <a href="#" *ngIf="isLoggedIn  && isAdmin"><span class="title menuArrow">{{"GenericReport" |
+                            translate}} </span></a>
+
+                    <ul>
+                        <li class="" *ngIf="isLoggedIn  && isAdmin">
+                            <a href="" routerLink="/Admin/ReportStats"><span class="title">{{'HomeStatistics' |
+                                    translate }}</span></a>
+                        </li>
+                        <li class="" *ngIf="isLoggedIn  && isAdmin">
+                            <a href="" routerLink="/Admin/ReportStatsJobs"><span class="title">{{'HomeStatisticsJobs' |
+                                    translate }}</span></a>
+                        </li>
+                        <li class="" *ngIf="isLoggedIn  && isAdmin">
+                            <a href="" routerLink="/Admin/ReportStatsJobSeekerPerJob"><span
+                                    class="title">{{'HomeStatisticsJobSeekerPerJob' | translate }}</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" *ngIf="isLoggedIn  && isAdmin"><span class="title menuArrow">{{"GenericApprove" |
+                            translate}} <span class="NotificationBadge">{{CountApproval}}</span></span></a>
+
+                    <ul>
+                        <li class="" *ngIf="isLoggedIn  && isAdmin">
+                            <a href="" routerLink="/Admin/JobApproval"><span class="title">{{'HomeJobApproval' |
+                                    translate }}</span></a>
+                        </li>
+                        <li class="" *ngIf="isLoggedIn  && isAdmin">
+                            <a href="" routerLink="/Admin/CompanyApproval"><span class="title">{{'HomeCompanyApproval' |
+                                    translate }}</span></a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <ul *ngIf="isLoggedIn && isJobSeeker" class="header_user_notif pull-right dn-smd">
+
+                <li class="user_setting">
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="#" data-toggle="dropdown">
+                            <img class="rounded-circle" src="/assets/images/team/e1.png" alt="e1.png">
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="user_set_header">
+                                <p>Hi {{userName}}<br>
+                                    <!-- <span class="address welcomeaddress w-100">Bothell, WA,
+                                        USA</span> -->
+                                </p>
+                            </div>
+                            <div class="user_setting_content">
+                                <!-- <a class="dropdown-item active" routerLink="/JobSeeker/History"><span
+                                        class="flaticon-dashboard"></span> Dashboard</a> -->
+                                <a class="dropdown-item" routerLink="/JobSeeker/Resume/{{userId}}"><span
+                                        class="flaticon-resume"></span> {{'HomeResume' | translate }}</a>
+                                <a class="dropdown-item" routerLink="/JobSeeker/History"><span
+                                        class="flaticon-paper-plane"></span> {{'HomeJobHistory' | translate }}</a>
+                                <a class="dropdown-item" routerLink="/JobSeeker/ShortList"><span
+                                        class="flaticon-favorites"></span>{{'HomeFavouriteJobs' | translate }}</a>
+                                <a class="dropdown-item" routerLink="/account/ChangePassword"><span
+                                        class="flaticon-locked"></span>{{'HomeChangePassword' | translate }}</a>
+                                <a class="dropdown-item signout" (click)="logout()"><span
+                                        class="flaticon-logout"></span>
+                                    {{'HomeLogout' | translate }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <ul *ngIf="isLoggedIn && isEmployer" class="header_user_notif pull-right dn-smd">
+
+                <li class="user_setting">
+                    <div class="dropdown">
+                        <a class="btn dropdown-toggle" href="#" data-toggle="dropdown">
+                            <img class="rounded-circle" src="/assets/images/team/e1.png" alt="e1.png">
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="user_set_header">
+                                <p>{{'HomeHi' | translate }} {{userName}}<br>
+                                    <!-- <span class="address welcomeaddress w-100">Bothell, WA,
+                                        USA</span> -->
+                                </p>
+                            </div>
+                            <div class="user_setting_content">
+                                <!-- <a class="dropdown-item active" routerLink="/Employer/ManageMyJobs"><span
+                                        class="flaticon-dashboard"></span> Dashboard</a> -->
+                                <a class="dropdown-item" routerLink="/Employer/Profile"><span
+                                        class="flaticon-profile"></span> {{'HomeAddCompany' | translate }}</a>
+                                <a class="dropdown-item" routerLink="/Employer/ManageMyCompanies"><span
+                                        class="flaticon-profile"></span> {{'HomeCompanyProfile' | translate }}</a>
+                                <a class="dropdown-item" routerLink="/Employer/PostJob"><span
+                                        class="flaticon-resume"></span> {{'HomePostNewJob' | translate }}</a>
+                                <a class="dropdown-item" routerLink="/Employer/ManageMyJobs"><span
+                                        class="flaticon-paper-plane"></span> {{'HomeManageJobs' | translate }}</a>
+                                <a class="dropdown-item" routerLink="/Employer/ShortListResumes"><span
+                                        class="flaticon-analysis"></span> {{'HomeShortlistedResumes' | translate }}</a>
+                                <a class="dropdown-item" routerLink="/account/ChangePassword"><span
+                                        class="flaticon-locked"></span> {{'HomeChangePassword' | translate }}</a>
+                                <a class="dropdown-item signout" (click)="logout()"><span
+                                        class="flaticon-logout"></span>
+                                    {{'HomeLogout' | translate }}</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul *ngIf="isLoggedIn" class="sign_up_btn pull-right dn-smd">
+                <li *ngIf="isAdmin">
+                    <a class="btn btn-md btn-transparent bg-Orange signout" (click)="logout()"><i
+                            class="fas fa-user-lock"></i>{{'HomeLogout' | translate }}</a>
+                </li>
+                <li *ngIf="isEmployer">
+                    <a class="btn btn-md btn-transparent bg-Orange" routerLink="Employer/PostJob"><i
+                            class="fas fa-user-lock"></i>{{'HomePostJob' | translate }}</a>
+                </li>
+                <li *ngIf="isJobSeeker">
+                    <a class="btn btn-md btn-transparent bg-Orange" routerLink="JobSeeker/Resume/{{userId}}"><i
+                            class="fas fa-user-lock"></i>{{'HomeMyResume' | translate }}</a>
+                </li>
+            </ul>
+            <ul *ngIf="!isLoggedIn" class="sign_up_btn pull-right dn-smd">
+                <li><a class="btn btn-md btn-transparent bg-Orange" (click)="login()"><i
+                            class="fas fa-user-lock"></i>{{'GenericLogin' | translate }}</a>
+                </li>
+            </ul><!-- Button trigger modal -->
+            <div class="langBox float-right ">
+                <ul>
+                    <li class="list-inline-item" id="drpLang">
+                        <select [(ngModel)]="selectLang" class="selectpicker show-tick" (change)="switchLang()">
+                            <option selected value="en">English</option>
+                            <option value="ar">عربى </option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End of Responsive Menu -->
+    </div>
+</header>
+
+<!-- Main Header Nav For Mobile -->
+<div id="page" class="stylehome1 h0 menu_style_home_three bgGradient">
+    <div class="mobile-menu">
+        <ul *ngIf="isLoggedIn" class="header_user_notif pull-right">
+            <li class="user_notif">
+                <div class="dropdown">
+
+                </div>
+            </li>
+            <li *ngIf="IsAzureLoginEnabled">
+                <a href="{{MCTWebsiteURL}}" target="_blank"><img class="MCTLogo" src="/assets/images/MCTLogo.png"></a>
+            </li>
+            <li class="user_setting" *ngIf="isLoggedIn && isEmployer">
+                <div class="dropdown">
+                    <a class="btn dropdown-toggle" href="#" data-toggle="dropdown"><img class="rounded-circle"
+                            src="/assets/images/team/e1.png" alt="e1.png" title="CreativeLayers"></a>
+                    <div class="dropdown-menu">
+                        <div class="user_set_header">
+                            <p>{{'HomeHi' | translate }} {{userName}}<br>
+                                <!-- <span class="address  w-100">Bothell, WA, USA</span> -->
+                            </p>
+                        </div>
+                        <div class="user_setting_content">
+                            <a class="dropdown-item" routerLink="/Employer/Profile"><span
+                                    class="flaticon-profile"></span> {{'HomeAddCompany' | translate }}</a>
+                            <a class="dropdown-item" routerLink="/Employer/ManageMyCompanies"><span
+                                    class="flaticon-profile"></span> {{'HomeCompanyProfile' | translate }}</a>
+                            <a class="dropdown-item" routerLink="/Employer/PostJob"><span
+                                    class="flaticon-resume"></span> {{'HomePostNewJob' | translate }}</a>
+                            <a class="dropdown-item" routerLink="/Employer/ManageMyJobs"><span
+                                    class="flaticon-paper-plane"></span> {{'HomeManageJobs' | translate }}</a>
+                            <a class="dropdown-item" routerLink="/Employer/ShortListResumes"><span
+                                    class="flaticon-analysis"></span> {{'HomeShortlistedResumes' | translate }}</a>
+                            <a class="dropdown-item" routerLink="/account/ChangePassword"><span
+                                    class="flaticon-locked"></span> {{'HomeChangePassword' | translate }}</a>
+                            <a class="dropdown-item" (click)="logout()"><span class="flaticon-logout"></span>
+                                {{'HomeLogout' | translate }}</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="user_setting" *ngIf="isLoggedIn && isJobSeeker">
+                <div class="dropdown">
+                    <a class="btn dropdown-toggle" href="#" data-toggle="dropdown">
+                        <img class="rounded-circle" src="/assets/images/team/e1.png" alt="e1.png">
+                    </a>
+                    <div class="dropdown-menu">
+                        <div class="user_set_header">
+                            <p>{{'HomeHi' | translate }} {{userName}}</p>
+                        </div>
+                        <div class="user_setting_content">
+                            <a class="dropdown-item" routerLink="/JobSeeker/Resume/{{userId}}"><span
+                                    class="flaticon-resume"></span> {{'HomeResume' | translate }}</a>
+                            <a class="dropdown-item" routerLink="/JobSeeker/History"><span
+                                    class="flaticon-paper-plane"></span> {{'HomeJobHistory' | translate }}</a>
+                            <a class="dropdown-item" routerLink="/JobSeeker/ShortList"><span
+                                    class="flaticon-favorites"></span>{{'HomeFavouriteJobs' | translate }}</a>
+                            <a class="dropdown-item" routerLink="/account/ChangePassword"><span
+                                    class="flaticon-locked"></span>{{'HomeChangePassword' | translate }}</a>
+                            <a class="dropdown-item" (click)="logout()"><span class="flaticon-logout"></span>
+                                {{'HomeLogout' | translate }}</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="header stylehome1 home3">
+            <img class="nav_logo_img img-fluid float-left mt25" src="/assets/images/header-logo3.png"
+                alt="header-logo3.png">
+            <a class="bg-Orange" href="#menu"><span></span></a>
+        </div>
+    </div><!-- /.mobile-menu -->
+    <nav id="menu" class="stylehome1">
+        <ul>
+            <!-- <li class=""></li>
+            <li>
+                <a href="" routerLink="/"><span class="title">{{'HomeHome' | translate }}</span></a></li> -->
+            <li class="ResponseMenuItem" *ngIf="!isLoggedIn">
+                <a href="" routerLink="/Job/Search"><span class="title">{{'HomeJobSearch' | translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isEmployer">
+                <a href="" routerLink="/Employer/ManageMyJobs"><span class="title">{{'GenericJobEmployer' |
+                        translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isEmployer">
+                <a href="" routerLink="/JobSeeker/Search"><span class="title">{{'HomeJobSeekerSearch' | translate
+                        }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isJobSeeker">
+                <a href="" routerLink="/JobSeeker/History"><span class="title">{{'GenericJobSeeker' | translate
+                        }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isJobSeeker">
+                <a href="" routerLink="/Employer/Search"><span class="title">{{'HomeJobSearch' | translate
+                        }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isAdmin">
+                <a href="" routerLink="/DataManagement/Languages"><span class="title">{{'HomeDataManagement' |
+                        translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isAdmin">
+                <a href="" routerLink="/account/account"><span class="title">{{'HomeAccountsManagement' | translate
+                        }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isAdmin">
+                <a href="" routerLink="/Admin/CompanyList"><span class="title">{{'GenericCompanies' | translate
+                        }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isAdmin">
+                <a href="" routerLink="/Admin/JobsList"><span class="title">{{'EmployerMyJobsJobs' | translate
+                        }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && (isAdmin || isJobSeeker)">
+                <a href="" routerLink="/JobFair/List"><span class="title">{{'HomeJobFairs' | translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isAdmin">
+                <a href="" routerLink="/Config/JobFairCreate"><span class="title">{{'HomeFormConfiguration' |
+                        translate }}</span></a>
+            </li>
+
+            <li class="ResponseMenuItem">
+                <a *ngIf="isLoggedIn  && isAdmin"><span class="title menuArrow">{{"GenericReport" |
+                        translate}} </span></a>
+            </li>
+            <!-- //....//// -->
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isAdmin">
+                <a href="" routerLink="/Admin/ReportStats"><span class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{'HomeStatistics' |
+                        translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isAdmin">
+                <a href="" routerLink="/Admin/ReportStatsJobs"><span class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{'HomeStatisticsJobs' |
+                        translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isAdmin">
+                <a href="" routerLink="/Admin/ReportStatsJobSeekerPerJob"><span
+                        class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{'HomeStatisticsJobSeekerPerJob' | translate }}</span></a>
+            </li>
+
+            <li class="ResponseMenuItem">
+                <a href="#" *ngIf="isLoggedIn  && isAdmin"><span class="title menuArrow">{{"GenericApprove" |
+                        translate}} <span class="NotificationBadge">{{CountApproval}}</span></span></a>
+             </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isAdmin">
+                <a href="" routerLink="/Admin/JobApproval"><span class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{'HomeJobApproval' |
+                        translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isAdmin">
+                <a href="" routerLink="/Admin/CompanyApproval"><span class="title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{'HomeCompanyApproval' |
+                        translate }}</span></a>
+            </li>
+            <!-- <li class="ResponseMenuItem">
+                    <a href="#" *ngIf="isLoggedIn  && isAdmin"><span class="title menuArrow">{{"GenericApprove" |
+                            translate}} <span class="NotificationBadge">{{CountApproval}}</span></span></a>
+
+                    <ul>
+                        <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isAdmin">
+                            <a href="" routerLink="/Admin/JobApproval"><span class="title">{{'HomeJobApproval' |
+                                    translate }}</span></a>
+                        </li>
+                        <li class="ResponseMenuItem" *ngIf="isLoggedIn  && isAdmin">
+                            <a href="" routerLink="/Admin/CompanyApproval"><span class="title">{{'HomeCompanyApproval' |
+                                    translate }}</span></a>
+                        </li>
+                    </ul>
+                </li> -->
+
+
+            <!-- </li>
+            <li>
+                <a *ngIf="isEmployer" href="" routerLink="/JobSeeker/Search"><span class="title">{{'HomeJobSeekerSearch'
+                        | translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem">
+
+                <a *ngIf="isJobSeeker" href="" routerLink="/JobSeeker/History"><span class="title">{{'HomeJobHistory' |
+                        translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem">
+                <a *ngIf="isJobSeeker" href="" routerLink="/Employer/Search"><span class="title">{{'HomeJobSearch' |
+                        translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem">
+
+                <a *ngIf="isAdmin" href="" routerLink="/DataManagement/Languages"><span
+                        class="title">{{'HomeDataManagement' | translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem">
+
+                <a *ngIf="isAdmin" href="" routerLink="/account/account"><span class="title">{{'HomeAccountsManagement'
+                        | translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem">
+                <a *ngIf="isAdmin" href="" routerLink="/admin/JobApproval"><span class="title">{{'HomeJobApproval' |
+                        translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem">
+                <a *ngIf="isAdmin" href="" routerLink="/Admin/CompanyList"><span
+                        class="title">{{'EmployerPostJobCompany' | translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem">
+                <a *ngIf="isAdmin" href="" routerLink="/Admin/CompanyApproval"><span
+                        class="title">{{'HomeCompanyApproval' | translate }}</span></a>
+            </li>
+            <li class="ResponseMenuItem">
+                <a *ngIf="isAdmin || isJobSeeker" href="" routerLink="/JobFair/List"><span
+                        class="title">{{'HomeJobFairs' | translate }}</span></a>
+            </li>
+            <li>
+
+                <a *ngIf="isEmployer" class="btn btn-md btn-transparent bg-Orange" routerLink="Employer/PostJob"><i
+                        class="fas fa-user-lock"></i>{{'HomePostJob' | translate }}</a>
+            </li>
+            <li>
+                <a *ngIf="isJobSeeker" class="btn btn-md btn-transparent bg-Orange"
+                    routerLink="JobSeeker/Resume/{{userId}}"><i class="fas fa-user-lock"></i>{{'HomeMyResume' |
+                    translate }}</a>
+            </li><li class="ResponseMenuItem"> -->
+            <!-- <a *ngIf="isEmployer" href="" routerLink="/Employer/ManageMyJobs"><span
+                        class="title">{{'GenericJobEmployer' | translate }}</span></a> -->
+
+
+
+            <li *ngIf="!isLoggedIn"><a style="padding: 10px; " class="btn btn-md btn-transparent bg-Orange" (click)="login()"><i
+                        class="fas fa-user-lock"></i>{{'GenericLogin' | translate }}</a>
+            </li>
+            <div class="langBox float-right ">
+                <ul>
+                    <li class="list-inline-item" id="drpLang">
+                        <select [(ngModel)]="selectLang" class="selectpicker show-tick" (change)="switchLang()">
+                            <option selected value="en">English</option>
+                            <option value="ar">عربى </option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </ul>
+    </nav>
+
+</div>
+
+<div  *ngIf="isLoggedInMYadd">
+    <div *ngIf="!isLoggedIn && !isCurrentPageHome" class="ScreenLock bubbleContainer">
+        <div class="messageBubble ssfLocationPopup">
+            <div class="messageContainer">
+                <p>{{'SessionExpored' | translate }}</p>
+                <p>{{'LoginFirst' | translate }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <router-outlet>
+
+    </router-outlet>
+</div>
+
+<section class="footer_bottom_area home5 p0">
+    <div class="container">
+        <div class="row">
+            <div class="pb10 pt10 w-100">
+                <div class="float-left mt10">
+                    <ul>
+                        <li class="list-inline-item"><img class="MCTLogo"
+                                src="/assets/images/PartnerLogos/Microsoft.png"></li>
+                        <li class="list-inline-item"><img class="MCTLogo" src="/assets/images/PartnerLogos/cef.png">
+                        </li>
+                        <li class="list-inline-item"><img class="MCTLogo" src="/assets/images/PartnerLogos/MoYouth.png">
+                        </li>
+                        <li class="list-inline-item" *ngIf="IsAzureLoginEnabled">
+                            <a href="{{MCTWebsiteURL}}" target="_blank"><img class="MCTLogo"
+                                    src="/assets/images/MCTLogo.png"></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer_menu float-right mt-2 mr-2">
+                    <ul>
+                        <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <!-- <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li> -->
+                        <li class="list-inline-item"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 pb10 pt10">
+                <div class="copyright-widget tac-smd mt20">
+                    <p>©{{currentYear}} Portal. {{'HomeFooterRigths' | translate }}</p>
+                    <p>{{'HomeFooterDeveloped' | translate }}<a class="lnk-color-02" href="http://www.nrg-it.com/"
+                            target="_blank">
+                            nrg-it.com</a></p>
+                </div>
+            </div>
+            <div class="col-lg-2 pb10 pt10">
+                <div class="footer_menu float-right mt10">
+                    <ul>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 pb10 pt10">
+                <div class="footer_menu float-right mt10">
+                    <ul>
+                        <li class="list-inline-item"><a target="_blank" routerLink="/Terms">{{'HomeTerm' | translate
+                                }}</a></li>
+                        <li class="list-inline-item"><a target="_blank" routerLink="/Policy">{{'HomePolicy' | translate
+                                }}</a></li>
+                        <!-- <li class="list-inline-item" id="drpLang">
+                            <select [(ngModel)]="selectLang" class="selectpicker show-tick" (change)="switchLang()">
+                                <option selected value="en">English</option>
+                                <option value="ar">عربى </option>
+                            </select>
+                        </li> -->
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

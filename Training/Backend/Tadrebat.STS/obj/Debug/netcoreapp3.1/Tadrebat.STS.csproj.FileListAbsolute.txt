@@ -1,0 +1,914 @@
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\web.config
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.exe
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.deps.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.runtimeconfig.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.runtimeconfig.dev.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ar\Tadrebat.STS.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\en\Tadrebat.STS.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.Views.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.Views.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Flurl.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityModel.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityServer4.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityServer4.AspNetIdentity.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityServer4.Storage.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\itextsharp.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Serilog.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\SQL.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Cache.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Interface.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Notification.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Services.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Cache.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Interface.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Notification.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Services.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\SQL.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csprojAssemblyReference.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.ForgetPassword.ar.resources
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.ForgetPassword.en.resources
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.Login.ar.resources
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.Login.en.resources
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Shared._Layout.ar.resources
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Shared._Layout.en.resources
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.GenerateResource.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.AssemblyInfoInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.AssemblyInfo.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.CoreCompileInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.MvcApplicationPartsAssemblyInfo.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorAssemblyInfo.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorAssemblyInfo.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\ar\Tadrebat.STS.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\en\Tadrebat.STS.resources.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\staticwebassets\Tadrebat.STS.StaticWebAssets.Manifest.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\staticwebassets\Tadrebat.STS.StaticWebAssets.xml
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\scopedcss\bundle\Tadrebat.STS.styles.css
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.TagHelpers.input.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.TagHelpers.output.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorCoreGenerate.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgetPassword.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\LoggedOut.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Logout.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\SetPassword.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Consent\Index.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Consent\_ScopeListItem.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Device\Success.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Device\UserCodeCapture.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Device\UserCodeConfirmation.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Diagnostics\Index.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Grants\Index.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Redirect.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ScopeListItem.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationSummary.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorTargetAssemblyInfo.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorTargetAssemblyInfo.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Views.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.CopyComplete
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.genruntimeconfig.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Certificates\TadrebatCertificate.pfx
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\web.config
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.exe
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Certificates\TadrebatCertificate.pfx
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.deps.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.runtimeconfig.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.runtimeconfig.dev.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ar\Tadrebat.STS.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\en\Tadrebat.STS.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.Views.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.Views.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Flurl.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityModel.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityServer4.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityServer4.AspNetIdentity.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityServer4.Storage.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\itextsharp.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Serilog.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\SQL.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Cache.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Interface.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Notification.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Services.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Cache.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Interface.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Notification.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Services.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\SQL.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csprojAssemblyReference.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.ForgetPassword.ar.resources
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.ForgetPassword.en.resources
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.Login.ar.resources
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.Login.en.resources
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Shared._Layout.ar.resources
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Shared._Layout.en.resources
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.GenerateResource.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.AssemblyInfoInputs.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.AssemblyInfo.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.CoreCompileInputs.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.MvcApplicationPartsAssemblyInfo.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorAssemblyInfo.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorAssemblyInfo.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\ar\Tadrebat.STS.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\en\Tadrebat.STS.resources.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\staticwebassets\Tadrebat.STS.StaticWebAssets.Manifest.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\staticwebassets\Tadrebat.STS.StaticWebAssets.xml
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\scopedcss\bundle\Tadrebat.STS.styles.css
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.TagHelpers.input.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.TagHelpers.output.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorCoreGenerate.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgetPassword.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\LoggedOut.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Logout.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\SetPassword.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Consent\Index.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Consent\_ScopeListItem.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Device\Success.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Device\UserCodeCapture.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Device\UserCodeConfirmation.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Diagnostics\Index.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Grants\Index.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Redirect.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ScopeListItem.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationSummary.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorTargetAssemblyInfo.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorTargetAssemblyInfo.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Views.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.CopyComplete
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.genruntimeconfig.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\web.config
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.exe
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Certificates\TadrebatCertificate.pfx
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.deps.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.runtimeconfig.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.runtimeconfig.dev.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ar\Tadrebat.STS.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\en\Tadrebat.STS.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.Views.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.Views.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\AutoMapper.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Castle.Core.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\DnsClient.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Flurl.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityModel.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityServer4.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityServer4.AspNetIdentity.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityServer4.Storage.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\itextsharp.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Serilog.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\SharpCompress.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\SQL.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Cache.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Interface.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Notification.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Services.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Cache.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Interface.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Notification.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Services.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\SQL.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.ForgetPassword.ar.resources
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.ForgetPassword.en.resources
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.Login.ar.resources
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.Login.en.resources
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Shared._Layout.ar.resources
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Shared._Layout.en.resources
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.GenerateResource.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.MvcApplicationPartsAssemblyInfo.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorAssemblyInfo.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorAssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\ar\Tadrebat.STS.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\en\Tadrebat.STS.resources.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.TagHelpers.input.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.TagHelpers.output.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorCoreGenerate.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgetPassword.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\LoggedOut.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Logout.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\SetPassword.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Consent\Index.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Consent\_ScopeListItem.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Device\Success.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Device\UserCodeCapture.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Device\UserCodeConfirmation.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Diagnostics\Index.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Grants\Index.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Redirect.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ScopeListItem.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationSummary.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorTargetAssemblyInfo.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorTargetAssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Views.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.CopyComplete
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\staticwebassets\Tadrebat.STS.StaticWebAssets.Manifest.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\staticwebassets\Tadrebat.STS.StaticWebAssets.xml
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.genruntimeconfig.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\web.config
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.StaticWebAssets.xml
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.exe
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Certificates\TadrebatCertificate.pfx
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.runtimeconfig.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.runtimeconfig.dev.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ar\Tadrebat.STS.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\en\Tadrebat.STS.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.Views.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.STS.Views.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Flurl.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityModel.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityServer4.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityServer4.AspNetIdentity.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\IdentityServer4.Storage.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\itextsharp.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Serilog.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Serilog.Sinks.Console.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\SQL.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Cache.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Interface.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Notification.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Services.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Cache.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Interface.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Notification.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Services.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\SQL.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.ForgetPassword.ar.resources
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.ForgetPassword.en.resources
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.Login.ar.resources
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Account.Login.en.resources
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Shared._Layout.ar.resources
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Resources.Views.Shared._Layout.en.resources
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.GenerateResource.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorAssemblyInfo.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorAssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\ar\Tadrebat.STS.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\en\Tadrebat.STS.resources.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\staticwebassets\Tadrebat.STS.StaticWebAssets.Manifest.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.TagHelpers.input.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.TagHelpers.output.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorCoreGenerate.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\ForgetPassword.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\LoggedOut.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Logout.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Account\SetPassword.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Consent\Index.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Consent\_ScopeListItem.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Device\Success.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Device\UserCodeCapture.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Device\UserCodeConfirmation.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Diagnostics\Index.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Grants\Index.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Redirect.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ScopeListItem.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationSummary.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorTargetAssemblyInfo.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.RazorTargetAssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.Views.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.csproj.CopyComplete
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\obj\Debug\netcoreapp3.1\Tadrebat.STS.genruntimeconfig.cache

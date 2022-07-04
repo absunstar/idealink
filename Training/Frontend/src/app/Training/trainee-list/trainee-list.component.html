@@ -1,0 +1,118 @@
+<section class="my-5">
+  <div class="container ">
+    <div class='row'>
+      <h4 class="mb-4">{{'TraineePageTitle' | translate }} ({{traineelst?.length ? traineelst?.length : 0}})</h4>
+    </div>
+    <div class='row'>
+      <div class="col-sm-6 md-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>{{'TraineeSearch' | translate }}</mat-label>
+          <input type="text" placeholder="{{'TraineeSearchPH' | translate }}" matInput [(ngModel)]="filtertxt">
+        </mat-form-field>
+        <input type="submit" value="{{'GenericSearch' | translate }}" class="btn color-bg-02 white-text"
+          (click)="filterbtn()">
+      </div>
+      <div class="col-sm-6 md-form pull-right " *ngIf="compareDate(trainingObj?.StartDate , todayDateMinus2) == 1 || compareDate(trainingObj?.StartDate , todayDateMinus2) == 0">
+        <div class="pull-right ml-3">
+          <input #fileInput id="uploadTrainee" name="uploadTrainee" type="file" #fileTrainee
+            placeholder="{{'ImportTrainee' | translate }}"
+            accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+            (change)="uploadFile(fileTrainee.files)" style="display:none;">
+          <button id="btnuploadTrainee" name="btnuploadTrainee" type="button" class="btn btn-warning white-text "
+            (click)="fileTrainee.click()" [disabled]="IsTraineeUpload">{{'ImportTrainee' | translate }}<i
+            class="fa fa-spinner fa-spin" *ngIf="IsTraineeUpload"></i></button>
+
+          <input type="button" class="btn color-bg-03 white-text  " value="{{'TraineeAdd' | translate }}" [disabled]="IsTraineeUpload"
+            (click)="AddTrainee(content)">
+          <input type="button" class=" btn color-bg-01 white-text" value="{{'GenericCreateNew' | translate }}" [disabled]="IsTraineeUpload"
+            (click)="createBtn()">
+
+        </div>
+      </div>
+      <div class="col-sm-6 md-form pull-right " *ngIf="compareDate(trainingObj?.EndDate , todayDate) == -1">
+        <div class="pull-right ml-3">
+          <input type="button" class=" btn btn-warning white-text" value="{{'TrainingCourseCertificate' | translate }}"
+            (click)="DownloadCertificate()">
+            <input type="button" class="pull-right btn color-bg-02 white-text Excel"
+            value="{{'ExportToExcel' | translate }}" (click)="ExportBtn()">
+        </div>
+      </div>
+    </div>
+    <div class='row col-sm-12 text-center' *ngIf='DownloadURLError'>
+      <div class="col-sm-4 md-form text-center bgDownloadError m-auto mb-1 ">
+        <a href="{{DownloadURLError}}" target="_blank">{{'TrainingDownloadTemplateError' | translate}}</a>
+      </div>
+    </div>
+    <div class='row' *ngIf="compareDate(trainingObj?.StartDate , todayDateMinus2) == 1">
+      <div class="col-sm-12 md-form text-right mb-1">
+        <a href="{{DonwloadURL}}" target="_blank">{{'TrainingDownloadTemplate' | translate}}</a>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class='table-responsive'>
+        <table class='table' *ngIf='traineelst && traineelst?.length'>
+          <thead>
+            <tr>
+              <th>{{'GenericName' | translate }}</th>
+              <th>{{'GenericEmail' | translate }}</th>
+              <th>{{'GenericMobile' | translate }}</th>
+              <th>{{'GenericNationalID' | translate }}</th>
+              <th>{{'GenericAction' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let obj of traineelst'>
+              <td>{{obj.Name}}</td>
+              <td>{{obj.Email}}</td>
+              <td>{{obj.Mobile}}</td>
+              <td>{{obj.NationalId}}</td>
+              <td>
+                <input *ngIf=" (compareDate(trainingObj?.StartDate , todayDateMinus2) == 1 || compareDate(trainingObj?.StartDate , todayDateMinus2) == 0)" type="button"
+                  class="btn btn-danger" value="{{'GenericRemove' | translate }}" (click)="setDeactivate(obj.Id)">
+                <input *ngIf="!obj.IsApproved && (compareDate(trainingObj?.StartDate , todayDateMinus2) == 1 || compareDate(trainingObj?.StartDate , todayDateMinus2) == 0)" type="button"
+                  class="btn btn-success" value="{{'CertificateApprove' | translate }}" (click)="Approve(obj.Id)">
+                <input type="button" class="btn btn-info" value="Certificates" (click)="Certificate(obj.Id)">
+              </td>
+
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="" *ngIf="traineelst?.length == 0">
+        <div class="text-center bg-red noresult">
+          <span class="font-italic">{{'TrainingNoTraineeAdded' | translate }} </span><span>&#9785;</span>
+        </div>
+      </div>
+    </div>
+    <div>
+      <ng-template #content let-modal>
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header color-bg-01 white-text text-center">
+
+              <h6 class="modal-title">{{'TraineeAdd2' | translate }}</h6>
+            </div>
+            <div class="modal-body pt-0">
+              <div>
+                <cust-search-trainee (OnSelectedTrainee)="OnSelectedTrainee($event)"></cust-search-trainee>
+              </div>
+            </div>
+            <div class="modal-footer">
+
+              <button type="button" class="btn color-bg-02 btn-sm white-text"
+                (click)="modal.close('Close click')">{{'GenericClose' | translate }}</button>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+  <div>
+    <div class='card-footer'>
+      <button class='btn btn-outline-secondary' (click)='onBack()' style='width:80px'>
+        <i class='fa fa-chevron-left'></i> {{'GenericBack' | translate }}
+      </button>
+    </div>
+  </div>
+
+</section>

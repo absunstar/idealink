@@ -1,0 +1,229 @@
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.exe
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.deps.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.runtimeconfig.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.runtimeconfig.dev.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.csprojAssemblyReference.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.AssemblyInfoInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.AssemblyInfo.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.csproj.CoreCompileInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.csproj.CopyComplete
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.genruntimeconfig.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.exe
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.deps.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.runtimeconfig.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.runtimeconfig.dev.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.csprojAssemblyReference.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.AssemblyInfoInputs.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.AssemblyInfo.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.csproj.CoreCompileInputs.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.csproj.CopyComplete
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.genruntimeconfig.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.exe
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.deps.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.runtimeconfig.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.runtimeconfig.dev.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\DnsClient.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SharpCompress.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.csproj.CopyComplete
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.genruntimeconfig.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.exe
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.runtimeconfig.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.runtimeconfig.dev.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SampeTesting.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.csproj.CopyComplete
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SampeTesting\obj\Debug\netcoreapp3.1\SampeTesting.genruntimeconfig.cache

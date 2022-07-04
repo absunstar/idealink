@@ -1,0 +1,130 @@
+<section class="accounts">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12 col-xl-12">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 ">
+                        <h4 class="fz20">
+                            {{(modelIsCreate ? 'GenericCreate' : 'GenericEditing') | translate}} :
+                            {{modelIsCreate? ("GenericNew" | translate) : modelNameEdited}}
+                        </h4>
+                    </div>
+                    <div class="col-sm-12 col-lg-12 col-xl-12">
+                        <div class="my_profile_form_area">
+                            <form novalidate #modelForm="ngForm">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <mat-form-field class="demo-full-width">
+                                            <input matInput type="text" id="formGroupExampleInput1"
+                                                [(ngModel)]="modelObj.Name" required #modelNameVar="ngModel"
+                                                name="modelName"
+                                                [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }"
+                                                placeholder="{{'JobFairCreateName' | translate }}">
+                                            <mat-error *ngIf="modelNameVar.touched && modelNameVar.errors?.required">
+                                                {{'GenericEnterName' | translate }}</mat-error>
+                                        </mat-form-field>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <mat-form-field class="demo-full-width">
+                                            <input matInput type="text" id="formGroupExampleInput1"
+                                                [(ngModel)]="modelObj.Location" required #modelLocationVar="ngModel"
+                                                name="modelLocation"
+                                                [ngClass]="{'is-invalid': (modelLocationVar.touched || modelLocationVar.dirty) && !modelLocationVar.valid }"
+                                                placeholder="{{'JobFairCreateLocation' | translate }}">
+                                            <mat-error
+                                                *ngIf="modelLocationVar.touched && modelLocationVar.errors?.required">
+                                                {{'JobFairCreateLocationError' | translate }}</mat-error>
+                                        </mat-form-field>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <mat-form-field class="demo-full-width">
+                                            <input matInput type="text" id="formGroupExampleInput1"
+                                                [(ngModel)]="modelObj.Field" required #modelFieldVar="ngModel"
+                                                name="modelField"
+                                                [ngClass]="{'is-invalid': (modelFieldVar.touched || modelFieldVar.dirty) && !modelFieldVar.valid }"
+                                                placeholder="{{'JobFairCreateField' | translate }}">
+                                            <mat-error *ngIf="modelFieldVar.touched && modelFieldVar.errors?.required">
+                                                {{'JobFairCreateFieldError' | translate }}</mat-error>
+                                        </mat-form-field>
+                                    </div>
+                                    <div class="col-lg-6 ">
+                                        <div class="my_profile_input form-group">
+                                            <!-- <label class=""
+                                                    for="formGroupExampleInput1">{{'JobFairListEventDate' | translate }}*</label> -->
+                                            <div class="input-group ZeroBoxShadow w-85">
+                                                <input placeholder="{{'JobFairListEventDate' | translate }}" readonly
+                                                    class="form-control w-85  ZeroBoxShadow" name="dp"
+                                                    [minDate]="dateToday" (dateSelect)="onDateSelect($event)"
+                                                    [(ngModel)]="modelEventDate" ngbDatepicker #d="ngbDatepicker"
+                                                    required #modelDateVar="ngModel"
+                                                    [ngClass]="{'is-invalid': (modelDateVar.touched || modelDateVar.dirty) && !modelDateVar.valid }">
+                                                <div class="d-inline-flex calenderHeight">
+                                                    <button class="btn calcender" (click)="d.toggle()" type="button"><i
+                                                            class="fa fa-calendar" aria-hidden="true"></i></button>
+                                                </div>
+                                            </div>
+                                            <div class="valError"
+                                                *ngIf="modelDateVar.touched && modelDateVar.errors?.required">
+                                                {{'JobFairCreateEvnentDateError' | translate }}</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="my_profile_input form-group">
+                                            <span class="pr-3">{{'TrainingIsOnline' | translate }}:</span>
+                                            <input type="radio" [checked]="modelObj.IsOnline" name="TrainingIsOnline"
+                                                (change)="onLocationChange($event,'1')"
+                                                class="mr-2" />{{'TrainingOnline' |
+                                            translate }}
+                                            <input type="radio" [checked]="!modelObj.IsOnline" name="TrainingIsOnline"
+                                                (change)="onLocationChange($event,'0')"
+                                                class="mr-2 ml-4" />{{'TrainingOffline' | translate }}
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="my_resume_textarea">
+                                            <div class="form-group">
+                                                <label for="exampleFormControlTextarea1">{{'JobFairCreateDesc' |
+                                                    translate }}*</label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="9"
+                                                    [(ngModel)]="modelObj.ShortDescription" required
+                                                    #modelDescription="ngModel" name="modelDescription"
+                                                    [ngClass]="{'is-invalid': (modelDescription.touched || modelDescription.dirty) && !modelDescription.valid }"></textarea>
+                                                <div class="valErrorTextArea"
+                                                    *ngIf="modelDescription.touched && modelDescription.errors?.required">
+                                                    {{'JobFairCreateLocationError' | translate }}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xl-12 col-lg-12 col-sm-12 d-inline-flex">
+                                        <dynamic-form [fields]="regConfig"></dynamic-form>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-sm-12 d-inline-flex">
+                                        <div class="col-md-6 col-lg-6">
+                                            <div class="my_profile_input">
+                                                <button class="btn btn-lg w-75 btn-thm" (click)="Save(modelForm)"
+                                                    [title]="(modelForm.valid  && form?.valid ) ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                                                    [disabled]="!(modelForm.valid && form?.valid)">{{'GenericSave' |
+                                                    translate }}
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-6">
+                                            <div class="my_profile_input">
+                                                <button class="btn btn-lg w-75 btn-transparent"
+                                                    routerLink="/JobFair/List">{{'GenericCancel' | translate }}</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12 col-lg-12 col-sm-12 d-inline-flex mt-3 ">
+                                        <h4 class="mat-hint text-center m-auto">{{'JobFiarNote' | translate }}</h4>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

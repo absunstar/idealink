@@ -1,0 +1,54 @@
+<link rel="stylesheet" href="/assets/css/custom.css" *ngIf="cssExt != 'ar'"/>
+<link rel="stylesheet" href="/assets/css/style.css" *ngIf="cssExt != 'ar'"/> 
+
+<link rel="stylesheet" href="/assets/css/customAR.css" *ngIf="cssExt == 'ar'"/>
+<link rel="stylesheet" href="/assets/css/styleAR.css" *ngIf="cssExt == 'ar'"/> 
+
+
+<div class="fullscreen" *ngIf="IsAppear">
+
+</div>
+<app-header></app-header>
+<nav>
+    <!-- <mat-toolbar color="primary">
+        <a href="/">
+            <span>
+                <img src="/assets/images/Globo_logo.png" alt="Globomantics" title="Globomantics" class="globo-logo">
+            </span>
+        </a>
+        <span class="navbar-fill">
+            <div *ngIf="isLoggedIn">
+                <button *ngIf="isAdmin" mat-button routerLink="/DataManagement/TrainingType">Training Type</button>
+                <button *ngIf="isAdmin" mat-button routerLink="/DataManagement/TrainingCategory">Training
+                    Category</button>
+                <button *ngIf="isAdmin" mat-button routerLink="/DataManagement/City">City</button>
+                <button *ngIf="isAdmin" mat-button routerLink="/DataManagement/NGOType">NGO Type</button>
+                <button *ngIf="isAdmin || isPartner" mat-button routerLink="/EntityManagement/Partner">Partner</button>
+                <button *ngIf="isAdmin || isPartner" mat-button routerLink="/EntityManagement/SubPartner">Sub
+                    Partner</button>
+                <button *ngIf="isAdmin || isPartner" mat-button routerLink="/Account/Account">Accounts</button>
+                <button mat-button routerLink="/Test/Test">Test</button>
+            </div>
+        </span>
+        <span>
+            
+        </span>
+    </mat-toolbar> -->
+</nav>
+<main>
+   
+    <div  *ngIf="isLoggedInMYadd"> 
+        <div *ngIf="!isLoggedIn && !isCurrentPageHome" class="ScreenLock bubbleContainer">
+            <div class="messageBubble ssfLocationPopup">
+                <div class="messageContainer">
+                    <p>{{'SessionExpored' | translate }}</p>
+                    <p>{{'LoginFirst' | translate }}</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    <router-outlet></router-outlet>
+</main>
+
+<app-footer></app-footer>
+

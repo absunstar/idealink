@@ -1,0 +1,161 @@
+import { Component, OnInit } from '@angular/core';
+import { cExamTemplateList, cExamTemplateItem } from 'src/app/interface/Response/ExamTemplate.class';
+import { ShowMessage } from 'src/app/interface/Model/ModelShowMessage.class';
+import { Page } from 'src/app/common/pagination/page';
+import { ServiceDataManagement } from 'src/app/services/datamanagement.service';
+import { CustomPaginationService } from 'src/app/common/pagination/services/custom-pagination.service';
+import { ServiceShowMessage } from 'src/app/services/show-message.service';
+import { Router } from '@angular/router';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { NgForm } from '@angular/forms';
+import { ServiceExamTemplate } from 'src/app/services/exam-template.service';
+import { ModelExamTempate } from 'src/app/interface/Model/ModelExamTemplate.class';
+import { baseComponent } from 'src/app/interface/baseComponent.class';
+import { ServiceLoginUser } from 'src/app/services/loginuser.service';
+import { TranslateService } from '@ngx-translate/core';
+
+@Component({
+  selector: 'app-templates',
+  templateUrl: './templates.component.html',
+  styleUrls: ['./templates.component.css']
+})
+export class TemplatesComponent extends baseComponent implements OnInit {
+
+  pageTitle: string = 'Exam Template';
+  lstExamTemplate: cExamTemplateList;
+  message: ShowMessage = new ShowMessage();
+  filtertxt: string = '';
+  modelName: string = '';
+  modelId: string = '';
+  modelNameEdited: string = '';
+  modelObj: ModelExamTempate = new ModelExamTempate();
+  msgExamTemplate100:string;
+
+  page: Page<cExamTemplateItem> = new Page();
+
+  constructor(private BLServiceExamTemplate: ServiceExamTemplate,
+    private paginationService: CustomPaginationService,
+    BLServiceShowMessage: ServiceShowMessage,
+    BLServiceLoginUser: ServiceLoginUser,BLTranslate: TranslateService,
+    private router: Router,
+    private modalService: NgbModal) { super(BLServiceShowMessage, BLServiceLoginUser, BLTranslate);}
+
+  ngOnInit() {
+    this.BLTranslate.get("msgExamTemplate100").subscribe(res => { this.msgExamTemplate100 = res; });
+    this.loadData();
+  }
+  private loadData(): void {
+    this.BLServiceExamTemplate.getExamTemplateAll(this.page.pageable.pageCurrent, this.filtertxt).subscribe({
+      next: lst => {
+        this.lstExamTemplate = lst;
+        this.page.pageable.pageSize = lst.pageSize;
+        this.page.totalElements = lst.totalCount;
+        this.page.content = lst.lstResult;
+      },
+      error: err => this.message.Error(err)
+    });
+  }
+  public getNextPage(): void {
+    this.page.pageable = this.paginationService.getNextPage(this.page);
+    this.loadData();
+  }
+
+  public getPreviousPage(): void {
+    this.page.pageable = this.paginationService.getPreviousPage(this.page);
+    this.loadData();
+  }
+  public getloadPageCurrent(): void {
+    this.loadData();
+  }
+  setActivate(Id: string): void {
+    if (!confirm(this.msgsetActivate))
+      return;
+
+    this.BLServiceExamTemplate.setExamTemplateActivate(Id).subscribe({
+      next: response => {
+
+        this.message.Success(this.msgActivatedSuccessfully);
+        this.BLServiceShowMessage.sendMessage(this.message);
+        this.loadData();
+      },
+      error: err => this.message.Error(err)
+    });
+  }
+  setDeactivate(Id: string): void {
+    if (!confirm(this.msgsetDeactivate))
+      return;
+
+    this.BLServiceExamTemplate.setExamTemplateDeactivate(Id).subscribe({
+      next: response => {
+        this.message.Success(this.msgDeactivatedSuccessfully);
+        this.BLServiceShowMessage.sendMessage(this.message);
+        this.loadData();
+      },
+      error: err => this.message.Error(err)
+    });
+  }
+  filterbtn(): void {
+    this.page.pageable.pageCurrent = 1;
+    this.loadData();
+  }
+  createBtn(content): void {
+    this.modelId = "-1";
+    this.modelName = "";
+    this.modelNameEdited = "";
+    this.modelObj = new ModelExamTempate();
+    this.modalService.open(content, { backdropClass: 'light-blue-backdrop', centered: true });
+  }
+  modelSaveBtn(modelForm: NgForm): void {
+    if (!modelForm.valid)
+      return;
+
+    var sum = this.modelObj.Easy + this.modelObj.Medium + this.modelObj.Hard
+    if (sum != 100) {
+      this.message.Error(this.msgExamTemplate100);
+      this.BLServiceShowMessage.sendMessage(this.message);
+      return;
+    }
+    
+    if (this.modelId == "-1") {
+      this.BLServiceExamTemplate.createExamTemplate(this.modelObj).subscribe({
+        next: response => {
+          this.message.Success(this.msgSavedSuccessfully);
+          this.BLServiceShowMessage.sendMessage(this.message);
+          this.loadData();
+          this.modalService.dismissAll();
+        },
+        error: err => this.message.Error(err)
+      });
+    }
+    else {
+      this.BLServiceExamTemplate.updateExamTemplate(this.modelObj).subscribe({
+        next: response => {
+          this.message.Success(this.msgSavedSuccessfully);
+          this.BLServiceShowMessage.sendMessage(this.message);
+          this.loadData();
+          this.modalService.dismissAll();
+        },
+        error: err => this.message.Error(err)
+      });
+    }
+  }
+  openBackDropCustomClass(content, obj: cExamTemplateItem) {
+    this.modelId = obj._id;
+    this.modelName = obj.Name;
+    this.modelNameEdited = obj.Name;
+
+    this.modelObj = new ModelExamTempate();
+    this.modelObj.Id = obj._id;
+    this.modelObj.Name = obj.Name;
+    this.modelObj.Easy = obj.Easy;
+    this.modelObj.Medium = obj.Medium;
+    this.modelObj.Hard = obj.Hard;
+
+    this.modalService.open(content, { backdropClass: 'light-blue-backdrop', centered: true });
+  }
+  // Areas(Id: string) {
+  //   this.router.navigate(['/DataManagement/Area/' + Id]);
+  // }
+
+
+}

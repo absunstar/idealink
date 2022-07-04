@@ -1,0 +1,69 @@
+<section class="accounts">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12 col-xl-12">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 ">
+                        <h4 class="fz20">{{'StatisticsPageTitleJobSeekerPerJob' | translate }}</h4>
+                    </div>
+                    <div class="col-md-5 col-lg-5 ">
+                        <div class="input-group">
+                            <input matInput class="form-control" placeholder="{{'SeekerResumeStartDate' | translate }}"
+                                readonly name="dps" requried (dateSelect)="onStartDateSelect($event)"
+                                [(ngModel)]="modelStartDate" ngbDatepicker #ds="ngbDatepicker" [maxDate]="dateToday">
+                            <div class="input-group-append">
+                                <button class="btn calcender" (click)="ds.toggle()" type="button"><i
+                                        class="fa fa-calendar" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-5 ">
+                        <div class="input-group">
+                            <input matInput class="form-control" placeholder="{{'SeekerResumeEndDate' | translate }}"
+                                readonly name="dpe" requried (dateSelect)="onEndDateSelect($event)"
+                                [(ngModel)]="modelEndDate" ngbDatepicker #de="ngbDatepicker">
+                            <div class="input-group-append">
+                                <button class="btn calcender" (click)="de.toggle()" type="button"><i
+                                        class="fa fa-calendar" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <mat-error class="matError" *ngIf="!IsDatesCorrect">{{'SeekerResumeDateError' |
+                            translate }}
+                        </mat-error>
+                    </div>
+                    <div class="col-md-2 col-lg-2 ">
+                        <input type="submit" value="{{'GenericSubmit' | translate }}" class="btn btn-thm" (click)="Search()">
+                    </div>
+                    <div class="col-md-12 col-lg-12 mt-4">
+                        <div class="ui_kit_table">
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col">{{'GenericJobTitle' | translate }}</th>
+                                        <th scope="col">{{'StatsCount' | translate }}</th>
+                                        <th scope="col">{{'GenericAction' | translate }}</th>
+                                    </tr>
+                                </thead>
+                                <tbody *ngIf='lstResult && lstResult.length > 0'>
+                                    <tr *ngFor='let obj of lstResult'>
+                                        <td>{{ obj.JobName}} </td>
+                                        <td>{{ obj.Count}}</td>
+                                        <td><a
+                                            [routerLink]="['/Employer/AppliedResume/' + obj.JobId]" routerLinkActive="router-link-active"  data-toggle="tooltip"
+                                            data-placement="bottom" title="Resume"><span
+                                                class="flaticon-manager"></span></a></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 mt-4" *ngIf="lstResult?.length  == 0">
+                        <div class="text-center bg-red noresult">
+                            <span class="font-italic">{{'PageNoResult' | translate }} </span><span>&#9785;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,19 @@
+<div class="user_profile">
+    <div class="media">
+        <img src="/assets/images/team/e1.png" class="align-self-start mr-3 rounded-circle" alt="e1.png">
+        <div class="media-body">
+            <h5 class="mt-0">{{'HomeHi' | translate }} {{userName}}</h5>
+            <!-- <p>Bothell, WA, USA</p> -->
+        </div>
+    </div>
+</div>
+<div class="dashbord_nav_list">
+    <ul>
+        <!-- <li class="{{pageName.toLocaleLowerCase() == 'dashboard' ? 'active' : ''}}"><a routerLink="/Employer/Dashboard"><span class="flaticon-dashboard"></span>Dashboard</a></li> -->
+        <li class="{{pageName.toLocaleLowerCase() == 'managemyjobs' ? 'active' : ''}}"><a routerLink="/Employer/ManageMyJobs"><span class="flaticon-paper-plane"></span>{{'EmployerDashboardManageJobs' | translate }}</a></li>
+        <li class="{{pageName.toLocaleLowerCase() == 'postjob' ? 'active' : ''}}"><a routerLink="/Employer/PostJob"><span class="flaticon-resume"></span>{{'EmployerDashboardNewJob' | translate }}</a></li>
+        <li class="{{pageName.toLocaleLowerCase() == 'managecompany' ? 'active' : ''}}"><a routerLink="/Employer/ManageMyCompanies"><span class="flaticon-analysis"></span>{{'EmployerDashboardManageCompanies' | translate }}</a></li>
+        <li class="{{pageName.toLocaleLowerCase() == 'profile' ? 'active' : ''}}"><a routerLink="/Employer/Profile"><span class="flaticon-profile"></span>{{'EmployerDashboardAddCompany' | translate }}</a></li>
+        <li class="{{pageName.toLocaleLowerCase() == 'shortlist' ? 'active' : ''}}"><a routerLink="/Employer/ShortListResumes"><span class="flaticon-favorites"></span> {{'EmployerDashboardShortlistedResumes' | translate }}</a></li>
+    </ul>
+</div>

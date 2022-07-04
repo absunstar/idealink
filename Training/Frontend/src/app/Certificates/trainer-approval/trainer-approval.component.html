@@ -1,0 +1,41 @@
+<section class="my-5">
+    <div class="container">
+      <div class='row'>
+        <h4 class="mb-4">{{'CertificateCertificateApproval' | translate }} </h4>
+      </div>
+      <div class="col-md-12">
+        <div class='table-responsive'>
+          <table class='table' *ngIf='page.content && page.content.length'>
+            <thead>
+              <tr>
+                <th>{{'GenericTrainer' | translate }}</th>
+                <th>{{'GenericPartner' | translate }}</th>
+                <th>{{'GenericTrainingType' | translate }}</th>
+                <th>{{'GenericTrainingCategory' | translate }}</th>
+                <th>{{'CertificateExamCount' | translate }}</th>
+                <th>{{'GenericAction' | translate }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor='let obj of page.content'>
+                <td>{{ obj.TrainerName}}</td>
+                <td>{{ obj.PartnerName}}</td>
+                <td>{{ obj.TrainingTypeName}}</td>
+                <td>{{ obj.TrainingCategoryName}}</td>
+                <td>{{obj.ExamCount}}</td>
+                <td>
+                  <input type="button" class="btn btn-success" value="{{'CertificateApprove' | translate }}"
+                  (click)="Approve(obj)">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()" (previousPageEvent)="getPreviousPage()"
+          (loadPageCurrentEvent)="getloadPageCurrent()">
+        </app-custom-pagination>
+      </div>
+  
+  

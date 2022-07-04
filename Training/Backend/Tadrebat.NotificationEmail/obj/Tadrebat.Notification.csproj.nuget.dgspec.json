@@ -1,0 +1,399 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.NotificationEmail\\Tadrebat.Notification.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Cache\\Tadrebat.Cache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Cache\\Tadrebat.Cache.csproj",
+        "projectName": "Tadrebat.Cache",
+        "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Cache\\Tadrebat.Cache.csproj",
+        "packagesPath": "C:\\Users\\absunstar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Cache\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\absunstar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Interface\\Tadrebat.Interface.csproj": {
+                "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Interface\\Tadrebat.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Entity\\Tadrebat.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Entity\\Tadrebat.Entity.csproj",
+        "projectName": "Tadrebat.Entity",
+        "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Entity\\Tadrebat.Entity.csproj",
+        "packagesPath": "C:\\Users\\absunstar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\absunstar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Enum\\Tadrebat.Enum.csproj": {
+                "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Enum\\Tadrebat.Enum.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Enum\\Tadrebat.Enum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Enum\\Tadrebat.Enum.csproj",
+        "projectName": "Tadrebat.Enum",
+        "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Enum\\Tadrebat.Enum.csproj",
+        "packagesPath": "C:\\Users\\absunstar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Enum\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\absunstar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Interface\\Tadrebat.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Interface\\Tadrebat.Interface.csproj",
+        "projectName": "Tadrebat.Interface",
+        "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Interface\\Tadrebat.Interface.csproj",
+        "packagesPath": "C:\\Users\\absunstar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\absunstar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Entity\\Tadrebat.Entity.csproj": {
+                "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Entity\\Tadrebat.Entity.csproj"
+              },
+              "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Enum\\Tadrebat.Enum.csproj": {
+                "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Enum\\Tadrebat.Enum.csproj"
+              },
+              "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.ModelsGlobal\\Tadrebat.ModelsGlobal.csproj": {
+                "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.ModelsGlobal\\Tadrebat.ModelsGlobal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.ModelsGlobal\\Tadrebat.ModelsGlobal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.ModelsGlobal\\Tadrebat.ModelsGlobal.csproj",
+        "projectName": "Tadrebat.ModelsGlobal",
+        "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.ModelsGlobal\\Tadrebat.ModelsGlobal.csproj",
+        "packagesPath": "C:\\Users\\absunstar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.ModelsGlobal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\absunstar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "IdentityServer4.AspNetIdentity": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.NotificationEmail\\Tadrebat.Notification.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.NotificationEmail\\Tadrebat.Notification.csproj",
+        "projectName": "Tadrebat.Notification",
+        "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.NotificationEmail\\Tadrebat.Notification.csproj",
+        "packagesPath": "C:\\Users\\absunstar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.NotificationEmail\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\absunstar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Cache\\Tadrebat.Cache.csproj": {
+                "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Cache\\Tadrebat.Cache.csproj"
+              },
+              "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Interface\\Tadrebat.Interface.csproj": {
+                "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Training\\Backend\\Tadrebat.Interface\\Tadrebat.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Flurl": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

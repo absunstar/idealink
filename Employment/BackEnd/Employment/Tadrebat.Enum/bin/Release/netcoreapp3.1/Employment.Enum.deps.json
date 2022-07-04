@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Employment.Enum/1.0.0": {
+        "dependencies": {
+          "SymSpell": "6.7.1"
+        },
+        "runtime": {
+          "Employment.Enum.dll": {}
+        }
+      },
+      "SymSpell/6.7.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/SymSpell.dll": {
+            "assemblyVersion": "6.7.1.0",
+            "fileVersion": "6.7.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Employment.Enum/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SymSpell/6.7.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-NT7jMkd9Oq+r4Wq/Y/PnfEFNvxM/PTeI7dkd7XDvwd5UddlNRL9J8PFL8/2FntA2OnJ6+YknDVP3f0LyoTHBZg==",
+      "path": "symspell/6.7.1",
+      "hashPath": "symspell.6.7.1.nupkg.sha512"
+    }
+  }
+}

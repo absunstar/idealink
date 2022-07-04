@@ -1,0 +1,107 @@
+<section class="my-5">
+  <div class="container">
+    <div class='row'>
+      <h4 class="mb-4">{{pageTitle}}</h4>
+    </div>
+    <div class='row'>
+      <div class="col-sm-6 md-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>Search for Training Center</mat-label>
+          <input type="text" placeholder="Type Training Center Name" matInput [(ngModel)]="filtertxt">
+        </mat-form-field>
+        <input type="submit" class="btn color-bg-02 white-text">
+      </div>
+      <div class="col-sm-6 md-form pull-right">
+        <input type="button" class="pull-right btn color-bg-01 white-text" value="{{'GenericCreateNew' | translate }}"
+          (click)="createBtn(content)">
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class='table-responsive'>
+        <table class='table' *ngIf='lstEntityTrainingCenterfilter && lstEntityTrainingCenterfilter.length'>
+          <thead>
+            <tr>
+              <th>{{'GenericName' | translate }}</th>
+              <th>Phone</th>
+              <th>{{'GenericAction' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr
+              *ngFor='let obj of lstEntityTrainingCenterfilter| slice: (page.pageable.pageCurrent-1) * page.pageable.pageSize : (page.pageable.pageCurrent-1) * page.pageable.pageSize + page.pageable.pageSize'>
+              <td>{{ obj.Name}}</td>
+              <td>{{ obj.Phone}}</td>
+              <td>
+                <input *ngIf="obj.IsActive" type="button" class="btn btn-primary" value="{{'GenericEdit' | translate }}"
+                  (click)="openBackDropCustomClass(content,obj)">
+                <input *ngIf="!obj.IsActive" type="button" class="btn btn-success" value="{{'GenericActivate' | translate }}"
+                  (click)="setActivate(obj.Id)">
+                <input *ngIf="obj.IsActive" type="button" class="btn btn-danger" value="{{'GenericDeactivate' | translate }}"
+                  (click)="setDeActivate(obj.Id)">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <app-custom-pagination [page]="page">
+      </app-custom-pagination>
+    </div>
+  </div>
+  <div>
+    <div class='card-footer'>
+      <button class='btn btn-outline-secondary' (click)='onBack()' style='width:80px'>
+        <i class='fa fa-chevron-left'></i> {{'GenericBack' | translate }}
+      </button>
+    </div>
+  </div>
+
+  <div>
+    <ng-template role="dialog" #content let-modal class="modal fade">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header color-bg-01 white-text text-center">
+
+            <h6 class="modal-title">
+              {{modelIsCreate  ? "Create" : "Editing"}}: {{modelNameEdited}}</h6>
+          </div>
+          <div class="modal-body pt-0">
+            <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+              <div class="form-group ">
+                <mat-form-field class="example-full-width">
+                  <mat-label>Training Center Name</mat-label>
+                  <input matInput id="modelNameId" type="text" placeholder="{{'GenericRequiredName' | translate }}" required
+                    [(ngModel)]="modelObj.Name" #modelNameVar="ngModel" name="modelName"
+                    [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }" />
+                  <mat-error *ngIf="modelNameVar.errors?.required">Please enter Training Center Name.</mat-error>
+                </mat-form-field>
+              </div>
+              <div class="form-group ">
+                <mat-form-field class="example-full-width">
+                  <mat-label>Phone</mat-label>
+                  <input matInput id="modelPhoneId" type="number" placeholder="Phone (required)" required
+                    [(ngModel)]="modelObj.Phone" #modelPhoneVar="ngModel" name="modelPhone"
+                    [ngClass]="{'is-invalid': (modelPhoneVar.touched || modelPhoneVar.dirty) && !modelPhoneVar.valid }" />
+                  <mat-error *ngIf="modelPhoneVar.errors?.required">Please enter a Phone Number.</mat-error>
+                </mat-form-field>
+              </div>
+              <div class="form-group pull-right md-form">
+                <button class="btn color-bg-01 btn-sm white-text" type="submit"
+                  [title]="modelForm.valid ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                  [disabled]="!modelForm.valid">{{'GenericSave' | translate }}</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+
+            <button type="button" class="btn color-bg-02 btn-sm white-text"
+              (click)="modal.close()">{{'GenericClose' | translate }}</button>
+          </div>
+
+
+        </div>
+      </div>
+      </ng-template>
+  </div>
+</section>

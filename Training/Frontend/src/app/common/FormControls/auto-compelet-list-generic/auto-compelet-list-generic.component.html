@@ -1,0 +1,17 @@
+<div class="form-group">
+    <input [(ngModel)]="search" typeaheadOptionField="Name" [typeahead]="lstTrainingCenters"
+        [typeaheadItemTemplate]="customItemTemplate" class="form-control" placeholder="{{'FromsControlSearch' | translate }}"
+        [typeaheadMinLength]="3" [isAnimated]="true" (typeaheadOnSelect)="onSelect($event)" (typeaheadNoResults)="typeaheadNoResults($event)"
+        (typeaheadLoading)="changeTypeaheadLoading($event)">
+
+    <div class="alert alert-danger" role="alert" *ngIf="errorMessage">
+        {{ errorMessage }}
+    </div>
+    <ng-template #customItemTemplate let-model="item">
+        <span>{{model.Name}}</span>
+    </ng-template>
+    <div *ngIf="typeaheadLoading">
+        <app-atom-spinner [animationDuration]="1000" [size]="60" [color]="'#ff1d5e'"></app-atom-spinner>
+    </div>
+    <div class="alert alert-danger" *ngIf="noResult">{{'PageNoResult' | translate }}</div>
+</div>

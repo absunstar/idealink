@@ -1,0 +1,58 @@
+<section class="accounts">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-12 col-xl-12">
+          <div class="row">
+            <div class="col-md-12 col-lg-12 ">
+              <h4 class="fz20">{{'HomeCompanyApproval' | translate }}</h4>
+            </div>
+            <div class="col-md-6 col-lg-6 ">
+                <mat-form-field class="w-75">
+                    <mat-label>{{'ApprovalCompanySearchFor' | translate }}</mat-label>
+                    <input type="text" placeholder="{{'ApprovalCompanySearch' | translate }}" matInput
+                        [(ngModel)]="filtertxt">
+                </mat-form-field>
+                <input type="submit" value="{{'GenericSubmit' | translate }}" class="btn btn-thm" (click)="filterbtn()">
+            </div>
+            
+            <div class="col-md-12 col-lg-12">
+              <div class="ui_kit_table">
+                <table class="table">
+                  <thead class="thead-light">
+                    <tr>
+                      <th scope="col">{{'GenericCompanyName' | translate }}</th>
+                      <th scope="col">{{'DataIndustry' | translate }}</th>
+                      <th scope="col">{{'DataCountry' | translate }}</th>
+                      <th scope="col">{{'DataCity' | translate }}</th>
+                      <th scope="col">{{'GenericAction' | translate }}</th>
+                    </tr>
+                  </thead>
+                  <tbody *ngIf='page.content && page.content.length'>
+                    <tr *ngFor='let obj of page.content'>
+                      <td>{{ obj.Name}} </td>
+                      <td>{{ obj.Industry.Name}}</td>
+                      <td>{{ obj.Country.Name}}</td>
+                      <td>{{ obj.City.Name}}</td>
+                      <td>
+                        <input type="button" class="btn btn-primary" value="{{'GenericApprove' | translate }}"
+                          (click)="Approve(obj._id)">
+                        <input type="button" class="btn btn-danger" value="{{'GenericReject' | translate }}"
+                          (click)="Reject(obj._id)">
+                          <input type="button" class="btn btn-warning" value="{{'GenericView' | translate }}"
+                          (click)="View(obj._id)">
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-12">
+              <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()" (previousPageEvent)="getPreviousPage()"
+                (loadPageCurrentEvent)="getloadPageCurrent()">
+              </app-custom-pagination>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,69 @@
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.deps.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.runtimeconfig.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.runtimeconfig.dev.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.csprojAssemblyReference.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.AssemblyInfoInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.AssemblyInfo.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.csproj.CoreCompileInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.csproj.CopyComplete
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.genruntimeconfig.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.deps.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.runtimeconfig.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.runtimeconfig.dev.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.csprojAssemblyReference.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.AssemblyInfoInputs.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.AssemblyInfo.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.csproj.CoreCompileInputs.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.csproj.CopyComplete
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.genruntimeconfig.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.deps.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.runtimeconfig.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.runtimeconfig.dev.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.csproj.CopyComplete
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.genruntimeconfig.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.runtimeconfig.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.runtimeconfig.dev.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Persistance.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.csproj.CopyComplete
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Persistance\obj\Debug\netcoreapp3.1\Tadrebat.Persistance.genruntimeconfig.cache

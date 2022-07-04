@@ -1,0 +1,49 @@
+<section class="our-dashbord dashbord">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-xl-3 dn-smd">
+                <app-job-seeker-menu [pageName]="'approve'"></app-job-seeker-menu>
+            </div>
+            <div class="col-sm-12 col-lg-8 col-xl-9">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h4 class="fz20">{{'SeekerApprovalPageTitle' | translate }}</h4>
+                    </div>
+                    <div class="col-md-12 col-lg-12">
+                        <div class="ui_kit_table">
+                          <table class="table">
+                            <thead class="thead-light">
+                              <tr>
+                                <th scope="col">{{'GenericCompanyName' | translate }}</th>
+                                <th scope="col">{{'SeekerApprovalDate' | translate }}</th>
+                                <th scope="col">{{'GenericAction' | translate }}</th>
+                              </tr>
+                            </thead>
+                            <tbody *ngIf='page.content && page.content.length'>
+                              <tr *ngFor='let obj of page.content'>
+                                <td>{{ obj.CompanyName}} </td>
+                                <td>{{ obj.CreatedAt | date:"dd/MM/yyyy"}}</td>
+                                <td>
+                                  <input type="button" class="btn btn-primary" value="{{'GenericApprove' | translate }}"
+                                    (click)="Approve(obj.EmployerId)" *ngIf="obj.IsApproved == -1">
+                                  <input type="button" class="btn btn-danger" value="{{'GenericReject' | translate }}"
+                                    (click)="Reject(obj.EmployerId)" *ngIf="obj.IsApproved == -1">
+                                    <input type="button" class="btn btn-warning" value="{{'GenericView' | translate }}"
+                                    (click)="View(obj.CompanyId)">
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-12 col-lg-12">
+                    <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()" (previousPageEvent)="getPreviousPage()"
+                      (loadPageCurrentEvent)="getloadPageCurrent()">
+                    </app-custom-pagination>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+</section>

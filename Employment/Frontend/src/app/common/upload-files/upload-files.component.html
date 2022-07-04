@@ -1,0 +1,14 @@
+<div>
+  <ngx-file-drop *ngIf="IsDropZone" dropZoneLabel="Drop files here" (onFileDrop)="dropped($event)"
+    [accept]="acceptExtensions">
+    
+    <ng-template ngx-file-drop-content-tmp let-openFileSelector="openFileSelector">
+      Drop Files Here
+      <a (click)="openFileSelector()"><img src="/assets/images/resource/upload.png"></a>
+    </ng-template>
+  </ngx-file-drop>
+  <span class="upladfilename">{{OrgFileName}}</span> <a *ngIf="OrgFileName" (click)="removeFile()" data-toggle="tooltip"
+  data-placement="bottom" title="Deactivate"><span class="flaticon-rubbish-bin"></span></a>
+ 
+ 
+</div>

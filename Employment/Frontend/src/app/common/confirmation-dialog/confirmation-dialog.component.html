@@ -1,0 +1,12 @@
+<div class="">
+    <div class="confirmMessage text-center">
+        <p><i class="fa fa-info-circle"></i> </p>
+        <h5 class="txt-color-red">{{'ConfigMSGAlert' | translate }}</h5>
+        {{ message }}
+
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-primary" (click)="accept()">{{'ConfigMSGbtnOkText' | translate }}</button>
+        <button type="button" class="btn btn-danger" (click)="decline()">{{'ConfigMSGbtnCancelText' | translate }}</button>
+    </div>
+</div>

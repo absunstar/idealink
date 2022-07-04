@@ -1,0 +1,520 @@
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+@import "~ng-pick-datetime/assets/style/picker.min.css";
+//@import "~owl-ng/assets/style/theme.min.css";
+
+$color-red: rgb(199, 0, 57);
+$color-green: rgb(113, 191, 70);
+$color-blue: rgb(72, 95, 171);
+$color-orange: rgb(236, 141, 38);
+$color-purple-light: rgb(134, 97, 197);
+$color-purple-dark: rgb(59, 46, 88);
+$color-lavender: rgb(230, 230, 250);
+$color-darkSalateGray: rgb(47, 79, 79);
+.snackbar-success {
+  background: $color-green;
+  text-align: left;
+}
+.snackbar-error {
+  background: $color-red;
+  text-align: left;
+}
+
+.close {
+  color: #fff;
+}
+.mat-form-field {
+  width: 80%;
+  padding-right: 10px;
+}
+@media (min-width: 992px) {
+  .modal-lg,
+  .modal-xl {
+    margin: 0px;
+  }
+}
+.table {
+  color: $color-darkSalateGray;
+}
+.mat-tab-body.mat-tab-body-active {
+  min-height: 200px;
+}
+.componentWraper {
+  margin: 40px; /* just for contrast */
+  position: relative;
+  border: 2px solid $color-orange;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.componentWraper .componentTitle {
+  position: absolute;
+  top: -25px;
+  background: #fff;
+  padding: 0 10px;
+}
+
+.cdk-global-overlay-wrapper,
+.cdk-overlay-container {
+  z-index: 99999 !important;
+}
+.mat-radio-button ~ .mat-radio-button,
+.mat-radio-button {
+  margin-left: 16px;
+}
+.mat-hint {
+  color: $color-orange !important;
+  font-size: 12px;
+}
+.matHintTraining{
+  margin-top: -20px;
+  display: block;
+  margin-bottom: 10px;
+  width: 80%;
+}
+.fa-calendar {
+  font-size: 15px;
+}
+
+.modal-dialog-centered {
+  margin: auto;
+}
+.fa-check {
+  color: $color-green;
+}
+.fa-times {
+  color: $color-red;
+  font-size: 25px;
+  padding-right: 10px;
+}
+.fa-minus {
+  color: $color-purple-light;
+  font-size: 25px;
+  padding-right: 10px;
+}
+.fa-edit,
+.fa-eye {
+  font-size: 25px;
+  padding-right: 10px;
+  color: $color-blue;
+}
+.fa-diagnoses {
+  font-size: 25px;
+  padding-right: 10px;
+  color: $color-orange;
+}
+.fa-registered {
+  font-size: 25px;
+  padding-right: 10px;
+  color: $color-blue;
+}
+.fa-trash-alt {
+  font-size: 25px;
+  padding-right: 10px;
+  color: $color-red;
+}
+.fa-users {
+  font-size: 25px;
+  padding-right: 10px;
+  color: $color-green;
+}
+.fa-clipboard-list {
+  font-size: 25px;
+  padding-right: 10px;
+  color: $color-purple-light;
+}
+.fa-check-circle,
+.fa-times-circle {
+  font-size: 25px;
+  padding-right: 10px;
+  color: $color-purple-light;
+}
+.btn-color-01 {
+  border: 2px solid rgba(59, 46, 88, 1);
+  border-radius: 0 !important;
+  background-color: $color-orange;
+  color: rgba(255, 255, 255, 1);
+  padding: 0.375rem 3.25rem;
+  outline: 0;
+  font-weight: 400;
+}
+
+.btn-color-01:focus,
+.btn-color-01:hover {
+  outline: 0;
+  color: rgba(255, 255, 255, 1);
+  background-color: $color-orange;
+  -webkit-box-shadow: 0px 0px 15px 1px rgba(17, 17, 17, 0.2) !important;
+  box-shadow: 0px 0px 15px 1px rgba(17, 17, 17, 0.2) !important;
+}
+
+.btn-color-02 {
+  border: 2px solid rgba(134, 97, 197, 1);
+  border-radius: 0 !important;
+  background-color: $color-purple-light;
+  color: rgba(255, 255, 255, 1);
+  padding: 0.375rem 3.25rem;
+  outline: 0;
+  font-weight: 400;
+}
+
+.btn-color-02:focus,
+.btn-color-02:hover {
+  outline: 0;
+  color: rgba(255, 255, 255, 1);
+  background-color: $color-purple-light;
+  -webkit-box-shadow: 0px 0px 15px 1px rgba(17, 17, 17, 0.2) !important;
+  box-shadow: 0px 0px 15px 1px rgba(17, 17, 17, 0.2) !important;
+}
+
+.color-text-01 {
+  color: $color-orange !important;
+}
+
+.color-text-02 {
+  color: $color-purple-light !important;
+}
+
+.color-bg-01 {
+  background-color: $color-orange !important;
+  margin-bottom: 5px;
+}
+
+.color-bg-02 {
+  background-color: $color-purple-light !important;
+}
+.color-bg-03 {
+  background-color: $color-green !important;
+}
+.color-bg-grey {
+  background-color: gainsboro !important;
+}
+////////Table Header Rotate//////////
+.table-header-rotated {
+  border-collapse: collapse;
+  .csstransforms & td {
+    width: 30px;
+  }
+  .no-csstransforms & th {
+    padding: 5px 10px;
+  }
+  td {
+    //text-align: center;
+    padding: 10px 5px;
+    //border: 1px solid #ccc;
+  }
+  .csstransforms & th.rotate {
+    height: 180px;
+    white-space: nowrap;
+    // Firefox needs the extra DIV for some reason, otherwise the text disappears if you rotate
+    > div {
+      transform: 
+        // Magic Numbers
+        translate(25px, 5px) // 45 is really 360-45
+        rotate(315deg);
+      width: 30px;
+    }
+    > div > span {
+      border-bottom: 1px solid #ccc;
+      padding: 5px 10px;
+    }
+  }
+  th.row-header {
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+  }
+}
+////////End Table Header Rotate//////////
+.btn-outline-secondary {
+  background-color: $color-green;
+  color: white;
+  border: white;
+}
+.btn-outline-secondary:hover {
+  background-color: $color-green;
+  color: $color-purple-dark;
+  border: $color-purple-dark;
+}
+.card-footer {
+  background-color: $color-lavender;
+}
+.bg-red {
+  background-color: #ffdab9;
+}
+.noresult {
+  background-color: #ffdab9;
+  border: solid 1px #ffdab9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px#ffdab9;
+  padding: 15px;
+  margin: 15px;
+}
+.bgDownloadError {
+  background-color: rgba(199, 0, 57,0.4);
+  border: solid 1px rgba(199, 0, 57,0.4);
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1pxrgba(199, 0, 57,0.4);
+  padding: 15px;
+  margin: 15px;
+}
+.pageActive {
+  background-color: $color-blue;
+  color: #fff;
+}
+
+.btn {
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.btnSave {
+  width: 80px;
+}
+
+/////////////////////////@extend
+.messageBubble.ssfLocationPopup {
+  bottom: 20px;
+  width: 450px;
+  height: 125px;
+}
+
+.messageBubble {
+  //   top: 50px;
+  //   right: 50px;
+  //   padding: 20px 30px;
+  //   position: absolute;
+  //   width: 450px;
+  //   color: white;
+  background-color: $color-red;
+  //   border-radius: 5px;
+  //   box-shadow: 0px 0px 5px 1px grey;
+}
+.messageBubble .messageBubbleContentContainer .messageContainer p {
+  color: white;
+  margin: 0px;
+}
+// .messageContainer {
+//   background-image: URL("/assets/images/download_arrow_swd.png");
+//   background-repeat: no-repeat;
+//   background-position: right;
+// }
+// .ssfLocationPopup p {
+//   font-family: HPSimplifiedLight;
+//   font-weight: normal;
+//   font-size: 20px;
+//   margin-left: 20px !important;
+// }
+// .ScreenLock {
+//   background-color: rgba(134,97,197, 0.4) !important;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   height: 100%;
+//   left: 0px;
+//   position: fixed;
+//   top: 100px;
+//   width: 100%;
+//   z-index: 99;
+// }
+countdown span {
+  float: right;
+  border: 1px solid;
+  padding: 5px 10px;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+dynamic-form {
+  width: 100%;
+}
+app-input,
+app-select,
+app-select-multi {
+  width: 100%;
+  display: inline-flex;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container-max {
+  max-width: 95% !important;
+}
+
+.modal-dialog {
+  width: 100% !important;
+  // margin: 0 !important;
+}
+.modal-lg {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.MatError {
+  font-size: 75%;
+  margin-top: -13px;
+  font-weight: 400;
+  line-height: 1.125;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.fa-calendar {
+  color: $color-purple-light;
+}
+
+.angular-editor-textarea {
+  padding-left: 35px !important;
+}
+.editor blockquote {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+.editor ul {
+  all: unset;
+}
+.editor ol {
+  list-style: decimal;
+}
+.valError {
+  color: $color-red;
+  font-size: 12px;
+  //margin-top: -10px;
+}
+.valErrorTextArea {
+  color: $color-red;
+  font-size: 12px;
+}
+.valErrorSelect {
+  color: $color-red;
+  font-size: 12px;
+}
+
+.mat-radio-outer-circle {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(134, 97, 197, 0.4);
+  transition: opacity 500ms;
+  visibility: visible;
+  opacity: 1;
+  z-index: 9;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: relative;
+  transition: all 5s ease-in-out;
+  top: 20%;
+}
+
+.popup h4 {
+  text-align: center;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06d85f;
+  cursor: pointer;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+.popup ol {
+  list-style: none;
+  counter-reset: steps;
+}
+.popup ol li {
+  counter-increment: steps;
+}
+.popup ol li::before {
+  content: counter(steps);
+  margin-right: 0.5rem;
+  background: #ff6f00;
+  color: white;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  display: inline-grid;
+  place-items: center;
+  line-height: 1.2em;
+}
+.popup ol ol li::before {
+  background: darkorchid;
+}
+@media screen and (max-width: 700px) {
+  .popup {
+    width: 70%;
+  }
+}
+/* Flaired edges, by Tomas Theunissen */
+
+hr.style-seven {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 9px -15px rgba(0, 0, 0, 0.5);
+}
+.mypartner {
+  max-height: 300px;
+  overflow: auto;
+}
+.view {
+  color: $color-orange;
+  font-style: italic;
+}
+.viewHint {
+  font-size: 12px;
+  font-style: italic;
+}
+.mat-radio-inner-circle{
+  left:5px !important;
+}
+.navbar-brand img.logo-header{
+  max-height: 110px;
+    // min-height: 110px;
+}
+.slide img{
+  max-height: 80px;
+  margin: 5px;
+  float:left;
+}
+.fullscreen{
+  // https://loading.io/
+  /* background-color: rgb(123,255,7,0.4); */
+  background: rgba( 205, 205, 205, 1 ) 
+              url('/assets/images/loading.gif') 
+              50% 50% 
+              no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  position: fixed;
+  }
+  .btn-dark {
+    color: #fff;
+    background-color: grey !important;
+    border-color: grey !important;
+}
+.Excel{
+  background-color:#1D6F42 !important;
+}

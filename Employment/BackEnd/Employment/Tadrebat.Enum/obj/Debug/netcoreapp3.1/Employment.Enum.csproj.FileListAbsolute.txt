@@ -1,0 +1,37 @@
+D:\employment_new\Employment\Tadrebat.Enum\bin\Debug\netcoreapp3.1\Employment.Enum.deps.json
+D:\employment_new\Employment\Tadrebat.Enum\bin\Debug\netcoreapp3.1\Employment.Enum.dll
+D:\employment_new\Employment\Tadrebat.Enum\bin\Debug\netcoreapp3.1\Employment.Enum.pdb
+D:\employment_new\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.csprojAssemblyReference.cache
+D:\employment_new\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.AssemblyInfoInputs.cache
+D:\employment_new\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.AssemblyInfo.cs
+D:\employment_new\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.csproj.CoreCompileInputs.cache
+D:\employment_new\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.dll
+D:\employment_new\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Enum\bin\Debug\netcoreapp3.1\Employment.Enum.deps.json
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Enum\bin\Debug\netcoreapp3.1\Employment.Enum.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Enum\bin\Debug\netcoreapp3.1\Employment.Enum.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Enum\bin\Debug\netcoreapp3.1\Employment.Enum.deps.json
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Enum\bin\Debug\netcoreapp3.1\Employment.Enum.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Enum\bin\Debug\netcoreapp3.1\Employment.Enum.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Enum\bin\Debug\netcoreapp3.1\Employment.Enum.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Enum\bin\Debug\netcoreapp3.1\Employment.Enum.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Enum\bin\Debug\netcoreapp3.1\Employment.Enum.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Enum\obj\Debug\netcoreapp3.1\Employment.Enum.pdb

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\microsoft-employee\api</_PublishTargetUrl>
+    <History>True|2022-03-23T17:46:40.9885092Z;True|2022-03-23T17:36:23.1907839+00:00;True|2022-03-23T15:49:49.8313330+00:00;True|2022-03-23T15:17:18.0223676+00:00;True|2022-03-23T15:04:42.5676379+00:00;True|2022-03-23T14:54:34.4474279+00:00;True|2022-03-23T14:43:00.3825602+00:00;True|2022-03-22T16:30:36.9800960+00:00;True|2022-03-22T16:28:41.3684106+00:00;</History>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,48 @@
+<section class="our-dashbord dashbord">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-xl-3 dn-smd">
+                <app-job-seeker-menu [pageName]="'shortlist'"></app-job-seeker-menu>
+            </div>
+            <div class="col-sm-12 col-lg-8 col-xl-9">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h4 class="fz20">{{'SeekerShortListPageTitle' | translate }}</h4>
+                    </div>
+                    <div class="col-lg-12" *ngFor="let item of lstResult">
+                        <div class="candidate_list_view style2">
+                            <div class="thumb">
+                                <img class="img-fluid rounded-circle ProfilePicture-100" src="{{item.ImageURL}}">
+                                <div class="cpi_av_rating"><span></span></div>
+                            </div>
+                            <div class="content mt25 fn-xl">
+                                <h4 class="title">{{item.Name}} <small class="verified text-thm2 pl10"><i
+                                            class="fa fa-check-circle"></i></small></h4>
+                                <p class="text-thm2">{{item.Title}} </p>
+                            </div>
+                            <ul class="view_edit_delete_list mt25 float-right fn-xl">
+                                <li class="list-inline-item  bg-orange" (click)="onView(item.EntityId)"><a (click)="onView(item.EntityId)"
+                                        data-toggle="tooltip" data-placement="bottom"
+                                        title="{{'GenericView' | translate }}"><span class="flaticon-eye"></span></a>
+                                </li>
+                                <li class="list-inline-item" (click)="setDeActivate(item._id)"><a
+                                        (click)="setDeActivate(item._id)" data-toggle="tooltip" data-placement="top"
+                                        title="{{'GenericDelete' | translate }}"><span
+                                            class="flaticon-rubbish-bin"></span></a></li>
+                            </ul>
+                            <ul class="review_list"></ul>
+                            <ul class="address_list"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12" *ngIf="lstResult?.length == 0">
+                    <div class="text-center bg-red noresult">
+                        <span class="font-italic">{{'EmployerSearchNoJobsFound' | translate }}
+                        </span><span>&#9785;</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

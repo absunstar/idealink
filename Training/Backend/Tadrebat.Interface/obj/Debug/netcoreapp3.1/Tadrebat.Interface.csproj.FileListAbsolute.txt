@@ -1,0 +1,65 @@
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Interface.deps.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Interface.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Interface.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.csprojAssemblyReference.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.AssemblyInfoInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.AssemblyInfo.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.csproj.CoreCompileInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.csproj.CopyComplete
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Interface.deps.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Interface.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Interface.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.csprojAssemblyReference.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.AssemblyInfoInputs.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.AssemblyInfo.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.csproj.CoreCompileInputs.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.csproj.CopyComplete
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Interface.deps.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Interface.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Interface.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.csproj.CopyComplete
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Interface.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Interface.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Interface.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Entity.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Enum.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Entity.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.Enum.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\bin\Debug\netcoreapp3.1\Tadrebat.ModelsGlobal.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.csproj.CopyComplete
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Interface\obj\Debug\netcoreapp3.1\Tadrebat.Interface.pdb

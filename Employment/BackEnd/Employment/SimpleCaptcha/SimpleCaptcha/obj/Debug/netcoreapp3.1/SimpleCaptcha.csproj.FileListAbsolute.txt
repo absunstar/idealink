@@ -1,0 +1,37 @@
+D:\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.deps.json
+D:\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.dll
+D:\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.pdb
+D:\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.csprojAssemblyReference.cache
+D:\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.AssemblyInfoInputs.cache
+D:\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.AssemblyInfo.cs
+D:\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.csproj.CoreCompileInputs.cache
+D:\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.dll
+D:\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.deps.json
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.deps.json
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\bin\Debug\netcoreapp3.1\SimpleCaptcha.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\SimpleCaptcha\SimpleCaptcha\obj\Debug\netcoreapp3.1\SimpleCaptcha.pdb

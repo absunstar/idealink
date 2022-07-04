@@ -1,0 +1,97 @@
+<section class="my-5">
+    <div class="container">
+        <div class='row'>
+            <h4 class="mb-4">{{'HeaderQuestions' | translate }}</h4>
+        </div>
+        <div class='row'>
+
+
+            <div class="modal-body pt-0">
+
+                <form novalidate [formGroup]="formQuestion">
+                    <div class="col-md-8">
+                        <div class="form-group ">
+                            <mat-form-field class="example-full-width">
+                                <mat-label>{{'QuestionQ' | translate }}</mat-label>
+                                <textarea matInput id="modelNameId" type="text" placeholder="{{'QuestionSelect' | translate }}"
+                                    required formControlName="Question" cols="40" rows="5" value=""></textarea>
+                                <mat-error *ngIf="formQuestion?.get('Question').errors?.required">{{'QuestionError' | translate }}
+                                </mat-error>
+                            </mat-form-field>
+                        </div>
+                        <div class="form-group ">
+                            <mat-form-field>
+                                <mat-label>{{'GenericTrainingType' | translate }}</mat-label>
+                                <mat-select id="TrainingTypeId" placeholder="Select a TrainingTypeId"
+                                    (selectionChange)="onTrainingTypeSelect()" formControlName="TrainingTypeId">
+                                    <mat-option value="">{{'GenericSelectTrainingType' | translate }}</mat-option>
+                                    <mat-option *ngFor="let item of lstTrainingTypes" value="{{item.Id}}">
+                                        {{item.Name}}</mat-option>
+                                </mat-select>
+                                <mat-error *ngIf="formQuestion?.get('TrainingTypeId').errors?.required">{{'GenericSelectTrainingTypeError' | translate }}</mat-error>
+                            </mat-form-field>
+                        </div>
+                        <div class="form-group ">
+                            <mat-form-field>
+                                <mat-label>{{'GenericTrainingCategory' | translate }}</mat-label>
+                                <mat-select id="filtertrainingCategory" placeholder="{{'GenericSelectTrainingCategory' | translate }}"
+                                    formControlName="TrainingCategoryId">
+                                    <mat-option value="">{{'GenericSelectTrainingCategory' | translate }}</mat-option>
+                                    <mat-option *ngFor="let item of lstTrainingCategory" value="{{item.Id}}">
+                                        {{item.Name}}</mat-option>
+                                </mat-select>
+                                <mat-error *ngIf="formQuestion?.get('TrainingTypeId').errors?.required">{{'GenericSelectTrainingCategoryError' | translate }}</mat-error>
+                            </mat-form-field>
+                        </div>
+                        <div class="form-group ">
+                            <mat-form-field>
+                                <mat-label>{{'QuestionDifficulty' | translate }}</mat-label>
+                                <mat-select id="Difficulty" placeholder="{{'QuestionDifficultySelect' | translate }}"
+                                    formControlName="Difficulty">
+                                    <mat-option value="">{{'QuestionDifficultySelect' | translate }}</mat-option>
+                                    <mat-option value="1">{{'QuestionEasy' | translate }}</mat-option>
+                                    <mat-option value="2">{{'QuestionMedium' | translate }}</mat-option>
+                                    <mat-option value="3">{{'QuestionHard' | translate }}</mat-option>
+                                </mat-select>
+                                <mat-error *ngIf="formQuestion?.get('TrainingTypeId').errors?.required">{{'QuestionDifficultyError' | translate }}</mat-error>
+                            </mat-form-field>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h4 class="mb-4">{{'QuestionAnswer' | translate }}</h4>
+                            </div>
+                            <div class="col-md-6"><button class="pull-right btn btn-success btn-sm white-text btnSave" (click)="addAnswer()">{{'GenericAdd' | translate }}</button></div>
+                        </div>
+                        <div formArrayName="Answers" *ngFor="let item of Answers.controls; let i = index;" class="row">
+                            <div [formGroupName]="i" class="col-md-12">
+                                <div class="col-md-6 pull-left">
+                                    <mat-form-field>
+                                        <mat-label>{{'QuestionAnswer' | translate }}</mat-label>
+                                        <textarea matInput formControlName="Answer" placeholder="{{'QuestionEnterAnswer' | translate }}"
+                                            cols="40" rows="5"></textarea>
+                                    </mat-form-field>
+                                </div>
+                                <div class="col-md-3  pull-left">
+                                    <input type="checkbox" [(ngModel)]="item.value.IsCorrectAnswer" formControlName="IsCorrectAnswer" id="radio{{i}}" (click)="CorrectAnswer(i)"
+                                        name="IsCorrectAnswer">
+                                        <span> {{'QuestionCorrectAnswer' | translate }}</span>
+                                </div>
+                                <div class="col-md-2  pull-left">
+                                    <button (click)="removeAnswer(i)" class="pull-right btn btn-danger btn-sm white-text btnSave">X</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group pull-right md-form">
+                            <button class="btn color-bg-grey btn-sm btn-default white-text" type="submit" (click)="OnRedrirectBack()">{{'GenericCancel' | translate }}</button>
+                            <button class="btn color-bg-01 btn-sm white-text btnSave" type="submit"
+                                (click)="modelSaveBtn()"
+                                
+                                [disabled]="!formQuestion?.valid">{{'GenericSave' | translate }}</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>

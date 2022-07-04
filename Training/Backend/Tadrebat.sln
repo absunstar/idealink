@@ -1,0 +1,209 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AF8E7015-B860-4ED9-8A76-2ED081724475}"
+	ProjectSection(SolutionItems) = preProject
+		_ReadMe.txt = _ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{7E66F5BF-E900-47C9-B96C-87A5C162A254}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "STS", "STS", "{B66954EC-A220-4097-943B-35AD36DE55BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helper", "Helper", "{B402B1A9-7120-4FD6-A0D7-2D4F061E2C6D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tadrebat.API", "Tadrebat.API\Tadrebat.API.csproj", "{43385E7A-6070-4DAC-B6D4-D472AE80B5F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tadrebat.Enum", "Tadrebat.Enum\Tadrebat.Enum.csproj", "{88BED931-94E8-4F73-AA6C-F947AF9E4177}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tadrebat.Interface", "Tadrebat.Interface\Tadrebat.Interface.csproj", "{60F865CB-7A66-4540-B493-9302557CDD9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tadrebat.ModelsGlobal", "Tadrebat.ModelsGlobal\Tadrebat.ModelsGlobal.csproj", "{60DE70E6-A048-4A27-80CE-FC5F5A6566E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3D30E8A9-61F3-46A7-BA3F-40C954AF9A96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tadrebat.Services", "Tadrebat.Services\Tadrebat.Services.csproj", "{A778458E-D56B-4722-B03E-8D2FBB6829CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tadrebat.STS", "Tadrebat.STS\Tadrebat.STS.csproj", "{B9DA834A-CDED-405F-AB25-2CDABA2E236A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tadrebat.Notification", "Tadrebat.NotificationEmail\Tadrebat.Notification.csproj", "{28268E0A-9286-4D64-A163-EA843E67BED3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tadrebat.Cache", "Tadrebat.Cache\Tadrebat.Cache.csproj", "{ABE20DCF-9B48-4FF5-86A7-7C0A2DE0F78D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataLayer", "DataLayer", "{3C60BDEA-A553-460F-AC0C-A083A913219C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tadrebat.Persistance", "Tadrebat.Persistance\Tadrebat.Persistance.csproj", "{DDD09329-AF9B-4B58-9DD7-3F855037576E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tadrebat.Entity", "Tadrebat.Entity\Tadrebat.Entity.csproj", "{E019E1C7-BD95-4EC4-BEDA-9E8727A2AC42}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tadrebat.Mongo.DataLayer", "Tadrebat.Mongo.DataLayer\Tadrebat.Mongo.DataLayer.csproj", "{07869E0C-EBB9-4625-B163-2A58EBAC97D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tadrebat.MongoDB.Interface", "Tadrebat.MongoDB.Interface\Tadrebat.MongoDB.Interface.csproj", "{9DB77391-584E-49C3-B31F-11D15D781966}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zTesting", "zTesting", "{B1F91035-57CE-4894-8357-E68A0B67332D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampeTesting", "SampeTesting\SampeTesting.csproj", "{7112091D-1B19-432C-BE54-4AC13833079A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{3D4CB86F-8D70-4AB3-9FCD-A71CBAE878B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQL", "SQL\SQL.csproj", "{2C79A93F-0215-4709-BB6A-D3943243C118}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43385E7A-6070-4DAC-B6D4-D472AE80B5F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43385E7A-6070-4DAC-B6D4-D472AE80B5F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43385E7A-6070-4DAC-B6D4-D472AE80B5F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43385E7A-6070-4DAC-B6D4-D472AE80B5F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BED931-94E8-4F73-AA6C-F947AF9E4177}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BED931-94E8-4F73-AA6C-F947AF9E4177}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BED931-94E8-4F73-AA6C-F947AF9E4177}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BED931-94E8-4F73-AA6C-F947AF9E4177}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F865CB-7A66-4540-B493-9302557CDD9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F865CB-7A66-4540-B493-9302557CDD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F865CB-7A66-4540-B493-9302557CDD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F865CB-7A66-4540-B493-9302557CDD9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60DE70E6-A048-4A27-80CE-FC5F5A6566E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DE70E6-A048-4A27-80CE-FC5F5A6566E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DE70E6-A048-4A27-80CE-FC5F5A6566E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DE70E6-A048-4A27-80CE-FC5F5A6566E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A778458E-D56B-4722-B03E-8D2FBB6829CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A778458E-D56B-4722-B03E-8D2FBB6829CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A778458E-D56B-4722-B03E-8D2FBB6829CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A778458E-D56B-4722-B03E-8D2FBB6829CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9DA834A-CDED-405F-AB25-2CDABA2E236A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9DA834A-CDED-405F-AB25-2CDABA2E236A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9DA834A-CDED-405F-AB25-2CDABA2E236A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9DA834A-CDED-405F-AB25-2CDABA2E236A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28268E0A-9286-4D64-A163-EA843E67BED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28268E0A-9286-4D64-A163-EA843E67BED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28268E0A-9286-4D64-A163-EA843E67BED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28268E0A-9286-4D64-A163-EA843E67BED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABE20DCF-9B48-4FF5-86A7-7C0A2DE0F78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE20DCF-9B48-4FF5-86A7-7C0A2DE0F78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE20DCF-9B48-4FF5-86A7-7C0A2DE0F78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE20DCF-9B48-4FF5-86A7-7C0A2DE0F78D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDD09329-AF9B-4B58-9DD7-3F855037576E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD09329-AF9B-4B58-9DD7-3F855037576E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD09329-AF9B-4B58-9DD7-3F855037576E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD09329-AF9B-4B58-9DD7-3F855037576E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E019E1C7-BD95-4EC4-BEDA-9E8727A2AC42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E019E1C7-BD95-4EC4-BEDA-9E8727A2AC42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E019E1C7-BD95-4EC4-BEDA-9E8727A2AC42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E019E1C7-BD95-4EC4-BEDA-9E8727A2AC42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07869E0C-EBB9-4625-B163-2A58EBAC97D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07869E0C-EBB9-4625-B163-2A58EBAC97D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07869E0C-EBB9-4625-B163-2A58EBAC97D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07869E0C-EBB9-4625-B163-2A58EBAC97D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB77391-584E-49C3-B31F-11D15D781966}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB77391-584E-49C3-B31F-11D15D781966}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB77391-584E-49C3-B31F-11D15D781966}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB77391-584E-49C3-B31F-11D15D781966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7112091D-1B19-432C-BE54-4AC13833079A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7112091D-1B19-432C-BE54-4AC13833079A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7112091D-1B19-432C-BE54-4AC13833079A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7112091D-1B19-432C-BE54-4AC13833079A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4CB86F-8D70-4AB3-9FCD-A71CBAE878B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4CB86F-8D70-4AB3-9FCD-A71CBAE878B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4CB86F-8D70-4AB3-9FCD-A71CBAE878B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4CB86F-8D70-4AB3-9FCD-A71CBAE878B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C79A93F-0215-4709-BB6A-D3943243C118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C79A93F-0215-4709-BB6A-D3943243C118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C79A93F-0215-4709-BB6A-D3943243C118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C79A93F-0215-4709-BB6A-D3943243C118}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{43385E7A-6070-4DAC-B6D4-D472AE80B5F8} = {7E66F5BF-E900-47C9-B96C-87A5C162A254}
+		{88BED931-94E8-4F73-AA6C-F947AF9E4177} = {B402B1A9-7120-4FD6-A0D7-2D4F061E2C6D}
+		{60F865CB-7A66-4540-B493-9302557CDD9C} = {B402B1A9-7120-4FD6-A0D7-2D4F061E2C6D}
+		{60DE70E6-A048-4A27-80CE-FC5F5A6566E5} = {B402B1A9-7120-4FD6-A0D7-2D4F061E2C6D}
+		{A778458E-D56B-4722-B03E-8D2FBB6829CB} = {3D30E8A9-61F3-46A7-BA3F-40C954AF9A96}
+		{B9DA834A-CDED-405F-AB25-2CDABA2E236A} = {B66954EC-A220-4097-943B-35AD36DE55BD}
+		{28268E0A-9286-4D64-A163-EA843E67BED3} = {B402B1A9-7120-4FD6-A0D7-2D4F061E2C6D}
+		{ABE20DCF-9B48-4FF5-86A7-7C0A2DE0F78D} = {B402B1A9-7120-4FD6-A0D7-2D4F061E2C6D}
+		{DDD09329-AF9B-4B58-9DD7-3F855037576E} = {3C60BDEA-A553-460F-AC0C-A083A913219C}
+		{E019E1C7-BD95-4EC4-BEDA-9E8727A2AC42} = {3C60BDEA-A553-460F-AC0C-A083A913219C}
+		{07869E0C-EBB9-4625-B163-2A58EBAC97D4} = {3C60BDEA-A553-460F-AC0C-A083A913219C}
+		{9DB77391-584E-49C3-B31F-11D15D781966} = {3C60BDEA-A553-460F-AC0C-A083A913219C}
+		{7112091D-1B19-432C-BE54-4AC13833079A} = {B1F91035-57CE-4894-8357-E68A0B67332D}
+		{3D4CB86F-8D70-4AB3-9FCD-A71CBAE878B0} = {B1F91035-57CE-4894-8357-E68A0B67332D}
+		{2C79A93F-0215-4709-BB6A-D3943243C118} = {B402B1A9-7120-4FD6-A0D7-2D4F061E2C6D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F01D4CEC-58DC-4C44-A61C-1F235827BC56}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 16
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfsserver:8080/tfs/tadrebattraining
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SampeTesting\\SampeTesting.csproj
+		SccProjectTopLevelParentUniqueName1 = Tadrebat.sln
+		SccProjectName1 = SampeTesting
+		SccLocalPath1 = SampeTesting
+		SccProjectUniqueName2 = SQL\\SQL.csproj
+		SccProjectTopLevelParentUniqueName2 = Tadrebat.sln
+		SccProjectName2 = SQL
+		SccLocalPath2 = SQL
+		SccProjectUniqueName3 = Tadrebat.API\\Tadrebat.API.csproj
+		SccProjectTopLevelParentUniqueName3 = Tadrebat.sln
+		SccProjectName3 = Tadrebat.API
+		SccLocalPath3 = Tadrebat.API
+		SccProjectUniqueName4 = Tadrebat.Cache\\Tadrebat.Cache.csproj
+		SccProjectTopLevelParentUniqueName4 = Tadrebat.sln
+		SccProjectName4 = Tadrebat.Cache
+		SccLocalPath4 = Tadrebat.Cache
+		SccProjectUniqueName5 = Tadrebat.Entity\\Tadrebat.Entity.csproj
+		SccProjectTopLevelParentUniqueName5 = Tadrebat.sln
+		SccProjectName5 = Tadrebat.Entity
+		SccLocalPath5 = Tadrebat.Entity
+		SccProjectUniqueName6 = Tadrebat.Enum\\Tadrebat.Enum.csproj
+		SccProjectTopLevelParentUniqueName6 = Tadrebat.sln
+		SccProjectName6 = Tadrebat.Enum
+		SccLocalPath6 = Tadrebat.Enum
+		SccProjectUniqueName7 = Tadrebat.Interface\\Tadrebat.Interface.csproj
+		SccProjectTopLevelParentUniqueName7 = Tadrebat.sln
+		SccProjectName7 = Tadrebat.Interface
+		SccLocalPath7 = Tadrebat.Interface
+		SccProjectUniqueName8 = Tadrebat.ModelsGlobal\\Tadrebat.ModelsGlobal.csproj
+		SccProjectTopLevelParentUniqueName8 = Tadrebat.sln
+		SccProjectName8 = Tadrebat.ModelsGlobal
+		SccLocalPath8 = Tadrebat.ModelsGlobal
+		SccProjectUniqueName9 = Tadrebat.Mongo.DataLayer\\Tadrebat.Mongo.DataLayer.csproj
+		SccProjectTopLevelParentUniqueName9 = Tadrebat.sln
+		SccProjectName9 = Tadrebat.Mongo.DataLayer
+		SccLocalPath9 = Tadrebat.Mongo.DataLayer
+		SccProjectUniqueName10 = Tadrebat.MongoDB.Interface\\Tadrebat.MongoDB.Interface.csproj
+		SccProjectTopLevelParentUniqueName10 = Tadrebat.sln
+		SccProjectName10 = Tadrebat.MongoDB.Interface
+		SccLocalPath10 = Tadrebat.MongoDB.Interface
+		SccProjectUniqueName11 = Tadrebat.NotificationEmail\\Tadrebat.Notification.csproj
+		SccProjectTopLevelParentUniqueName11 = Tadrebat.sln
+		SccProjectName11 = Tadrebat.NotificationEmail
+		SccLocalPath11 = Tadrebat.NotificationEmail
+		SccProjectUniqueName12 = Tadrebat.Persistance\\Tadrebat.Persistance.csproj
+		SccProjectTopLevelParentUniqueName12 = Tadrebat.sln
+		SccProjectName12 = Tadrebat.Persistance
+		SccLocalPath12 = Tadrebat.Persistance
+		SccProjectUniqueName13 = Tadrebat.Services\\Tadrebat.Services.csproj
+		SccProjectTopLevelParentUniqueName13 = Tadrebat.sln
+		SccProjectName13 = Tadrebat.Services
+		SccLocalPath13 = Tadrebat.Services
+		SccProjectUniqueName14 = Tadrebat.STS\\Tadrebat.STS.csproj
+		SccProjectTopLevelParentUniqueName14 = Tadrebat.sln
+		SccProjectName14 = Tadrebat.STS
+		SccLocalPath14 = Tadrebat.STS
+		SccProjectUniqueName15 = Test\\Test.csproj
+		SccProjectTopLevelParentUniqueName15 = Tadrebat.sln
+		SccProjectName15 = Test
+		SccLocalPath15 = Test
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,182 @@
+<header>
+    <nav class="navbar navbar-expand-lg header-top">
+        <a class="navbar-brand" href="/">
+            <!-- <img src="/assets/img/main/logo.png" class="logo-header" alt="" /> -->
+            <img src="{{PathFiles}}Logo/logo.png" class="logo-header" alt="" />
+        </a>
+        <!-- <div class="container-fluid">
+            isLoggedIn: {{isLoggedIn}}<br>
+            userName: {{userName}}<br>
+            userRole: {{userRole}}<br>
+            IsAdmin:{{isAdmin}}
+        </div>  -->
+        <button class="navbar-toggler header-menu-mob" type="button" data-toggle="offcanvas">
+            <span class="fal fa-bars"></span>
+        </button>
+
+        <button class="navbar-toggler header-top-mob" type="button" data-toggle="collapse" data-target="#header-top"
+            aria-controls="header-top" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fal fa-ellipsis-v"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="header-top">
+            <ul class="navbar-nav ulMargianAuto">
+
+                <!-- <li class="nav-item">
+                    <a class="nav-link" data-toggle="modal" data-target="#SearchForm"><i class="fal fa-search"></i></a>
+                </li> -->
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">
+                        <i class="fas fa-bars"></i>
+                        <!-- <img src="/assets/img/main/user-01.jpg" alt="" /> -->
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a *ngIf="!isLoggedIn" class="dropdown-item" (click)="login()"><i
+                                class="fal fa-unlock-alt"></i>{{'HeaderSignIn' | translate }}</a>
+                        <a *ngIf="isLoggedIn" class="dropdown-item">{{userName}}</a>
+                        <a *ngIf="isLoggedIn" class="dropdown-item" (click)="logout()"><i
+                                class="fal fa-lock-alt"></i>{{'HeaderSignout' | translate }}</a>
+                    </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">
+                        <div class="flag-top-menu flag-icon-gb" *ngIf="lang == 'en' "></div>
+                        <div class="flag-top-menu flag-icon-eg" *ngIf="lang == 'ar'"></div>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" (click)="switchLang('en')">
+                            <div class="flag-top-menu flag-icon-gb"></div>English
+                        </a>
+                        <a class="dropdown-item ar-lang" (click)="switchLang('ar')">
+                            <div class="flag-top-menu flag-icon-eg"></div>عربى
+                        </a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <nav class="navbar navbar-expand-lg header-menu">
+
+        <div class="navbar-collapse offcanvas-collapse" id="header-menu">
+            <ul class="navbar-nav urMargianAuto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/" style="font-size: 25px;"><i class="fas fa-home"></i></a>
+                </li>
+                <li class="nav-item dropdown" *ngIf="isAdmin">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">{{'HeaderDataManagement' | translate }}</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" *ngIf="isAdmin" routerLink="/DataManagement/City">{{'GenericCity' |
+                            translate }}</a>
+                        <!-- <a class="dropdown-item" *ngIf="isAdmin" routerLink="/DataManagement/NGOType">{{'GenericNGOType' | translate }}</a> -->
+                        <a class="dropdown-item" *ngIf="isAdmin"
+                            routerLink="/DataManagement/TrainingType">{{'GenericTrainingType' | translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin"
+                            routerLink="/DataManagement/TrainingCategory">{{'GenericTrainingCategory' | translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin" routerLink="/Questions/List">{{'HeaderQuestions' |
+                            translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin" routerLink="/Exam/Templates">{{'HeaderExamTemplates' |
+                            translate }}</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown" *ngIf="isAdmin || isPartner">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">{{'HeaderEntityManagement' | translate }}</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" *ngIf="isAdmin"
+                            routerLink="/EntityManagement/Partner">{{'GenericPartner' | translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin || isPartner"
+                            routerLink="/EntityManagement/SubPartner">{{'GenericSubPartner' | translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin "
+                            routerLink="/EntityManagement/PartnerReports">{{'HeaderPartnerReports' | translate }}</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown" *ngIf="isAdmin ">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">{{'HeaderConfigForm' | translate }} </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" *ngIf="isAdmin"
+                            routerLink="/ConfigRequestRegister">{{'ConfigRequestRegisterationForm' | translate }} </a>
+                        <a class="dropdown-item" *ngIf="isAdmin"
+                            routerLink="/ConfigTrainee">{{'ConfigTraineeRegisterationForm' | translate }} </a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown" *ngIf="isAdmin ">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">{{'HeaderManage' | translate }}</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" *ngIf="isAdmin" routerLink="/About/Edit">{{'HeaderAboutEdit' |
+                            translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin" routerLink="/Term/Edit">{{'HeaderTermConditionEdit' |
+                            translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin" routerLink="/Policy/Edit">{{'HeaderPolicyEdit' |
+                            translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin" routerLink="/Info/Edit">{{'HeaderHomepageInfoEdit' |
+                            translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin"
+                            routerLink="/Content/PortalLogo">{{'HeaderHomepagePortalLogo' | translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin"
+                            routerLink="/Content/PartnerLogo">{{'HeaderHomepagePartnerLogo' | translate }}</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown" *ngIf="isAdmin ">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="true">{{'HeaderCertificate' | translate }}</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" *ngIf="isAdmin" routerLink="/Certificate/Generics">{{'HeaderGenerics' |
+                            translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin" routerLink="/Certificate/Category">{{'GenericPartner' |
+                            translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin"
+                            routerLink="/Certificate/TrainingCenter">{{'GenericTrainingCenter' | translate }}</a>
+                        <a class="dropdown-item" *ngIf="isAdmin"
+                            routerLink="/Certificate/TranierApproval">{{'GenericTrainerApproval' | translate }} </a>
+                    </div>
+                </li>
+                <li class="nav-item" *ngIf="!isLoggedIn">
+                    <a class="nav-link" href="" routerLink="/Trainee/Register">{{'HeaderRegisterTrainee' | translate
+                        }}</a>
+                </li>
+                <li class="nav-item" *ngIf="!isLoggedIn">
+                    <a class="nav-link" href="" routerLink="/RequestRegister">{{'HeaderRegisterTrainer' | translate
+                        }}</a>
+                </li>
+                <li class="nav-item" *ngIf="!isLoggedIn">
+                    <a class="nav-link" href="" routerLink="/RequestRegister">{{'HeaderRegisterCenter' | translate
+                        }}</a>
+                </li>
+                <li class="nav-item" *ngIf="isLoggedIn">
+                    <a class="nav-link" *ngIf="isAdmin|| isPartner || isSubPartner" href=""
+                        routerLink="/Account/Account">{{'HeaderAccounts' | translate }}</a>
+                </li>
+                <li class="nav-item" *ngIf="isLoggedIn  && (isAdmin || IsTrainer)">
+                    <a class="nav-link" href="" routerLink="/Account/Trainee">{{'GenericTrainee' | translate }}</a>
+                </li>
+                <li class="nav-item" *ngIf="isLoggedIn">
+                    <a class="nav-link" href="" routerLink="/Training/List">{{'HeaderTraining' | translate }}</a>
+                </li>
+
+                <li class="nav-item" *ngIf="isLoggedIn && IsTrainee">
+                    <a class="nav-link" href="" routerLink="/MyTraining">{{'HeaderMyTraining' | translate }}</a>
+                </li>
+                <li class="nav-item" *ngIf="isLoggedIn && IsTrainee">
+                    <a class="nav-link" href="" routerLink="/MyProfile">{{'HeaderMyProfile' | translate }}</a>
+                </li>
+                <li class="nav-item" *ngIf="isLoggedIn && IsTrainer">
+                    <a class="nav-link" href="" routerLink="/TrainerCertificate/0">{{'HeaderMyCertificates' | translate}}</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+</header>
+<!-- #Header End -->

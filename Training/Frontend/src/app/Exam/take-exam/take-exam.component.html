@@ -1,0 +1,39 @@
+<section class="my-5">
+    <div class="container">
+      <div class='row'>
+        <div class="col-md-6">
+          <h4 class="mb-4">{{'ExampageTitle' | translate }}</h4>
+        </div>
+        <div class="col-md-6 " *ngIf="lstQuestion?.length">
+          <countdown colspan="pull-right" #cd [config]="config" (event)="handleEvent($event)"></countdown>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class='table-responsive '>
+          <table class='table' *ngIf='lstQuestion && lstQuestion?.length'>
+            <tbody>
+              <tr *ngFor='let obj of lstQuestion;index as i'>
+                <td>
+                    <h3> Q{{i+1}}- {{ obj.Name}}</h3>
+              <h5 *ngFor='let ans of obj.Answer'>
+                   <input type="radio" name="{{obj._id}}" (change)="onChange($event,obj,ans)" />
+                   {{ans.Name}}
+              </h5>
+                </td>
+              
+              </tr>
+            </tbody>
+          </table>
+          
+        </div>
+        <div class="col-md-12" *ngIf="lstQuestion?.length">
+          <button (click)="submitExam()"  class="btn pull-right color-bg-02 btn-sm white-text">{{'GenericSubmit' | translate }}</button>
+        </div>
+        <!-- <div class="" *ngIf="!lstQuestion  || lstQuestion?.length == 0"> -->
+          <div class="" *ngIf="notFoundlist">
+          <div class="text-center bg-red noresult">
+            <span class="font-italic">{{'ExamNotAllowed' | translate }} </span><span>&#9785;</span>
+          </div>
+        </div>
+      </div>
+    </div>

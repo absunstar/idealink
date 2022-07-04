@@ -1,0 +1,244 @@
+<section class="my-5">
+  <div class="container">
+    <div class='row'>
+      <h4 class="mb-4">{{'GenericSubPartner' | translate }}</h4>
+    </div>
+    <div class='row'>
+      <div class="col-sm-6 md-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>{{'SubPartnerSearch' | translate }}</mat-label>
+          <input type="text" placeholder="{{'SubPartnerType' | translate }}" matInput [(ngModel)]="filtertxt">
+        </mat-form-field>
+        <input type="submit" value="{{'GenericSearch' | translate }}" class="btn color-bg-02 white-text"
+          (click)="filterbtn()">
+      </div>
+      <div class="col-sm-6 md-form  pull-right">
+        <input type="button" class=" pull-right btn color-bg-01 white-text" value="{{'GenericCreateNew' | translate }}"
+          (click)="createBtn(content)">
+        <button type="button" (click)="popup = true" class=" pull-right btn color-bg-03 white-text">My Partners</button>
+        <div class="overlay" *ngIf="popup">
+          <div class="popup">
+            <h4>My Partner List</h4>
+            <a class="close" (click)="popup = false">&times;</a>
+            <hr class="style-seven">
+            <div class="content">
+              <ol class="mypartner">
+                <li *ngFor="let item of lstMyPartners">{{item.Name}}</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class='table-responsive'>
+        <table class='table' *ngIf='page.content && page.content.length'>
+          <thead>
+            <tr>
+              <th>{{'GenericName' | translate }}</th>
+              <th>{{'RequestPhone' | translate }}</th>
+              <th>{{'PartnerManageAccount' | translate }}</th>
+              <th>{{'GenericAction' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let obj of page.content'>
+              <td>{{ obj.Name}}</td>
+              <td>{{ obj.Phone}}</td>
+              <td>
+                <span *ngFor="let item of filterSubPartnerAccount(obj.MemberSubPartners)">{{item.Name}}, </span>
+              </td>
+              <td>
+                <input *ngIf="obj.IsActive" type="button" class="btn btn-primary" value="{{'GenericEdit' | translate }}"
+                  (click)="openBackDropCustomClass(content,obj)">
+                <input *ngIf="obj.IsActive  && (IsAdmin || IsPartner)" type="button" class="btn btn-info"
+                  value="{{'GenericPartnerEntity' | translate }}"
+                  (click)="openBackDropCustomClass(contentAssignEntity,obj)">
+                <input *ngIf="obj.IsActive" type="button" class="btn btn-warning"
+                  value="{{'SubPartnerAccount' | translate }}" (click)="openBackDropCustomClass(contentAssign,obj)">
+                <input *ngIf="!obj.IsActive" type="button" class="btn btn-success"
+                  value="{{'GenericActivate' | translate }}" (click)="setActivate(obj.Id)">
+                <input *ngIf="obj.IsActive" type="button" class="btn btn-danger"
+                  value="{{'GenericDeactivate' | translate }}" (click)="setDeactivate(obj.Id)">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()" (previousPageEvent)="getPreviousPage()"
+        (loadPageCurrentEvent)="getloadPageCurrent()">
+      </app-custom-pagination>
+    </div>
+  </div>
+  <div>
+    <ng-template role="dialog" #content let-modal class="modal fade">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header color-bg-01 white-text text-center">
+            <h6 class="modal-title">
+              {{(modelIsCreate ? 'GenericCreate'   : 'GenericEditing') | translate}} :
+              {{modelIsCreate ? ("GenericNew" | translate) : modelNameEdited}}
+            </h6>
+          </div>
+          <div class="modal-body pt-0">
+            <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+              <div class="form-group ">
+                <mat-form-field class="example-full-width">
+                  <mat-label>{{'SubPartnerName' | translate }}</mat-label>
+                  <input matInput id="modelNameId" type="text" placeholder="{{'GenericRequiredName' | translate }}"
+                    required [(ngModel)]="modelObj.Name" #modelNameVar="ngModel" name="modelName"
+                    [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }" />
+                  <mat-error *ngIf="modelNameVar.errors?.required">{{'SubPartnerNameError' | translate }}</mat-error>
+                </mat-form-field>
+              </div>
+              <div class="form-group ">
+                <mat-form-field class="example-full-width">
+                  <mat-label>{{'RequestPhone' | translate }}</mat-label>
+                  <input matInput id="modelPhoneId" type="number" placeholder="{{'RequestPhoneSelect' | translate }}"
+                    required [(ngModel)]="modelObj.Phone" #modelPhoneVar="ngModel" name="modelPhone"
+                    [ngClass]="{'is-invalid': (modelPhoneVar.touched || modelPhoneVar.dirty) && !modelPhoneVar.valid }" />
+                  <mat-error *ngIf="modelPhoneVar.errors?.required">{{'RequestPhoneError' | translate }}</mat-error>
+                </mat-form-field>
+              </div>
+              <div class="form-group pull-right md-form">
+                <button class="btn color-bg-01 btn-sm white-text btnSave" type="submit"
+                  [disabled]="!modelForm.valid">{{'GenericSave' | translate }}</button>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+
+            <button type="button" class="btn color-bg-02 btn-sm white-text"
+              (click)="modal.close('Close click')">{{'GenericClose' | translate }}</button>
+          </div>
+
+
+        </div>
+      </div>
+    </ng-template>
+  </div>
+  <div>
+    <ng-template role="dialog" #contentAssignEntity let-modal class="modal fade">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content" style="min-height: 300px;">
+          <div class="modal-header color-bg-01 white-text text-center">
+
+            <h6 class="modal-title">
+              {{(modelIsCreate ? 'GenericCreate'   : 'GenericEditing') | translate}} :
+              {{modelIsCreate ? ("GenericNew" | translate) : modelNameEdited}}
+            </h6>
+          </div>
+          <div class="modal-body pt-0">
+            <mat-tab-group animationDuration="1000ms">
+              <mat-tab label="{{'GenericPartnerEntity' | translate }}" style="min-height: 150px;" *ngIf="modelObj.Id">
+                <cust-search-partner-entity (OnSelectedPartner)="OnSelectedPartnerEntity($event)" *ngIf="IsAdmin">
+                </cust-search-partner-entity>
+                <div *ngIf="modelObj.Id">
+                  <table class='table' *ngIf='modelObjSubPartner.Partners && modelObjSubPartner.Partners.length'>
+                    <tbody>
+                      <tr *ngFor='let obj of modelObjSubPartner.Partners'>
+                        <td>{{ obj.Name }}
+                        </td>
+                        <td>
+                          <input *ngIf="obj.IsActive && IsAdmin" type="button" class="btn btn-danger" 
+                            value="{{'GenericRemove' | translate }}" (click)="RemovePartnerEntity(obj.Id)">
+                        </td>
+                        <td>
+                          <button mat-raised-button *ngIf="obj.IsActive" class="btn btn-success"
+                            matTooltip="{{'SubPartnerAddTrainingCenter' | translate }}"
+                            (click)="AddAllPartnerTrainingCenter(obj.Id)"><i class="fas fa-plus"></i></button>
+                          <button mat-raised-button *ngIf="obj.IsActive" class="btn btn-danger"
+                            value="{{'SubPartnerRemoveTrainingCenter' | translate }}"
+                            (click)="RemoveAllPartnerTrainingCenter(obj.Id)"><i class="fas fa-minus"></i></button>
+
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </mat-tab>
+              <mat-tab label="{{'TrainingCentersEntity' | translate }}" *ngIf="modelObj.Id">
+                <div class="alert alert-danger" *ngIf="!this.modelObjSubPartner.Partners?.length">
+                  {{'SubPartnerCenterError' | translate }}</div>
+                <div *ngIf="this.modelObjSubPartner.Partners?.length">
+                  <cust-auto-compelet-list-generic (OnSelectedItem)="OnSelectedTrainingCenter($event)"
+                    [lstTrainingCenters]='TrainingCenterList'></cust-auto-compelet-list-generic>
+                </div>
+                <div *ngIf="modelObj.Id && this.modelObjSubPartner.Partners?.length">
+                  <table class='table'
+                    *ngIf='modelObjSubPartner.TrainingCenters && modelObjSubPartner.TrainingCenters.length'>
+                    <tbody>
+                      <tr *ngFor='let obj of modelObjSubPartner.TrainingCenters'>
+                        <td>{{ obj.Name }}
+                        </td>
+                        <td>
+                          <input *ngIf="obj.IsActive" type="button" class="btn btn-danger"
+                            value="{{'GenericRemove' | translate }}" (click)="RemoveTrainingCenterEntity(obj.Id)">
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </div>
+          <div class="modal-footer">
+
+            <button type="button" class="btn color-bg-02 btn-sm white-text"
+              (click)="modal.close('Close click')">{{'GenericClose' | translate }}</button>
+          </div>
+
+
+        </div>
+      </div>
+    </ng-template>
+  </div>
+  <div>
+    <ng-template role="dialog" #contentAssign let-modal class="modal fade">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header color-bg-01 white-text text-center">
+
+            <h6 class="modal-title">
+              {{'SubPartnerAddSubAccount' | translate }}: {{modelNameEdited}}</h6>
+          </div>
+          <div class="modal-body pt-0">
+
+
+            <div class="form-group ">
+              <cust-search-sub-partner (OnSelectedPartner)='OnSelectedPartner($event)'></cust-search-sub-partner>
+            </div>
+            <div>
+              <table class='table'
+                *ngIf='modelObjSubPartner.MemberSubPartners && modelObjSubPartner.MemberSubPartners.length'>
+                <thead>
+                  <tr>
+                    <th>{{'GenericName' | translate }}</th>
+                    <th>{{'GenericAction' | translate }}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor='let obj of filterSubPartnerAccount(modelObjSubPartner.MemberSubPartners)'>
+                    <td>{{ obj.Name }}
+                    </td>
+                    <td>
+                      <input *ngIf="obj.IsActive" type="button" class="btn btn-danger"
+                        value="{{'GenericRemove' | translate }}" (click)="Remove(obj.Id)">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn color-bg-02 btn-sm white-text"
+              (click)="modal.close('Close click')">{{'GenericClose' | translate }}</button>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+
+  </div>
+</section>

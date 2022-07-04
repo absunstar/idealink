@@ -1,0 +1,126 @@
+<!-- <input *ngIf="obj?.IsActive && IsEdit" type="button" class="btn btn-primary" value="{{'GenericEdit' | translate }}"
+    (click)="openBackDropCustomClass(content,obj)">
+
+<input *ngIf="IsCreate" type="button" class="pull-right btn color-bg-01 white-text" value="{{'GenericCreateNew' | translate }}"
+    (click)="createBtn(content)">
+<ng-template role="dialog" #content let-modal class="modal fade"> -->
+<section class="my-5">
+    <div class="container">
+        <div class='row'>
+            <h4 class="mb-4" *ngIf="modelIsCreate">{{'GenericCreate' | translate}}</h4>
+            <h4 class="mb-4" *ngIf="!modelIsCreate">{{'GenericEditing' | translate}}: {{modelNameEdited}}</h4>
+        </div>
+        <div class='row'>
+            <div class="modal-body pt-0">
+                <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+                    <div class="form-group ">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>{{'GenericName' | translate }}</mat-label>
+                            <input matInput id="modelNameId" type="text" placeholder="{{'GenericRequiredName' | translate }}" required
+                                [(ngModel)]="modelObj.Name" #modelNameVar="ngModel" name="modelName"
+                                [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }" />
+                            <mat-error *ngIf="modelNameVar.errors?.required">{{'TraineeNameError' | translate }}
+                            </mat-error>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group ">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>{{'GenericEmail' | translate }}</mat-label>
+                            <input matInput oninput="this.value = this.value.toLowerCase()" id="modelEmailId"
+                                type="email" placeholder="{{'GenericRequiredEmail' | translate }}" [pattern]="emailPattern" required
+                                disabled="{{!modelIsCreate}}" [(ngModel)]="modelObj.Email" #modelEmailVar="ngModel"
+                                name="modelEmail"
+                                [ngClass]="{'is-invalid': (modelEmailVar.touched || modelEmailVar.dirty) && !modelEmailVar.valid }" />
+                            <mat-error *ngIf="modelEmailVar.errors?.required">{{'TraineeEmailError' | translate }}
+                            </mat-error>
+                            <mat-error *ngIf="modelEmailVar.errors?.pattern">{{'GenericEnterEmailValid' | translate }}
+                            </mat-error>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group ">
+                        <mat-label class="mr-2 ml-2">{{'GenericType' | translate }} *</mat-label>
+                        <mat-radio-group id="modelIdTypeId" [(ngModel)]="modelObj.IdType" color="primary"
+                            [required]="true" #modelIdTypeVar="ngModel" name="modelIdType"
+                            [ngClass]="{'is-invalid': (modelIdTypeVar.touched || modelIdTypeVar.dirty) && !modelIdTypeVar.valid }">
+                            <mat-radio-button class="mr-2 ml-2" [value]="1" color="primary">{{'GenericNationalID' | translate }}
+                            </mat-radio-button>
+                            <mat-radio-button class="mr-2 ml-2" [value]="2" color="primary">{{'GenericPassport' | translate }}
+                            </mat-radio-button>
+                        </mat-radio-group>
+                        <!-- </mat-form-field> -->
+                    </div>
+                    <div class="form-group " *ngIf=" modelObj.IdType == 1">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>{{'GenericId' | translate }}</mat-label>
+                            <input matInput id="modelNationalIdId" type="text" placeholder="{{'TraineeIdRequired' | translate }}"
+                                required disabled="{{!modelIsCreate && !IsAdmin}}" [(ngModel)]="modelObj.NationalId"
+                                #modelNationalIdVar="ngModel" name="modelNationalId" maxlength="14" minlength="14"
+                                [ngClass]="{'is-invalid': (modelNationalIdVar.touched || modelNationalIdVar.dirty) && !modelNationalIdVar.valid }" />
+                            <mat-error *ngIf="modelNationalIdVar.errors?.required">{{'TraineeIdError' | translate }}</mat-error>
+                            <div *ngIf="(modelNationalIdVar.errors?.maxlength || modelNationalIdVar.errors?.mminlength) && modelObj.IdType == 1"> 
+                                National Id must be 14 characters long.
+                           </div> 
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group " *ngIf=" modelObj.IdType == 2">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>{{'GenericId' | translate }}</mat-label>
+                            <input matInput id="modelNationalIdId" type="text" placeholder="{{'TraineeIdRequired' | translate }}"
+                                required disabled="{{!modelIsCreate && !IsAdmin}}" [(ngModel)]="modelObj.NationalId"
+                                #modelNationalIdVar="ngModel" name="modelNationalId" 
+                                [ngClass]="{'is-invalid': (modelNationalIdVar.touched || modelNationalIdVar.dirty) && !modelNationalIdVar.valid }" />
+                            <mat-error *ngIf="modelNationalIdVar.errors?.required">{{'TraineeIdError' | translate }}</mat-error>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group ">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>{{'GenericMobile' | translate }}</mat-label>
+                            <input matInput id="modelMobileId" type="number" placeholder="{{'TraineeMobileRequired' | translate }}" required
+                                number [(ngModel)]="modelObj.Mobile" #modelMobileVar="ngModel" name="modelMobile"
+                                [ngClass]="{'is-invalid': (modelMobileVar.touched || modelMobileVar.dirty) && !modelMobileVar.valid }" />
+                            <mat-error *ngIf="modelMobileVar.errors?.required">{{'TraineeMobileError' | translate }}
+                            </mat-error>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group ">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>{{'TraineeDOB' | translate }}</mat-label>
+                            <input matInput [owlDateTime]="dt1" [max]="todayDate" required
+                                id="modelDOBId" type="text" placeholder="{{'TraineeDOBReuqired' | translate }}"
+                                required [(ngModel)]="modelObj.DOB" #modelDOBVar="ngModel"
+                                name="modelDOB" 
+                                [ngClass]="{'is-invalid': (modelDOBVar.touched || modelDOBVar.dirty) && !modelDOBVar.valid }" />
+                            <mat-error *ngIf="modelDOBVar.errors?.required">{{'TraineeDOBError' | translate }}
+                            </mat-error>
+                            <mat-icon matSuffix [owlDateTimeTrigger]="dt1"><i class="fa fa-calendar"></i></mat-icon>
+                        </mat-form-field>
+                        <owl-date-time #dt1 [pickerType]="'calendar'"></owl-date-time>
+                    </div>
+                    <div class="form-group ">
+                        <!-- <mat-form-field class="example-full-width"> -->
+                        <mat-label class="mr-2 ml-2">{{'TraineeGender' | translate }} *</mat-label>
+                        <mat-radio-group id="modelGenderId" [(ngModel)]="modelObj.Gender" color="primary"
+                            [required]="true" #modelGenderVar="ngModel" name="modelGender"
+                            [ngClass]="{'is-invalid': (modelGenderVar.touched || modelGenderVar.dirty) && !modelGenderVar.valid }">
+                            <mat-radio-button class="mr-2 ml-2" [value]="1" color="primary">{{'TraineeMale' | translate }}
+                            </mat-radio-button>
+                            <mat-radio-button class="mr-2 ml-2" [value]="2" color="primary">{{'TraineeFemale' | translate }}
+                            </mat-radio-button>
+                        </mat-radio-group>
+                        <!-- </mat-form-field> -->
+                    </div>
+                    <div class="row">
+                        <dynamic-form [fields]="regConfig"></dynamic-form>
+                    </div>
+                    <div class="form-group pull-right md-form">
+                        <button class="btn color-bg-grey btn-sm btn-default white-text" type="submit" (click)="OnRedrirectBack()">Cancel</button>
+                        <button class="btn color-bg-01 btn-sm white-text" type="submit"
+                            [disabled]="!(modelForm.valid && form?.valid) || isClicked">{{'GenericSave' | translate }} <i class="fa fa-spinner fa-spin"
+                                *ngIf="isClicked"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- </ng-template> -->

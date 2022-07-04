@@ -1,0 +1,69 @@
+D:\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.deps.json
+D:\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.runtimeconfig.json
+D:\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.runtimeconfig.dev.json
+D:\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.dll
+D:\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.pdb
+D:\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Entity.dll
+D:\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Enum.dll
+D:\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Entity.pdb
+D:\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Enum.pdb
+D:\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.csprojAssemblyReference.cache
+D:\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.AssemblyInfoInputs.cache
+D:\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.AssemblyInfo.cs
+D:\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.csproj.CoreCompileInputs.cache
+D:\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.csproj.CopyComplete
+D:\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.dll
+D:\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.pdb
+D:\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.genruntimeconfig.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.deps.json
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.runtimeconfig.json
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.runtimeconfig.dev.json
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Entity.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Enum.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Entity.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Enum.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.csproj.CopyComplete
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.dll
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.pdb
+E:\Sanay\Working\Empoyment\employment_vs_api with sts\employment_new\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.genruntimeconfig.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.deps.json
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.runtimeconfig.json
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.runtimeconfig.dev.json
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Entity.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Enum.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Entity.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Enum.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.csproj.CopyComplete
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.dll
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.pdb
+E:\Sanay\Working\Empoyment\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.genruntimeconfig.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.runtimeconfig.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.runtimeconfig.dev.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Persistance.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Entity.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Enum.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Entity.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\bin\Release\netcoreapp3.1\Employment.Enum.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.csproj.CopyComplete
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Employment\BackEnd\Employment\Tadrebat.Persistance\obj\Release\netcoreapp3.1\Employment.Persistance.genruntimeconfig.cache

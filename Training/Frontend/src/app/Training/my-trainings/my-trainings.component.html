@@ -1,0 +1,32 @@
+<section class="my-5">
+    <div class="container">
+        <div class='row'>
+            <h4 class="mb-4">{{'MyTraineepageTitle' | translate }} - {{lstData?.Profile.Name}}</h4>
+        </div>
+        <div class="col-md-12">
+            <div class='table-responsive'>
+                <table class='table' *ngIf='page.content && page.content.length'>
+                    <thead>
+                        <tr>
+                            <th>{{'GenericName' | translate }}</th>
+                            <th>{{'TrainingDates' | translate }}</th>
+                            <th>{{'GenericAction' | translate }}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor='let obj of page.content'>
+                            <td>{{ obj.Name}}</td>
+                            <td>{{ obj.Date }}</td>
+                            <td>
+                                <input *ngIf="!obj.HasCertificate && obj.ExamCount<2 && !IsAdmin" type="button"
+                                    class="btn btn-success" value="{{'MyTraineeTakeExam' | translate }}" (click)="TakeExam(obj.TrainingId)">
+                                <a *ngIf="obj.HasCertificate && obj.CertificatePath != ''"
+                                    href="{{FilesURL + obj.CertificatePath}}" target="_blank">{{'CertificateDownloadCertificate' | translate }}</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

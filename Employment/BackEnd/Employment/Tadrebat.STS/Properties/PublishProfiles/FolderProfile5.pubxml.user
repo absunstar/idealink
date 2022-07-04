@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\inetpub\wwwroot\microsoft-employee\sts2</_PublishTargetUrl>
+    <History>True|2022-05-15T20:16:33.0302013Z;True|2022-05-15T19:54:20.4416680+00:00;True|2022-05-15T19:45:44.8099238+00:00;True|2022-03-23T17:47:16.3381975+00:00;True|2022-03-23T17:36:44.3111982+00:00;True|2022-03-23T15:51:18.8407782+00:00;True|2022-03-23T15:50:09.5245854+00:00;True|2022-03-23T15:39:02.8550167+00:00;True|2022-03-23T15:34:26.3146994+00:00;True|2022-03-23T15:27:04.6007641+00:00;True|2022-03-23T15:25:41.7861814+00:00;True|2022-03-23T15:23:30.3485851+00:00;True|2022-03-23T15:15:58.4611721+00:00;True|2022-03-23T15:05:07.0885190+00:00;True|2022-03-23T14:54:13.5290189+00:00;True|2022-03-23T14:43:20.5729552+00:00;True|2022-03-22T16:30:20.8583904+00:00;False|2022-03-22T16:30:02.5101026+00:00;</History>
+  </PropertyGroup>
+</Project>

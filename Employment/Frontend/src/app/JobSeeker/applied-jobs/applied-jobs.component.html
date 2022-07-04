@@ -1,0 +1,54 @@
+<section class="our-dashbord dashbord">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-xl-3 dn-smd">
+                <app-job-seeker-menu [pageName]="'applied'"></app-job-seeker-menu>
+            </div>
+            <div class="col-sm-12 col-lg-8 col-xl-9">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h4 class="fz20">{{'SeekerAppliedPageTitle' | translate }}</h4>
+                    </div>
+                    <div class="col-md-6 col-lg-6 ">
+                        <mat-form-field class="w-75">
+                            <mat-label>{{'SeekerAppliedSearchJob' | translate }}</mat-label>
+                            <input type="text" placeholder="{{'SeekerAppliedSearchBy' | translate }}" matInput
+                                [(ngModel)]="filtertxt">
+                        </mat-form-field>
+                        <input type="submit" value="{{'GenericSubmit' | translate }}" class="btn btn-thm" (click)="filterbtn()">
+                    </div>
+                    <div class="col-lg-12" *ngFor="let item of lstResult?.lstResult">
+                        <div class="candidate_list_view style2">
+                            <div class="thumb">
+                                <img class="img-fluid rounded-circle ProfilePicture-100" src="{{item?.Job.URL}}">
+                                <!-- <div class="cpi_av_rating"><span></span></div> -->
+                            </div>
+                            <div class="content mt25 fn-xl float-right">
+                                <button (click)="onView(item.Job._id)" class="btn btn-block btn-thm   ">{{'EmployerSearchViewJob' | translate }} <span
+                                        class="flaticon-right-arrow pl10"></span></button>
+                            </div>
+                            <div class="content mt25 fn-xl">
+                                <h4 class="title">{{item.Job.Name}} <small class="verified text-thm2 pl10"><i
+                                            class="fa fa-check-circle"></i></small></h4>
+                                <p class="text-thm2">{{item.Job.SubName}} </p>
+                            </div>
+                            <div class="col-lg-12 content mt25 fn-xl">
+                                <p class="text-body message" [class.show]="show">{{item.Message}} </p>
+                                <a *ngIf="item.Message.length > 30" class="text-green"
+                                    (click)="show = !show">{{ show ? 'Show Less' : 'Show More' | translate }}</a>
+                            </div>
+
+                            <ul class="review_list"></ul>
+                            <ul class="address_list"></ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 mt25">
+                        <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()"
+                            (previousPageEvent)="getPreviousPage()" (loadPageCurrentEvent)="getloadPageCurrent()">
+                        </app-custom-pagination>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

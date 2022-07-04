@@ -1,0 +1,135 @@
+<section class="mt-50 shadow-sm p-  bg-white rounded">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-lg-12 mb25">
+        <h4 class="fz20">
+          {{'ConfigFormFields' | translate }}
+        </h4>
+      </div>
+      <br>
+      <div class="col-lg-6 col-xl-6">
+        <form novalidate [formGroup]="adminForm">
+          <div class="col-xl-12 mb5">
+            <button (click)="addFormInputs()" class="btn btn-primary " [disabled]="!adminForm.valid">{{'ConfigAddFormInput' | translate }}</button>
+            <button (click)="ConvertToForm()" class="btn btn-success pull-right"
+              [disabled]="!adminForm.valid">{{'ConfigPreview' | translate }}</button>
+          </div>
+          <div formArrayName="FormInputs" *ngFor="let obj of FormInputs?.controls; let k = index;" class="col-xl-12">
+            <div [formGroupName]="k" class="formAdminGroup">
+              <mat-accordion>
+                <mat-expansion-panel [expanded]="true">
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                      {{'ConfigOrder' | translate }}: {{obj.get('Order')?.value}} - {{'ConfigLabel' | translate }}: {{obj.get('Label')?.value}}
+                    </mat-panel-title>
+                    <mat-panel-description>
+                      {{'GenericName' | translate }}: {{obj.get('Name')?.value}}
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+
+                  <div>
+                    <mat-form-field class="example-full-width">
+                      <mat-label>{{'ConfigOrder' | translate }}</mat-label>
+                      <input matInput type="number" pattern="^[1-9][0-9]?$|^100$" formControlName="Order" placeholder="{{'ConfigEnterOrder' | translate }}" value="">
+                      <mat-error *ngIf="obj.get('Order')?.errors?.required">{{'ConfigEnterOrder' | translate }}</mat-error>
+                      <mat-error *ngIf="obj.get('Order')?.errors?.max || obj.get('Order')?.errors?.min">{{'ConfigOrderError' | translate }}</mat-error>
+                        <mat-error *ngIf="obj.get('Order')?.errors?.pattern">{{'ConfigOrderError1' | translate }}</mat-error>
+                    </mat-form-field>
+                  </div>
+                  <br>
+                  <div>
+                    <mat-form-field class="example-full-width">
+                      <mat-label>{{'ConfigLabel' | translate }}</mat-label>
+                      <input matInput formControlName="Label" placeholder="{{'ConfigEnterLabel' | translate }}" value="">
+                      <mat-error *ngIf="obj.get('Label')?.errors?.required">{{'ConfigEnterLabel' | translate }}</mat-error>
+                    </mat-form-field>
+                  </div>
+                  <br>
+                  <div>
+                    <mat-form-field class="example-full-width">
+                      <mat-label>{{'GenericName' | translate }}</mat-label>
+                      <input matInput formControlName="Name" placeholder="{{'ConfigEnterName' | translate }}"
+                        oninput="this.value = this.value.replace(' ','')">
+                      <mat-error *ngIf="obj.get('Name')?.errors?.required">{{'GenericEnterName' | translate }}</mat-error>
+                    </mat-form-field>
+                  </div>
+                  <br>
+                  <div>
+                    <mat-form-field>
+                      <mat-label>{{'ConfigType' | translate }}</mat-label>
+                      <mat-select formControlName="Type" (selectionChange)="onTypeChange(obj)">
+                        <mat-option [value]="'input'">{{'ConfigTextBox' | translate }}</mat-option>
+                        <mat-option [value]="'select'">{{'ConfigDropdown' | translate }}</mat-option>
+                         <!--<mat-option [value]="'selectmulti'">Dropdown Multiple Select</mat-option>
+                        <mat-option [value]="'checkbox'">Check Box</mat-option>
+                        <mat-option [value]="'radiobutton'">Radio button</mat-option>
+                        <mat-option [value]="'date'">Date Picker</mat-option> -->
+                      </mat-select>
+                      <mat-error *ngIf="obj.get('Type')?.errors?.required">{{'ConfigTypeError' | translate }}</mat-error>
+                    </mat-form-field>
+                  </div>
+                  <br>
+                  <div *ngIf="obj.get('Type').value == 'input'">
+                    <mat-form-field>
+                      <mat-label>{{'ConfigInputType' | translate }}</mat-label>
+                      <mat-select formControlName="InputType">
+                        <mat-option [value]="'text'">{{'ConfigText' | translate }}</mat-option>
+                        <mat-option [value]="'number'">{{'ConfigNumbers' | translate }}</mat-option>
+                      </mat-select>
+                    </mat-form-field>
+                  </div>
+                  <div *ngIf="obj.get('Type').value == 'select' || obj.get('Type').value == 'selectmulti'">
+                    <div>
+                      <button class="btn color-bg-01 btn-sm white-text" (click)="addOption(k)">{{'ConfigAdd' | translate }}</button>
+                    </div>
+                    <div formArrayName="options" *ngFor="let item of getoptions(k); let i = index;">
+                      <div [formGroupName]="i">
+                        <mat-form-field class="example-full-width">
+                          <mat-label>{{'ConfigOption' | translate }}</mat-label>
+                          <input  matInput formControlName="option" placeholder="{{'ConfigEnterOption' | translate }}">
+                        
+                        </mat-form-field>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div>
+                    <!-- <mat-checkbox formControlName="IsRequired">is Required</mat-checkbox> -->
+                    <button *ngIf=" FormInputs?.controls.length > 1" (click)="removeFormInputs(k)"
+                      class="btn btn-danger pull-right">{{'ConfigRemove' | translate }}</button>
+                  </div>
+                </mat-expansion-panel>
+              </mat-accordion>
+            </div>
+          </div>
+          <div class="col-xl-12 mt5">
+            <button (click)="addFormInputs()" class="btn btn-primary " [disabled]="!adminForm.valid">{{'ConfigAddFormInput' | translate }}</button>
+            <button (click)="ConvertToForm()" class="btn btn-success pull-right"
+              [disabled]="!adminForm.valid">{{'ConfigPreview' | translate }}</button>
+          </div>
+          <!-- <div>
+            {{adminForm.value | json}}
+          </div>-->
+        </form>
+      </div>
+      <div class="col-lg-6 col-xl-6">
+        <div class="mb5">
+          <h4>{{'ConfigPreviewform' | translate }}</h4>
+        </div>
+        <div class="formAdminView">
+          <!-- <dynamic-form [fields]="regConfig"> -->
+          <dynamic-form>
+          </dynamic-form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class=" shadow-sm p-3 mb-5 bg-white rounded">
+  <div class="container">
+    <div class="row align-items-center">
+      <button class="btn color-bg-02 btn-sm white-text btnsave" (click)="Save(adminForm)"
+        [disabled]="!adminForm.valid">{{'GenericSave' | translate }} </button>
+    </div>
+  </div>
+</section>

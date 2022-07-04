@@ -1,0 +1,25 @@
+<section class="my-5">
+    <div class="container">
+        <div class='row'>
+            <h4 class="mb-4">{{'ContentHeaderLogoTitle' | translate }}</h4>
+        </div>
+        <div class='row'>
+            <div class="modal-body pt-0">
+                <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+                    <div class="col-md-8">
+                        <div class='row'>
+                            <div class="col-sm-6 md-form">
+                              <span class="pr-2">{{'SiteUploadLogo' | translate }}</span>
+                              <input #fileInput id="uploadLogo" name="uploadLogo" type="file" #fileLogo placeholder="{{'CertificateChoosefile' | translate }}"
+                                accept="image/png" (change)="modelSaveBtn(fileLogo.files)" style="display:none;">
+                              <button id="btnuploadLogo" name="btnuploadLogo" type="button" class="btn btn-success"
+                                (click)="fileLogo.click()">{{'CertificateSelectFile' | translate }}</button>
+                                <br><mat-hint>{{msgPngOnly | translate}}</mat-hint>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

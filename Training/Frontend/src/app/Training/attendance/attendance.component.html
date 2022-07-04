@@ -1,0 +1,73 @@
+<section class="my-5">
+    <div class="container">
+        <div class='row'>
+            <h4 class="mb-4">{{'AttendancepageTitle' | translate }}</h4>
+        </div>
+        <div class="col-md-12">
+            <div class='table-responsive '>
+                <table class='table table-header-rotated'>
+                    <thead>
+                        <tr>
+                            <th>{{'GenericName' | translate }}</th>
+                            <th *ngFor="let item of sessions" class="{{sessions.length > 6 ? 'rotate' : ''}}">
+                                <div >
+                                    <span *ngIf="!item.IsFilled && item.Id != selectedSessionId">
+                                        <a (click)="EnterAttendance(item.Id)" *ngIf="((compareDate(trainingObj.StartDate , todayDate) == -1 || compareDate(trainingObj.StartDate , todayDate) == 0) 
+                                                                    && compareDate(trainingObj.EndDate , todayDate) == 1 && IsTrainer) || IsAdmin || IsPartner || IsSubPartner"><i title="{{'GenericEdit' | translate }}"
+                                                class="far fa-edit"></i></a>
+                                        {{item.Name}}
+                                    </span>
+                                    <span *ngIf="item.Id == selectedSessionId">
+                                        <a (click)="CancelAttendance()"><i title="{{'GenericCancel' | translate }}"
+                                                class="far fa-times"></i></a>
+                                        {{item.Name}}
+                                    </span>
+                                </div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let trainee of trainees">
+                            <td>{{trainee.Name}}</td>
+                            <td *ngFor="let session of sessions" class="">
+                                <span *ngIf="session.Id == selectedSessionId">
+                                    <mat-slide-toggle #toggleElement (change)="AttendanceTraineeadded(trainee.Id,$event)" [checked]="getTraineeAttendance(session.Id,trainee.Id) == 'true' ? true : false" color="primary"></mat-slide-toggle>
+                                </span>
+                                <span *ngIf="session.Id != selectedSessionId"
+                                    [ngSwitch]="getTraineeAttendance(session.Id,trainee.Id)">
+                                    <i *ngSwitchCase="'NA'" class="fas fa-minus"></i>
+                                    <i *ngSwitchCase="'false'" class="fas fa-times"></i>
+                                    <i *ngSwitchCase="'true'" class="fas fa-check"></i>
+                                </span>
+
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot >
+                        <tr *ngIf="selectedSessionId">
+                            <td></td>
+                            <td *ngFor="let session of sessions" class="">
+                                <span *ngIf="session.Id == selectedSessionId">
+                                    <a (click)="MarkAll()" title="{{'AttendanceMarkAll' | translate }}"><i class="far fa-check-circle"></i></a>
+                                    <a (click)="UnMarkAll()" title="{{'AttendanceUnMarkAll' | translate }}"><i class="far fa-times-circle"></i></a>
+                                </span><br>
+                                <span *ngIf="session.Id == selectedSessionId">
+                                    <button class="btn color-bg-01 btn-sm white-text" (click)="Save()"
+                                    type="submit" style="width:80px">{{'GenericSave' | translate }}</button>
+                                </span>
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class='card-footer'>
+            <button class='btn btn-outline-secondary' (click)='onBack()' style='width:80px'>
+                <i class='fa fa-chevron-left'></i> {{'GenericBack' | translate }}
+            </button>
+        </div>
+    </div>
+
+</section>

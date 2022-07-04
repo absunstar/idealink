@@ -1,0 +1,114 @@
+<section class="emplye_single_v2 mt70 mt50 pt50 shadow-sm p-3 mb-5 bg-white rounded">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9 col-xl-9">
+                <div class="candidate_personal_info style3">
+                    <div class="thumb">
+                        <img class="img-fluid companylogoview" src="{{objProfile?.CompanyLogo}}" alt="cl1.jpg">
+                        <div class="cpi_av_rating"><span></span></div>
+                    </div>
+                    <div class="details">
+                        <h3>{{objProfile.Name}}</h3>
+                        <p class="text-thm2">{{objProfile.Industry.Name}}</p>
+                        <ul class="address_list">
+                            <li *ngIf="objProfile.Website != ''" class="list-inline-item"><a href="{{objProfile.Website}}"><span class="flaticon-link text-thm"></span>
+                                    {{objProfile.Website}}</a></li>
+                            <li class="list-inline-item"><a href="#"><span class="flaticon-phone-call text-thm"></span>
+                                    {{objProfile.Phone}}</a></li>
+                            <li class="list-inline-item"><a href="#"><span class="flaticon-mail text-thm"></span>
+                                    {{objProfile.Email}}</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xl-3">
+                <div class="candidate_personal_overview style2">
+                    <!-- <button class="btn btn-block btn-thm mb15"><span
+                        class="flaticon-favorites fz24 pr10"></span> Shortlist</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="employe_details">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="candidate_about_info style2">
+                            <h4 class="fz20 mb30 ProfileTitle">{{'EmployerCompanyViewDescription' | translate }}</h4>
+                            <div class="editor" [innerHTML]="objProfile.About"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-2" *ngFor="let objX of objProfile.data | keyvalue">
+                        <div class="candidate_about_info style2">
+                            <h4 class="fz20 mb30 ProfileTitle">{{objX.key}}</h4>
+                            <div class="editor" [innerHTML]="objX.value"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="my_resume_eduarea">
+                            <h4 *ngIf="lstJobs?.length > 0" class="title mb30">{{'EmployerCompanyViewOpenPosition' | translate }}</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-12" *ngFor="let item of lstJobs">
+                        <div class="fj_post style2 one">
+                            <a routerLink="/Employer/Job/{{item._id}}">
+                            <div class="details">
+                                <h5 class="job_chedule text-thm2">{{GetJobType(item?.Type)}}</h5>
+                                <h4>{{item.Name}}</h4>
+                                <p class="color-Red">Apply before Deadline {{item?.Deadline | date:'MMM d, y'}}</p>
+                                <ul class="featurej_post">
+                                    <li class="list-inline-item"><span class="flaticon-location-pin"></span><a href="#"> {{(!item?.Country || (item?.Country.Name == '')) ? "'EmployerCompanyViewCountryNA' | translate "  : item?.Country.Name}},
+                                            {{ ( !item?.City ||  (item?.City.Name == '')) ? "'EmployerCompanyViewCityNA' | translate" : item?.City.Name}}</a></li>
+                                    <li class="list-inline-item"><span class="flaticon-work pl20 "></span> <a
+                                            href="#">   {{item?.JobField.Name}}</a></li>
+                                </ul>
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+            <div class="col-xl-4">
+                <h4 class="fz20 mb30 ProfileTitle">{{'EmployerCompanyViewInfo' | translate }}</h4>
+                <div class="candidate_working_widget style2 bgc-fa">
+                    <div class="icon text-thm"><span class="flaticon-label"></span></div>
+                    <div class="details">
+                        <p class="color-black22">{{'EmployerCompanyViewPostedJobs' | translate }}</p>
+                        <p><b>{{lstJobs?.length}}</b></p>
+                    </div>
+                    <div class="icon text-thm"><span class="flaticon-location-pin"></span></div>
+                    <div class="details">
+                        <p class="color-black22">{{'EmployerCompanyViewLocations' | translate }}</p>
+                        <p><b>{{objProfile.Country.Name + ', ' + objProfile.City.Name}}</b></p>
+                    </div>
+                    <div class="icon text-thm"><span class="flaticon-2-squares"></span></div>
+                    <div class="details">
+                        <p class="color-black22">{{'EmployerCompanyViewIndustry' | translate }}</p>
+                        <p><b>{{objProfile.Industry.Name}}</b></p>
+                    </div>
+                    <div class="icon text-thm"><span class="flaticon-timeline"></span></div>
+                    <div class="details">
+                        <p class="color-black22">{{'EmployerCompanyViewSince' | translate }}</p>
+                        <p><b>{{objProfile.Establish | date:'dd/MM/yyyy'}}</b></p>
+                    </div>
+                </div>
+                <div class="job_shareing ">
+                    <div class="candidate_social_widget bgc-fa bg-green">
+                        <ul>
+                            <li class="ProfileTitle">{{'EmployerCompanyViewSocial' | translate }}</li>
+                            <li *ngIf="objProfile.SocialTwitter"><a href="{{objProfile.SocialTwitter}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            <li *ngIf="objProfile.SocialFacebook"><a href="{{objProfile.SocialFacebook}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li *ngIf="objProfile.SocialLinkedin"><a href="{{objProfile.SocialLinkedin}}" target="_blank"><i class="fa fa-google"></i></a></li>
+                            <li *ngIf="objProfile.SocialGooglePlus"><a href="{{objProfile.SocialGooglePlus}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>

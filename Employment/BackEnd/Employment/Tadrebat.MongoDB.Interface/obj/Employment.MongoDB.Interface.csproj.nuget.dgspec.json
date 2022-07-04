@@ -1,0 +1,221 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.MongoDB.Interface\\Employment.MongoDB.Interface.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Entity\\Employment.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Entity\\Employment.Entity.csproj",
+        "projectName": "Employment.Entity",
+        "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Entity\\Employment.Entity.csproj",
+        "packagesPath": "C:\\Users\\absunstar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\absunstar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Enum\\Employment.Enum.csproj": {
+                "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Enum\\Employment.Enum.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "SymSpell": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Enum\\Employment.Enum.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Enum\\Employment.Enum.csproj",
+        "projectName": "Employment.Enum",
+        "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Enum\\Employment.Enum.csproj",
+        "packagesPath": "C:\\Users\\absunstar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Enum\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\absunstar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "SymSpell": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.MongoDB.Interface\\Employment.MongoDB.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.MongoDB.Interface\\Employment.MongoDB.Interface.csproj",
+        "projectName": "Employment.MongoDB.Interface",
+        "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.MongoDB.Interface\\Employment.MongoDB.Interface.csproj",
+        "packagesPath": "C:\\Users\\absunstar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.MongoDB.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\absunstar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Entity\\Employment.Entity.csproj": {
+                "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Entity\\Employment.Entity.csproj"
+              },
+              "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Enum\\Employment.Enum.csproj": {
+                "projectPath": "C:\\Users\\absunstar\\Desktop\\FinalHandOver-idealink\\Employment\\BackEnd\\Employment\\Tadrebat.Enum\\Employment.Enum.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.2, )"
+            },
+            "SymSpell": {
+              "target": "Package",
+              "version": "[6.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

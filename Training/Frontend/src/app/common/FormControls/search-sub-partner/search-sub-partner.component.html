@@ -1,0 +1,20 @@
+<div class="form-group">
+  <!-- <pre class="card card-block card-header">Model: {{ search | json }}</pre>
+    <pre class="card card-block card-header mb-3">Selected option: {{selectedOption | json}}</pre> -->
+  <input [(ngModel)]="search" typeaheadOptionField="Name" [typeahead]="suggestions$" [typeaheadAsync]="true"
+    [typeaheadItemTemplate]="customItemTemplate" class="form-control"
+    placeholder="{{'FromsControlSearch' | translate }}" [typeaheadMinLength]="3" [isAnimated]="true"
+    (typeaheadOnSelect)="onSelect($event)" (typeaheadLoading)="changeTypeaheadLoading($event)"
+    (typeaheadNoResults)="typeaheadNoResults($event)">
+
+  <div class="alert alert-danger" role="alert" *ngIf="errorMessage">
+    {{ errorMessage }}
+  </div>
+  <ng-template #customItemTemplate let-model="item">
+    <span>{{model.Name}}</span>
+  </ng-template>
+  <div *ngIf="typeaheadLoading">
+    <app-atom-spinner [animationDuration]="1000" [size]="60" [color]="'#ff1d5e'"></app-atom-spinner>
+  </div>
+  <div class="alert alert-danger" *ngIf="noResult">{{'PageNoResult' | translate }}</div>
+</div>

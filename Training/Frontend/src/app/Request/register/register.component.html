@@ -1,0 +1,86 @@
+<section class="my-5">
+    <div class="container">
+        <div class='row'>
+            <h4 class="mb-4">{{'RequestpageTitle' | translate }}</h4>
+        </div>
+        <div class='row'>
+            <div class="modal-body pt-0">
+                <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+                    <div class="form-group ">
+                        <mat-form-field>
+                            <mat-label>{{'RequestUserType' | translate }}</mat-label>
+                            <mat-select placeholder="{{'GenericRequiredType' | translate }}" required
+                                [(ngModel)]="modelObj.Type" #modelTypeListVar="ngModel" name="modelTypeList"
+                                [value]="modelObj.Type"
+                                [ngClass]="{'is-invalid': (modelTypeListVar.touched || modelTypeListVar.dirty) && !modelTypeListVar.valid}">
+                                <mat-option value="">{{'RequestUserTypeSelect' | translate }}</mat-option>
+                                <mat-option value="Trainer">{{'GenericTrainer' | translate }}</mat-option>
+                                <mat-option value="Training Center">{{'GenericTrainingCenter' | translate }}</mat-option>
+                            </mat-select>
+                            <mat-error *ngIf="modelTypeListVar.errors?.required">{{'RequestUserTypeError' | translate }}</mat-error>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group ">
+                        <mat-form-field>
+                            <mat-label>{{'GenericPartner' | translate }}</mat-label>
+                            <mat-select  placeholder="{{'GenericSelectPartner' | translate }}" required
+                                [(ngModel)]="modelObj.PartnerName" #modelMyPartnerListIds="ngModel"
+                                name="MyPartnerListIds"
+                                [ngClass]="{'is-invalid': (modelMyPartnerListIds.touched || modelMyPartnerListIds.dirty) && !modelMyPartnerListIds.valid}">
+                                <mat-option *ngFor="let obj of lstPartners" [value]="obj.Name">{{ obj.Name }}</mat-option>
+                            </mat-select>
+                            <mat-error *ngIf="modelMyPartnerListIds.errors?.required">{{'GenericSelectPartnerError' | translate }}
+                            </mat-error>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group ">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>{{'GenericName' | translate }}</mat-label>
+                            <input matInput id="modelNameId" type="text" placeholder="{{'GenericRequiredName' | translate }}" required
+                                [(ngModel)]="modelObj.Name" #modelNameVar="ngModel" name="modelName"
+                                [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }" />
+                            <mat-error *ngIf="modelNameVar.errors?.required">{{'GenericEnterName' | translate }}</mat-error>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group ">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>{{'GenericEmail' | translate }}</mat-label>
+                            <input matInput oninput="this.value = this.value.toLowerCase()" id="modelEmailId"
+                                type="email" placeholder="{{'GenericRequiredEmail' | translate }}" [pattern]="emailPattern" required
+                                 [(ngModel)]="modelObj.Email" #modelEmailVar="ngModel"
+                                name="modelEmail"
+                                [ngClass]="{'is-invalid': (modelEmailVar.touched || modelEmailVar.dirty) && !modelEmailVar.valid }" />
+                            <mat-error *ngIf="modelEmailVar.errors?.required">{{'GenericEnterEmail' | translate }}</mat-error>
+                            <mat-error *ngIf="modelEmailVar.errors?.pattern">{{'GenericEnterEmailValid' | translate }}</mat-error>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group ">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>{{'RequestPhone' | translate }}</mat-label>
+                            <input type="number" matInput id="modelPhoneId" placeholder="{{'RequestPhoneSelect' | translate }}" required
+                                [(ngModel)]="modelObj.Phone" #modelPhoneVar="ngModel" name="modelPhone"
+                                [ngClass]="{'is-invalid': (modelPhoneVar.touched || modelPhoneVar.dirty) && !modelPhoneVar.valid }" />
+                            <mat-error *ngIf="modelPhoneVar.errors?.required">{{'RequestPhoneError' | translate }}</mat-error>
+                        </mat-form-field>
+                    </div>
+                    <div class="form-group ">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>{{'RequestMessage' | translate }}</mat-label>
+                            <textarea matInput id="modelMessageId" type="text" placeholder="{{'RequestMessageSelect' | translate }}" required
+                                [(ngModel)]="modelObj.Message" #modelMessageVar="ngModel" name="modelMessage" rows="5" cols="15"
+                                [ngClass]="{'is-invalid': (modelMessageVar.touched || modelMessageVar.dirty) && !modelMessageVar.valid }" ></textarea>
+                            <mat-error *ngIf="modelMessageVar.errors?.required">{{'RequestMessageError' | translate }}</mat-error>
+                        </mat-form-field>
+                    </div>
+                    <div class="row">
+                        <dynamic-form [fields]="regConfig"></dynamic-form>
+                    </div>
+                    <div class="form-group pull-right md-form">
+                        <button class="btn color-bg-01 btn-sm white-text" type="submit"                            
+                            [disabled]="!(modelForm.valid && form?.valid)|| isClicked">{{'GenericSave' | translate }} <i class="fa fa-spinner fa-spin" *ngIf="isClicked"></i> </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>

@@ -1,0 +1,79 @@
+<section class="my-5">
+    <div class="container">
+      <div class='row'>
+        <h4 class="mb-4">{{'HeaderQuestions' | translate }}</h4>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+            <mat-form-field>
+                <mat-label>{{'GenericTrainingType' | translate }}</mat-label>
+                <mat-select id="filterTrainingType" placeholder="Select a TrainingType"
+                    (selectionChange)="onTrainingTypeFilterSelect()" [(ngModel)]="filterObj.TrainingTypeId"
+                    name="filterTrainingTypeVar">
+                    <mat-option value="">{{'GenericSelectTrainingType' | translate }}</mat-option>
+                    <mat-option *ngFor="let item of lstTrainingTypes" value="{{item.Id}}">
+                        {{item.Name}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+        <div class="col-sm-6">
+            <mat-form-field>
+                <mat-label>{{'GenericTrainingCategory' | translate }}</mat-label>
+                <mat-select id="filtertrainingCategory" placeholder="{{'GenericSelectTrainingCategory' | translate }}"
+                    [(ngModel)]="filterObj.TrainingCagtegoryId" name="filtertrainingCategoryVar">
+                    <mat-option value="">{{'GenericSelectTrainingCategory' | translate }}</mat-option>
+                    <mat-option *ngFor="let item of lstTrainingCategoryFilter" value="{{item.Id}}">
+                        {{item.Name}}</mat-option>
+                </mat-select>
+            </mat-form-field>
+            
+        </div>
+    </div>
+      <div class='row'>
+        <div class="col-sm-6 md-form">
+          <mat-form-field class="example-full-width">
+            <mat-label>{{'QuestionSearch' | translate }}</mat-label>
+            <input type="text" placeholder="{{'QuestionSearch' | translate }}" matInput [(ngModel)]="filtertxt">
+          </mat-form-field>
+          <input type="submit" value="{{'GenericSearch' | translate }}"  class="btn color-bg-02 white-text" (click)="filterbtn()">
+        </div>
+        <div class="col-sm-6 md-form pull-right">
+          <input type="button" class="pull-right btn color-bg-01 white-text" value="{{'GenericCreateNew' | translate }}"
+            (click)="Edit('0')">
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class='table-responsive '>
+          <table class='table' *ngIf='page.content && page.content.length'>
+            <thead>
+              <tr>
+                <th>{{'GenericName' | translate }}</th>
+                <th>{{'GenericTrainingType' | translate }}</th>
+                <th>{{'GenericTrainingCategory' | translate }}</th>
+                <th>{{'GenericAction' | translate }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor='let obj of page.content'>
+                <td>{{ obj.Name}}</td>
+                <td>{{ obj.TrainingTypeName}}</td>
+                <td>{{ obj.TrainingCategoryName}}</td>
+                <td>
+                  <input *ngIf="obj.IsActive" type="button" class="btn btn-primary" value="{{'GenericEdit' | translate }}"
+                    (click)="Edit(obj.Id)">
+                  <input *ngIf="!obj.IsActive" type="button" class="btn btn-success" value="{{'GenericActivate' | translate }}"
+                    (click)="setActivate(obj.Id)">
+                  <input *ngIf="obj.IsActive" type="button" class="btn btn-danger" value="{{'GenericDeactivate' | translate }}"
+                    (click)="setDeactivate(obj.Id)">
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div>
+        <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()" (previousPageEvent)="getPreviousPage()"
+          (loadPageCurrentEvent)="getloadPageCurrent()">
+        </app-custom-pagination>
+      </div>
+    </div>

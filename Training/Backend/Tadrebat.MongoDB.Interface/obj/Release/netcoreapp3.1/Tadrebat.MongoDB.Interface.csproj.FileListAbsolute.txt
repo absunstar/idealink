@@ -1,0 +1,43 @@
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.deps.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.Entity.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.Enum.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.Entity.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.Enum.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.csprojAssemblyReference.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.AssemblyInfoInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.AssemblyInfo.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.csproj.CoreCompileInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.csproj.CopyComplete
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.deps.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.Entity.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.Enum.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.Entity.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.Enum.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.csproj.CopyComplete
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.Entity.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.Enum.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.Entity.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\bin\Release\netcoreapp3.1\Tadrebat.Enum.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.csproj.CopyComplete
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.MongoDB.Interface\obj\Release\netcoreapp3.1\Tadrebat.MongoDB.Interface.pdb

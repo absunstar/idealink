@@ -1,0 +1,46 @@
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.deps.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.runtimeconfig.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.runtimeconfig.dev.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Enum.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Enum.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.csprojAssemblyReference.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.AssemblyInfoInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.AssemblyInfo.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.csproj.CoreCompileInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.csproj.CopyComplete
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.genruntimeconfig.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.deps.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.runtimeconfig.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.runtimeconfig.dev.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Enum.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Enum.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.csproj.CopyComplete
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.genruntimeconfig.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.runtimeconfig.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.runtimeconfig.dev.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Entity.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Enum.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\bin\Release\netcoreapp3.1\Tadrebat.Enum.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.csproj.CopyComplete
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.Entity\obj\Release\netcoreapp3.1\Tadrebat.Entity.genruntimeconfig.cache

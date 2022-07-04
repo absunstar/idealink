@@ -1,0 +1,103 @@
+<section class="accounts">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-12 col-xl-12">
+          <div class="row">
+            <div class="col-md-12 col-lg-12 ">
+              <h4 class="fz20">{{'JobFairListPageTitle' | translate }}</h4>
+            </div>
+            <div class="col-sm-6 md-form">
+              <mat-form-field class="example-full-width w-75">
+                <mat-label>{{'JobFairListSearchFor' | translate }}</mat-label>
+                <input type="text" placeholder="{{'JobFairListSearchBy' | translate }}" matInput [(ngModel)]="filtertxt">
+              </mat-form-field>
+              <input type="submit" value="{{'GenericSubmit' | translate }}" class="btn btn-thm" (click)="filterbtn()">
+            </div>
+            <div class="col-sm-6 md-form pull-right">
+              <input type="button" *ngIf="IsAdmin" class="pull-right btn btn-orange" value="{{'GenericCreateNew' | translate }}" routerLink="/JobFair/Create">
+            </div>
+            <div class="col-md-12 col-lg-12">
+              <div class="ui_kit_table">
+                <table class="table">
+                  <thead class="thead-light">
+                    <tr>
+                      <th scope="col">{{'GenericName' | translate }}</th>
+                      <th scope="col">{{'JobFairListLocation' | translate }}</th>
+                      <th scope="col">{{'JobFairListEventDate' | translate }}</th>
+                      <th scope="col">{{'GenericAction' | translate }}</th>
+                    </tr>
+                  </thead>
+                  <tbody *ngIf='page.content && page.content.length'>
+                    <tr *ngFor='let obj of page.content'>
+                      <td>{{ obj.Name}}</td>
+                      <td>{{ obj.Location}}</td>
+                      <td>{{ obj.EventDate | date:'dd/MM/yyyy'}}</td>
+                      <td>
+                        <input *ngIf="obj.IsActive && !CheckDateBiggerThanToday(obj.EventDate)" type="button" class="btn btn-Purple" value="{{'JobFairListApply' | translate }}" routerLink="/JobFair/Register/{{obj._id}}">
+                        <input *ngIf="obj.IsActive && IsAdmin" type="button" class="btn btn-orange" value="{{'JobFairListAttendance' | translate }}" (click)="openBackDropCustomClass(content,obj._id,obj.Name)">
+                        <input *ngIf="obj.IsActive && IsAdmin" type="button" class="btn btn-primary" value="{{'GenericEdit' | translate }}" routerLink="/JobFair/Edit/{{obj._id}}">
+                        <input *ngIf="!obj.IsActive && IsAdmin" type="button" class="btn btn-success" value="{{'GenericActivate' | translate }}"
+                          (click)="setActivate(obj._id)">
+                        <input *ngIf="obj.IsActive && IsAdmin" type="button" class="btn btn-danger" value="{{'GenericDeactivate' | translate }}"
+                          (click)="setDeActivate(obj._id)">
+                          <input *ngIf="obj.IsActive && IsAdmin" type="button" class="btn btn-success" value="{{'JobFairListExport' | translate }}"
+                          (click)="Export(obj._id)">
+                          {{fileurl}}
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-12">
+              <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()" (previousPageEvent)="getPreviousPage()"
+                (loadPageCurrentEvent)="getloadPageCurrent()">
+              </app-custom-pagination>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+<div>
+  <ng-template role="dialog" #content let-modal class="modal fade">
+      <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+              <div class="modal-header white-text text-center">
+
+                  <h6 class="modal-title">
+                    {{'JobFairAddTitle' | translate }} {{modelNameEdited}}
+                  </h6>
+              </div>
+              <div class="modal-body">
+
+                  <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+                      <div class="form-group ">
+                          <mat-form-field class="example-full-width">
+                              <mat-label>{{'JobFairCode' | translate }}</mat-label>
+                              <input matInput id="modelCodeId" type="number" placeholder="{{'JobFairCodeEnter' | translate }}" required
+                                  [(ngModel)]="modelAttendance.Code" #modelCodeVar="ngModel" name="modelCode" minlength="12" maxlength="12"
+                                  [ngClass]="{'is-invalid': (modelCodeVar.touched || modelCodeVar.dirty) && !modelCodeVar.valid }" />
+                              <mat-error *ngIf="modelCodeVar.errors?.required">{{'JobFairCodeError' | translate }}
+                              </mat-error>
+                              <mat-error *ngIf="modelCodeVar.errors?.minlength ||modelCodeVar.errors?.maxlength ">{{'JobFairCodeErrorLength' | translate }}
+                              </mat-error>
+                          </mat-form-field>
+                      </div>
+                      <div class="form-group pull-right md-form">
+                          <button class="btn  btn-thm" type="submit" style="width:100px"
+                              [title]="modelForm.valid ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                              [disabled]="!modelForm.valid">{{'GenericSave' | translate }}</button></div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn border-green btn-transparent"
+                      (click)="modal.close()">{{'GenericClose' | translate }}</button>
+              </div>
+          </div>
+      </div>
+  </ng-template>
+</div>
+  
+ 

@@ -1,0 +1,200 @@
+<section class="emplye_single_v2 mt70 mt50 pt50 jobView">
+    <div class="container">
+        <div class="row">
+            <a class="backloc" href="javascript:void(0)" (click)="goback()"> < Back</a>
+            <div class="col-lg-8 col-xl-8">
+                <div class="candidate_personal_info style2">
+                    <div class="details">
+                        <span class="text-thm2 fwb">{{GetJobType(objJob?.Type)}}</span>
+                        <h3>{{objJob?.Name}}</h3>
+                        <p>Posted {{objJob?.CreatedAt | date:'MMM d, y'}} by <a
+                                routerLink="/Employer/Company/{{objJob?.Company._id}}"
+                                class="text-thm2">{{objJob?.Company.Name}}</a></p>
+                        <ul class="address_list">
+                            <li class="list-inline-objJob"><a href="#"><span class="flaticon-location-pin"></span>
+                                    {{(!objJob?.Country || (objJob?.Country.Name == '')) ? "'EmployerCompanyViewCountryNA' | translate" : objJob?.Country.Name}},
+                                    {{ ( !objJob?.City ||  (objJob?.City.Name == '')) ? "'EmployerCompanyViewCityNA' | translate" : objJob?.City.Name}}</a>
+                            </li>
+                            <li class="list-inline-item "><a class="color-Red"><span
+                                        class="flaticon-open-envelope-with-letter color-Red"></span>
+                                    {{'EmployerJobViewApplyDeadline' | translate }}
+                                    {{objJob?.Deadline | date:'MMM d, y'}}</a></li>
+                        </ul>
+                    </div>
+                    <div class="row job_meta_list mt30" *ngIf="isJobSeeker">
+                        <div class="col-sm-6 col-lg-6"><button (click)="createBtn(content)" [disabled]="IsJobApply"
+                                class="btn btn-block btn-thm">{{(IsJobApply ? 'EmployerJobViewApplyAlready' : 'EmployerJobViewApply') | translate }}<span
+                                    class="flaticon-right-arrow pl10"></span></button></div>
+                        <div class="col-sm-6 col-lg-6" *ngIf="!IsJobFavourite"><button (click)="onAddFavourite()" 
+                                class="btn btn-block btn-primary"><span class="flaticon-favorites fz24 pr10"></span>
+                                {{'EmployerJobViewFavourite' | translate }}</button></div>
+                        <div class="col-sm-6 col-lg-6" *ngIf="IsJobFavourite"><button (click)="onRemoveFavourite()"
+                                    class="btn btn-block btn-danger"><span class="flaticon-favorites fz24 pr10"></span>
+                                    {{'GenericRemove' | translate}} {{'EmployerJobViewFavourite' | translate }}</button></div>
+                    </div>
+                    <div class="row personer_information_company bg-green rounded">
+                        <div class="col-sm-4 col-lg-4">
+                            <div class="icon text-thm"><span class="flaticon-work"></span></div>
+                            <div class="details">
+                                <p>{{'GenericJobField' | translate }}</p>
+                                <p>{{objJob?.JobField.Name}}</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4">
+                            <div class="icon text-thm"><span class="flaticon-controls"></span></div>
+                            <div class="details">
+                                <p>{{'GenericJobSubfield' | translate }}</p>
+                                <p>{{objJob?.JobSubField.Name}}</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4">
+                            <div class="icon text-thm"><span class="flaticon-paper"></span></div>
+                            <div class="details">
+                                <p>{{'EmployerJobViewExperience' | translate }}</p>
+                                <p>{{objJob?.Experience.Name}}</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4">
+                            <div class="icon text-thm"><span class="flaticon-line-chart"></span></div>
+                            <div class="details">
+                                <p>{{'EmployerPostJobIndustry' | translate }}</p>
+                                <p>{{objJob?.Industry.Name}}</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 col-lg-4">
+                            <div class="icon text-thm"><span class="flaticon-mortarboard"></span></div>
+                            <div class="details">
+                                <p>{{'EmployerPostJobQualification' | translate }}</p>
+                                <p>{{objJob?.Qualification.Name}}</p>
+                            </div>
+                        </div>
+                        <!--<div class="col-sm-4 col-lg-4">
+                             <div class="icon text-thm"><span class="flaticon-gender"></span></div>
+                            <div class="details">
+                                <p>{{'EmployerPostJobGender' | translate }}</p>
+                                <p>{{GetGender(objJob?.Gender)}}</p>
+                            </div> 
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-xl-4" >
+                <div class="candidate_personal_overview bg-green style3" *ngIf="!IsLoggedIn">
+                    <span class="color-Red"><span
+                        class="flaticon-alarm fz24 pr10"></span> {{"LogintoApply" | translate}}</span>
+                </div>
+                <div class="candidate_personal_overview bg-green style3" *ngIf="IsLoggedIn">
+                    <div class="thumb">
+                        <img class="img-fluid rounded " src="{{objJob?.Company.URL}}" alt="cs1.jpg">
+                    </div>
+                    <ul class="company_job_list mt30 mb30">
+                        <li class="list-inline-objJob"><a class="mt25"
+                                routerLink="/Employer/Company/{{objJob?.Company._id}}">{{'EmployerProfilePageTitle' | translate }}
+                                <span class="flaticon-right-arrow pl10"></span></a></li>
+                        <li *ngIf="IsAdmin && objJob.Status == 3" class="list-inline-objJob mt5 pt-2">
+                            <input type="button" class="btn btn-primary" value="{{'GenericApprove' | translate }}"
+                                (click)="Approve(objJob?._id)">
+                            <input type="button" class="btn btn-danger" value="{{'GenericReject' | translate }}"
+                                (click)="Reject(objJob?._id)">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="candidate_about_info style2 mt10">
+                            <h4 class="fz20 mb30">{{'EmployerPostJobResponsibilities' | translate }}</h4>
+                            <div class="editor"
+                                innerHTML='{{objJob?.Description == "" ? EmployerJobViewNoDesc : objJob?.Description}}'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="candidate_about_info style2 mt10">
+                            <h4 class="fz20 mb30">{{'EmployerPostJobSkills' | translate }}</h4>
+                            <div class="editor"
+                                innerHTML='{{objJob?.Skills == "" ? EmployerJobViewNoSkill : objJob?.Skills}}'></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="candidate_about_info style2 mt10">
+                            <h4 class="fz20 mb30">{{'EmployerPostJobBenefits' | translate }}</h4>
+                            <div class="editor"
+                                innerHTML="{{objJob?.Benefits == '' ? EmployerJobViewNoBenefit : objJob?.Benefits}}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-8">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="candidate_about_info style2 mt10">
+                            <h4 class="fz20 mb30">{{'JobRemuneration' | translate }}</h4>
+                            <div class="editor"
+                                innerHTML="{{objJob?.Remuneration}}">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</section>
+<div>
+    <ng-template role="dialog" #content let-modal class="modal fade">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header white-text text-center">
+
+                    <h6 class="modal-title">
+                        {{'EmployerJobViewTell' | translate }}
+                    </h6>
+                </div>
+                <div class="modal-body">
+
+                    <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+                        <div class="form-group ">
+                            <mat-form-field class="example-full-width">
+                                <mat-label>{{'EmployerJobViewMessage' | translate }}</mat-label>
+                                <textarea matInput id="modelNameId" type="text"
+                                    placeholder="{{'EmployerJobViewMessageEnter' | translate }}" required rows="8"
+                                    [(ngModel)]="modelMessage" #modelNameVar="ngModel" name="modelName"
+                                    [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }"></textarea>
+                                <mat-error *ngIf="modelNameVar.errors?.required">
+                                    {{'EmployerJobViewMessageError' | translate }}
+                                </mat-error>
+                            </mat-form-field>
+                        </div>
+                        <div class="form-group pull-right md-form">
+                            <button class="btn  btn-thm" type="submit" style="width:100px"
+                                [title]="modelForm.valid ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                                [disabled]="!modelForm.valid">{{'GenericSave' | translate }}</button></div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn border-green btn-transparent"
+                        (click)="modal.close()">{{'GenericClose' | translate }}</button>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</div>

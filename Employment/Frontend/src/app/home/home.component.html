@@ -1,0 +1,81 @@
+<!-- Home Design -->
+<section id="homepageSecionDiv" class="home-one style3 parallax home_bg3" data-stellar-background-ratio="0.3">
+    <div class="container">
+        <div class="row home-content">
+           <!-- <div>
+            IsRoleUndefined: {{IsRoleUndefined}}<br>
+            userRole: {{userRole}} <br>
+           </div> -->
+            <div class="col-lg-5 registerbox" *ngIf="IsLoggedIn && IsRoleUndefined">
+                <div class="heading">
+                    <h3 class="text-center color-white">{{'HomeChooseType' | translate }}</h3>
+                </div>
+                <div class="text-center m-4">
+                    <a class="btn btn-md btn-transparent bg-Orange w-75" (click)="AssignRole(3)"><i
+                        class="fas fa-user-lock"></i>{{'GenericJobSeeker' | translate }}</a>
+                </div>
+                <div class="separator">OR</div>
+                <div class="text-center m-4">
+                    <a class="btn btn-md btn-transparent bg-Orange w-75" (click)="AssignRole(2)"><i
+                        class="fas fa-user-lock"></i>{{'GenericJobEmployer' | translate }}</a>
+                </div>
+            </div>
+            <div class="col-lg-5 registerbox" *ngIf="!IsLoggedIn && !IsAzureLoginEnabled">
+                <div class="heading">
+                    <h3 class="text-center color-white">{{'HomeCreateAccount' | translate }}</h3>
+                </div>
+                <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+                    <mat-form-field appearance="outline">
+                        <mat-label>{{'GenericName' | translate }}</mat-label>
+                        <input matInput type="FullName" required placeholder="{{'GenericRequiredName' | translate }}"
+                            [(ngModel)]="modelObj.Name" #modelFullNameVar="ngModel" name="modelFullName"
+                            [ngClass]="{'is-invalid': (modelFullNameVar.touched || modelFullNameVar.dirty) && !modelFullNameVar.valid }" />
+                        <mat-error *ngIf="modelFullNameVar.errors?.required">{{'HomeNameError' | translate }}</mat-error>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline">
+                        <mat-label>{{'GenericEmail' | translate }}</mat-label>
+                        <input matInput oninput="this.value = this.value.toLowerCase()" id="modelEmailId" type="email"
+                            placeholder="{{'GenericRequiredEmail' | translate }}" [pattern]="emailPattern" required
+                            [(ngModel)]="modelObj.Email" #modelEmailVar="ngModel" name="modelEmail"
+                            [ngClass]="{'is-invalid': (modelEmailVar.touched || modelEmailVar.dirty) && !modelEmailVar.valid }" />
+                        <mat-error *ngIf="modelEmailVar.errors?.required">{{'GenericEnterEmail' | translate }}</mat-error>
+                        <mat-error *ngIf="modelEmailVar.errors?.pattern">{{'GenericEnterEmailValid' | translate }}
+                        </mat-error>
+                    </mat-form-field>
+                    <mat-form-field appearance="outline">
+                        <mat-label>{{'HomePassword' | translate }}</mat-label>
+                        <input matInput type="password" required placeholder="{{'HomePasswordEnter' | translate }}"
+                            [(ngModel)]="modelObj.password" #modelPasswordVar="ngModel" name="modelPassword"
+                            [ngClass]="{'is-invalid': (modelPasswordVar.touched || modelPasswordVar.dirty) && !modelPasswordVar.valid }" />
+                        <mat-error *ngIf="modelPasswordVar.errors?.required">{{'HomePasswordError' | translate }}</mat-error>
+                    </mat-form-field>
+                    <mat-radio-group [(ngModel)]="modelObj.Type" aria-label="Select an option" name="modelType"
+                        required>
+                        <mat-radio-button value="2">{{'GenericJobEmployer' | translate }}</mat-radio-button><br>
+                        <mat-radio-button value="3">{{'GenericJobSeeker' | translate }}</mat-radio-button>
+                    </mat-radio-group>
+                    <div class="form-group form-check term">
+                        <mat-checkbox required [(ngModel)]="isTermAgreed" #modelTermVar="ngModel" name="modelTerm"
+                            [ngClass]="{'is-invalid': (modelTermVar.touched || modelTermVar.dirty) && !modelTermVar.valid }">
+                            <mat-label class="form-check-label" for="exampleCheck2"> {{'HomeConfirmTerm' | translate }}
+                                <a class="lnk-white" target="_blank" routerLink="/Terms">{{'HomeTerm' | translate }}</a> and <a
+                                    class="lnk-white" target="_blank" routerLink="/Policy">{{'HomePolicy' | translate }}</a>
+                            </mat-label>
+                        </mat-checkbox>
+                    </div>
+                    <button type="submit" class="btn btn-log btn-block btn-transparent bg-Orange"
+                        [title]="modelForm.valid && isTermAgreed ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                        [disabled]="!modelForm.valid || isClicked">{{'HomeRegister' | translate }}<i class="fa fa-spinner fa-spin"
+                            *ngIf="isClicked"></i></button>
+
+                </form>
+            </div> 
+            <div class="col-lg-5 homeMessage mt3">
+                <div class="home-text">
+                    <h2 class="fz40">{{'HomeFindJob' | translate }}</h2>
+                    <p class="color-white">{{'HomeEach' | translate }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

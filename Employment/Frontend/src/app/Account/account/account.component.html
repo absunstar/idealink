@@ -1,0 +1,135 @@
+<section class="accounts">
+  <div class="container FullWidth">
+    <div class="row">
+      <div class="col-sm-12 col-lg-12 col-xl-12">
+        <div class="row">
+          <div class="col-md-12 col-lg-12 ">
+            <h4 class="fz20">{{'AccountpageTitle' | translate }}</h4>
+          </div>
+          <div class="col-sm-5 md-form">
+            <mat-form-field class="example-full-width">
+              <mat-label>{{'AccountSearch' | translate }}</mat-label>
+              <input type="text" placeholder="{{'AccountSearchType' | translate }}" matInput [(ngModel)]="filtertxt">
+            </mat-form-field>
+          </div>
+          <div class="col-sm-5 md-form">
+            <mat-form-field>
+              <mat-label>{{'AccountUserType' | translate }}</mat-label>
+              <mat-select id="filterTypeId" placeholder="Filter by Type" [(ngModel)]="filterType" name="filterTypeId">
+                <mat-option value="0">{{'AccountSelect' | translate }}</mat-option>
+                <mat-option *ngFor="let item of lstUserType" value="{{item.Id}}">{{item.Name}}</mat-option>
+              </mat-select>
+            </mat-form-field>
+
+          </div>
+          <div class="col-sm-2 md-form">
+            <input type="submit" value="{{'GenericSubmit' | translate }}" class="btn btn-thm pull-right"
+              (click)="filterbtn()">
+          </div>
+          <div class="col-sm-12 md-form pull-right">
+            <input type="button" class="pull-right btn btn-orange" value="{{'GenericCreateNew' | translate }}"
+              (click)="createBtn(content)">
+          </div>
+          <div class="col-md-12 col-lg-12">
+            <div class="ui_kit_table">
+              <table class="table">
+                <thead class="thead-light">
+                  <tr>
+                    <th scope="col">{{'GenericName' | translate }}</th>
+                    <th scope="col">{{'GenericEmail' | translate }}</th>
+                    <th scope="col">{{'GenericType' | translate }}</th>
+                    <th scope="col">{{'GenericAction' | translate }}</th>
+                  </tr>
+                </thead>
+                <tbody *ngIf='page.content && page.content.length'>
+                  <tr *ngFor='let obj of page.content'>
+                    <td>{{ obj.Name}}</td>
+                    <td>{{ obj.Email}}</td>
+                    <td>{{ ConvertUserType(obj.Type)}}</td>
+                    <td>
+                      <input *ngIf="obj.IsActive" type="button" class="btn btn-primary"
+                        value="{{'GenericEdit' | translate }}" (click)="openBackDropCustomClass(content,obj)">
+                      <input *ngIf="!obj.IsActive" type="button" class="btn btn-success"
+                        value="{{'GenericActivate' | translate }}" (click)="setActivate(obj.Id)">
+                      <input *ngIf="obj.IsActive" type="button" class="btn btn-danger"
+                        value="{{'GenericDeactivate' | translate }}" (click)="setDeActivate(obj.Id)">
+                      <input *ngIf="obj.Type == 3" type="button" class="btn btn-Yellow"
+                        value="{{'GenericView' | translate }}" (click)="onView(obj.Id)">
+                      <input *ngIf="obj.IsActive" type="button" class="btn btn-warning"
+                        value="{{'AccountResendLink' | translate }}" (click)="ResendActivationLink(obj.Email)">
+                      <input *ngIf="obj.IsActive" type="button" class="btn btn-success"
+                        value="{{'AccountPasswordLink' | translate }}" (click)="ResendPasswordLink(obj.Email)">
+                      <input *ngIf="obj.Type == 2 && obj.IsEmployerLimitedCompanies" type="button"
+                        class="btn btn-Yellow LimitedCompanies" value="{{'GenericLimited' | translate }}"
+                        (click)="onLimit(obj.Id)">
+                      <input *ngIf="obj.Type == 2 && !obj.IsEmployerLimitedCompanies" type="button"
+                        class="btn btn-Yellow mt-2" value="{{'GenericUnLimited' | translate }}" (click)="onLimit(obj.Id)">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-12">
+            <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()" (previousPageEvent)="getPreviousPage()"
+              (loadPageCurrentEvent)="getloadPageCurrent()">
+            </app-custom-pagination>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div>
+  <ng-template role="dialog" #content let-modal class="modal fade">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header white-text text-center">
+
+          <h6 class="modal-title">
+            {{(modelIsCreate ? 'GenericCreate' : 'GenericEditing') | translate}} : {{modelIsCreate? ("GenericNew" |
+            translate) : modelNameEdited}}
+          </h6>
+        </div>
+        <div class="modal-body">
+
+          <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+            <div class="form-group ">
+              <mat-form-field class="example-full-width">
+                <mat-label>{{'GenericName' | translate }}</mat-label>
+                <input matInput id="modelNameId" type="text" placeholder="{{'GenericRequiredName' | translate }}"
+                  required [(ngModel)]="modelObj.Name" #modelNameVar="ngModel" name="modelName"
+                  [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }" />
+                <mat-error *ngIf="modelNameVar.errors?.required">{{'AccountEnterName' | translate }}</mat-error>
+              </mat-form-field>
+            </div>
+            <div class="form-group ">
+              <mat-form-field class="example-full-width">
+                {{'GenericEmail' | translate }}
+                <input matInput oninput="this.value = this.value.toLowerCase()" id="modelEmailId" type="email"
+                  placeholder="{{'GenericRequiredEmail' | translate }}" [pattern]="emailPattern" required
+                  disabled="{{!modelIsCreate}}" [(ngModel)]="modelObj.Email" #modelEmailVar="ngModel" name="modelEmail"
+                  [ngClass]="{'is-invalid': (modelEmailVar.touched || modelEmailVar.dirty) && !modelEmailVar.valid }" />
+                <mat-error *ngIf="modelEmailVar.errors?.required">{{'GenericEnterEmail' | translate }}</mat-error>
+                <mat-error *ngIf="modelEmailVar.errors?.pattern">{{'GenericEnterEmailValid' | translate }}</mat-error>
+              </mat-form-field>
+            </div>
+
+            <div class="form-group pull-right md-form">
+              <button class="btn  btn-thm" type="submit"
+                [title]="modelForm.valid ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                [disabled]="!modelForm.valid || isClicked">Save <i class="fa fa-spinner fa-spin"
+                  *ngIf="isClicked"></i></button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn border-green btn-transparent" (click)="modal.close()">{{'GenericClose' |
+            translate }}</button>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+</div>

@@ -1,0 +1,107 @@
+<section class="my-5">
+  <div class="container">
+    <div class='row'>
+      <h4 class="mb-4">{{'GenericTrainingCategory' | translate }}</h4>
+    </div>
+    <div class='row'>
+      <div class="col-sm-6 md-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>{{'TrainingCategorySearch' | translate }}</mat-label>
+          <input type="text" placeholder="{{'TrainingCategoryType' | translate }}" matInput [(ngModel)]="filtertxt">
+        </mat-form-field>
+        <input type="submit" value="{{'GenericSearch' | translate }}"  class="btn color-bg-02 white-text" (click)="filterbtn()">
+      </div>
+      <div class="col-sm-6 md-form pull-right">
+        <input type="button" class="pull-right btn color-bg-01 white-text" value="{{'GenericCreateNew' | translate }}"
+          (click)="createBtn(content)">
+          <input type="button" class="pull-right btn color-bg-03 white-text" value="{{'GenericTranslate' | translate }}"
+          (click)="Translate()">
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class='table-responsive'>
+        <table class='table' *ngIf='page.content && page.content.length'>
+          <thead>
+            <tr>
+              <th>{{'GenericName' | translate }}</th>
+              <th>{{'GenericTrainingType' | translate }}</th>
+              <th>{{'GenericAction' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let obj of page.content'>
+              <td>{{ obj.Name}}</td>
+              <td>{{ obj.TrainingType?.Name}}</td>
+              <td>
+                <input *ngIf="obj.IsActive" type="button" class="btn btn-primary" value="{{'GenericEdit' | translate }}"
+                  (click)="openBackDropCustomClass(content,obj)">
+                <input *ngIf="!obj.IsActive" type="button" class="btn btn-success" value="{{'GenericActivate' | translate }}"
+                  (click)="setActivate(obj.Id)">
+                <input *ngIf="obj.IsActive" type="button" class="btn btn-danger" value="{{'GenericDeactivate' | translate }}"
+                  (click)="setDeactivate(obj.Id)">
+                <input type="button" class="btn btn-warning" value="{{'CoursesTitle' | translate }}" (click)="Courses(obj.Id)">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()" (previousPageEvent)="getPreviousPage()"
+        (loadPageCurrentEvent)="getloadPageCurrent()">
+      </app-custom-pagination>
+    </div>
+  </div>
+  <div>
+    <ng-template role="dialog" #content let-modal class="modal fade">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header color-bg-01 white-text text-center">
+
+            <h6 class="modal-title">{{(modelId == "-1" ? 'GenericCreate'   : 'GenericEditing') | translate}} : {{modelId == "-1" ? ("GenericNew" | translate) : modelNameEdited}}</h6>
+          </div>
+          <!-- <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+          </button> -->
+          <div class="modal-body pt-0">
+
+            <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+              <div class="form-group ">
+                <mat-form-field class="example-full-width">
+                  <mat-label>{{'TrainingCategoryName' | translate }}</mat-label>
+                  <input matInput id="modelNameId" type="text" placeholder="{{'GenericRequiredName' | translate }}" required
+                    [(ngModel)]="modelName" #modelNameVar="ngModel" name="modelName"
+                    [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }" />
+                  <mat-error *ngIf="modelNameVar.errors?.required">{{'TrainingCategoryError1' | translate }}</mat-error>
+                </mat-form-field>
+              </div>
+              <div class="form-group ">
+                <mat-form-field>
+                  <mat-label>{{'GenericTrainingType' | translate }}</mat-label>
+                  <mat-select  required [(ngModel)]="modelTrainingType" required
+                    placeholder="{{'GenericSelectTrainingType' | translate }}"
+                    [ngClass]="{'is-invalid': (modelTrainingTypeVar.touched || modelTrainingTypeVar.dirty) && !modelTrainingTypeVar.valid }"
+                    #modelTrainingTypeVar="ngModel" name="modelTrainingTypeVar">
+                    <mat-option value="0">{{'GenericSelectTrainingType' | translate }}</mat-option>
+                    <mat-option *ngFor="let item of lstTrainingTypeoptions" [value]="item.Id">{{item.Name}}</mat-option>
+                  </mat-select>
+                  <mat-error *ngIf="modelTrainingTypeVar.errors?.required">{{'GenericSelectTrainingTypeError' | translate }}</mat-error>
+                </mat-form-field>
+              </div>
+              <div class="form-group pull-right md-form">
+                <button class="btn color-bg-01 btn-sm white-text btnSave" type="submit"
+                  
+                  [disabled]="!modelForm.valid">{{'GenericSave' | translate }}</button></div>
+            </form>
+          </div>
+          <div class="modal-footer">
+
+            <button type="button" class="btn color-bg-02 btn-sm white-text"
+              (click)="modal.close('Close click')">{{'GenericClose' | translate }}</button>
+          </div>
+
+
+        </div>
+      </div>
+    </ng-template>
+  </div>

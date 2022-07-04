@@ -1,0 +1,223 @@
+<section class="our-dashbord dashbord">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-xl-3 dn-smd">
+                <app-employer-menu [pageName]="'profile'"></app-employer-menu>
+            </div>
+            <div class="col-sm-12 col-lg-8 col-xl-9">
+                <div class="my_profile_form_area employer_profile">
+                    <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+                        <div class="row">
+
+                            <div class="col-lg-12">
+                                <h4 class="fz20 mb20">{{'EmployerProfilePageTitle' | translate }}</h4>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="avatar-upload mb30 companylogoCreate">
+                                    <div class="avatar-edit">
+                                        <img src="{{objProfile?.CompanyLogo}}">
+                                    </div>
+                                    <div class="avatar-preview">
+                                        <app-upload-files acceptExtensions=".png,.jpg,.jpeg" (OnFileUpload)="OnFileUpload($event)"
+                                        (UploadStatus)="UploadStatus($event)"></app-upload-files>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="my_profile_thumb_edit"></div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="formGroupExampleInput1">{{'EmployerProfileCompanyName' | translate }}*</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput1"
+                                        [(ngModel)]="modelObj.Name" required #modelNameVar="ngModel" name="modelName"
+                                        [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }"
+                                        placeholder="{{'EmployerProfileCompanyNameEnter' | translate }}">
+                                    <div class="valError" *ngIf="modelNameVar.touched && modelNameVar.errors?.required">
+                                        {{'EmployerProfileCompanyNameError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="exampleFormControlInput1">{{'EmployerProfileEmail' | translate }}*</label>
+                                    <input type="email" oninput="this.value = this.value.toLowerCase()"
+                                        [pattern]="emailPattern" class="form-control" id="exampleFormControlInput1"
+                                        [(ngModel)]="modelObj.Email" required #modelEmailVar="ngModel" name="modelEmail"
+                                        [ngClass]="{'is-invalid': (modelEmailVar.touched || modelEmailVar.dirty) && !modelEmailVar.valid }"
+                                        placeholder="{{'EmployerProfileEmailEnter' | translate }}">
+                                    <div class="valError"
+                                        *ngIf="modelEmailVar.touched && modelEmailVar.errors?.required">{{'EmployerProfileEmailError' | translate }}
+                                        </div>
+                                    <div class="valError"
+                                        *ngIf="modelEmailVar.touched && modelEmailVar.errors?.pattern">{{'EmployerProfileEmailErrorFormat' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="exampleFormControlInput1">{{'EmployerProfilePhone' | translate }}*</label>
+                                    <input type="number" class="form-control" id="exampleFormControlInput1"
+                                        [(ngModel)]="modelObj.Phone" required #modelPhoneVar="ngModel" name="modelPhone"
+                                        [ngClass]="{'is-invalid': (modelPhoneVar.touched || modelPhoneVar.dirty) && !modelPhoneVar.valid }"
+                                        placeholder="{{'EmployerProfilePhoneEnter' | translate }}">
+                                    <div class="valError"
+                                        *ngIf="modelPhoneVar.touched && modelPhoneVar.errors?.required">{{'EmployerProfilePhoneError' | translate }}
+                                       </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="exampleFormControlInput1">{{'EmployerProfileWebsite' | translate }}*</label>
+                                    <input type="url" class="form-control" id="exampleFormControlInput1"
+                                        [(ngModel)]="modelObj.Website" required #modelWebsiteVar="ngModel"
+                                        name="modelWebsite"
+                                        [ngClass]="{'is-invalid': (modelWebsiteVar.touched || modelWebsiteVar.dirty) && !modelWebsiteVar.valid }"
+                                        placeholder="{{'EmployerProfileWebsiteEnter' | translate }}">
+                                    <div class="valError"
+                                        *ngIf="modelWebsiteVar.touched && modelWebsiteVar.errors?.required">{{'EmployerProfileWebsiteError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="formGroupExampleInput2">{{'EmployerProfileEst' | translate }}</label>
+                                    <div class="input-group">
+                                        <input class="form-control" placeholder="dd-mm-yyyy" readonly name="dp" [minDate]="dateOld"
+                                            (dateSelect)="onEstDateSelect($event)" [(ngModel)]="modelEstablishDate"
+                                            ngbDatepicker #d="ngbDatepicker"  [maxDate]="dateToday">
+                                        <div class="input-group-append">
+                                            <button class="btn calcender" (click)="d.toggle()" type="button"><i
+                                                    class="fa fa-calendar" aria-hidden="true"></i></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="exampleFormControlInput2">{{'EmployerProfileIndustry' | translate }}*</label><br>
+                                    <select class="browser-default custom-select" data-actions-box="true"
+                                        [(ngModel)]="modelObj.IndustryId" required #modelIndustryVar="ngModel"
+                                        name="modelIndustry"
+                                        [ngClass]="{'is-invalid': (modelIndustryVar.touched || modelIndustryVar.dirty) && !modelIndustryVar.valid }">
+                                        <option value="-1">{{'EmployerProfileIndustryEnter' | translate }}</option>
+                                        <option *ngFor="let item of LkupIndustry" value="{{item._id}}">{{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valErrorSelect"
+                                        *ngIf="modelIndustryVar.touched && (modelIndustryVar.errors?.required || modelObj.IndustryId == '' || modelObj.IndustryId == '-1')">
+                                        {{'EmployerProfileIndustryError' | translate }}</div>
+                                   
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="my_resume_textarea mt20">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">{{'EmployerProfileAbout' | translate }}*</label>
+                                            <angular-editor  class="editor" [config]="textEditorConfig"  minlength="100" [(ngModel)]="modelObj.About" required
+                                            #modelAboutVar="ngModel" name="modelAbout"
+                                            [ngClass]="{'is-invalid': (modelAboutVar.touched || modelAboutVar.dirty) && !modelAboutVar.valid }"
+                                            placeholder="{{'EmployerProfileAboutEnter' | translate }}"></angular-editor>
+                                        <div class="valErrorTextArea"
+                                            *ngIf="modelAboutVar.touched && modelAboutVar.errors?.required ">
+                                            {{'EmployerProfileAboutError' | translate }}</div>
+                                        <div class="valErrorTextArea"
+                                            *ngIf="modelAboutVar.touched && +modelAboutVar.errors?.minlength?.requiredLength >  +modelAboutVar.errors?.minlength?.actualLength">
+                                            {{'EmployerProfileAboutLength' | translate }}</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <h4 class="fz18 mb20">{{'EmployerProfileSocial' | translate }}</h4>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="validationServerUsername">{{'EmployerProfileFacebook' | translate }}</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput1"
+                                        name="modelFacebook" [(ngModel)]="modelObj.SocialFacebook"
+                                        placeholder="{{'EmployerProfileFacebookEnter' | translate }}">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="validationServerUsername2">{{'EmployerProfileTwitter' | translate }}</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput1"
+                                        name="modelTwitter" [(ngModel)]="modelObj.SocialTwitter"
+                                        placeholder="{{'EmployerProfileTwitterEnter' | translate }}">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="validationServerUsername2">{{'EmployerProfileLinkedin' | translate }}</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput1"
+                                        name="modelLinkedin" [(ngModel)]="modelObj.SocialLinkedin"
+                                        placeholder="{{'EmployerProfileLinkedinEnter' | translate }}">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_input form-group">
+                                    <label for="validationServerUsername2">{{'EmployerProfileGooglePlus' | translate }}</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput1"
+                                        name="modelGoogle" [(ngModel)]="modelObj.SocialGooglePlus"
+                                        placeholder="{{'EmployerProfileGooglePlusEnter' | translate }}">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <h4 class="fz18 mb20">{{'EmployerProfileContactInformation' | translate }}</h4>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="exampleFormControlInput9">{{'EmployerPostJobCountry' | translate }}*</label><br>
+                                    <select class="browser-default custom-select" [(ngModel)]="modelObj.CountryId"
+                                        required #modelCountryVar="ngModel" name="modelCountry"
+                                        [ngClass]="{'is-invalid': (modelCountryVar.touched || modelCountryVar.dirty) && (!modelCountryVar.valid || modelObj.CountryId == '' || modelObj.CountryId == '-1') }"
+                                        (change)="onCountrySelect()">
+                                        <option value="-1">{{'EmployerPostJobCountrySelect' | translate }}</option>
+                                        <option *ngFor="let item of LkupCountry" value="{{item._id}}">{{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valErrorSelect"
+                                        *ngIf="modelCountryVar.touched && (modelCountryVar.errors?.required || modelObj.CountryId == '' || modelObj.CountryId == '-1')">
+                                        {{'EmployerProfileCountryError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-6">
+                                <div class="my_profile_select_box form-group">
+                                    <label for="exampleFormControlInput9">{{'EmployerPostJobCity' | translate }}*</label><br>
+                                    <select class="browser-default custom-select" [(ngModel)]="modelObj.CityId" required
+                                        #modelCityVar="ngModel" name="modelCity"
+                                        [ngClass]="{'is-invalid': (modelCityVar.touched || modelCityVar.dirty) && (!modelCityVar.valid || modelObj.CityId == '' || modelObj.CityId == '-1') }">
+                                        <option value="-1">{{'EmployerPostJobCitySelect' | translate }}</option>
+                                        <option *ngFor="let item of LkupCity" value="{{item._id}}">{{item.Name}}
+                                        </option>
+                                    </select>
+                                    <div class="valErrorSelect"
+                                        *ngIf="modelCityVar.touched && (modelCityVar.errors?.required || modelObj.CityId == '' || modelObj.CityId == '-1')">
+                                        {{'EmployerProfileCityError' | translate }}</div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="my_resume_textarea mt20">
+                                    <div class="form-group">
+                                        <label for="exampleFormControlTextarea1">{{'EmployerPostJobFullddress' | translate }}</label>
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                            name="modelAddress" [(ngModel)]="modelObj.Address"
+                                            placeholder="{{'EmployerPostJobAddressEnter' | translate }}"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <dynamic-form [fields]="regConfig"></dynamic-form>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="my_profile_input">
+                                    <button class="btn btn-lg btn-thm"
+                                        [title]="(modelForm.valid  && form?.valid ) ? 'Save your entered data' : 'Disabled until the form data is valid'"
+                                        [disabled]="!(modelForm.valid && form?.valid && !IsUploading)">{{'GenericSave' | translate }}</button>
+                                    <button class="btn btn-lg btn-transparent" (click)="onCancel()">{{'GenericCancel' | translate }}</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

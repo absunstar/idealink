@@ -1,0 +1,82 @@
+<section class="my-5">
+  <div class="container">
+    <div class='row'>
+      <h4 class="mb-4">{{pageTitle}}</h4>
+    </div>
+    <div class='row'>
+      <div class="col-sm-6 md-form">
+        <mat-form-field class="example-full-width">
+          <mat-label>Search for Trainee</mat-label>
+          <input type="text" placeholder="Type Trainee Name, Email, NationalId or Phone" matInput
+            [(ngModel)]="filtertxt">
+        </mat-form-field>
+        <input type="submit" class="btn color-bg-02 white-text" (click)="filterbtn()">
+      </div>
+      <div class="col-sm-6 md-form pull-right ">
+        <div class="pull-right ml-3">
+          <cust-add-trainee class="" [TrainingId]="trainingId" [IsCreate]="true" (Reload)="loadData()">
+          </cust-add-trainee>
+        </div>
+        <input type="button" class="pull-right btn color-bg-03 white-text  " value="Add Trainee"
+          (click)="AddTrainee(content)">
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class='table-responsive'>
+        <table class='table' *ngIf='traineelst && traineelst.length'>
+          <thead>
+            <tr>
+              <th>{{'GenericName' | translate }}</th>
+              <th>Email</th>
+              <th>Mobile</th>
+              <th>NationalId</th>
+              <th>{{'GenericAction' | translate }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let obj of traineelst'>
+              <td>{{obj.Name}}</td>
+              <td>{{obj.Email}}</td>
+              <td>{{obj.NationalId}}</td>
+              <td>{{obj.Mobile}}</td>
+              <td>
+                <input *ngIf="!isCourseStarted()" type="button" class="btn btn-danger" value="Remove"
+                  (click)="setDeActivate(obj.Id)">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div>
+      <ng-template #content let-modal>
+        <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-content">
+            <div class="modal-header color-bg-01 white-text text-center">
+
+              <h6 class="modal-title">Add Trainess to the training</h6>
+            </div>
+            <div class="modal-body pt-0">
+              <div>
+                <cust-search-trainee (OnSelectedTrainee)="OnSelectedTrainee($event)"></cust-search-trainee>
+              </div>
+            </div>
+            <div class="modal-footer">
+
+              <button type="button" class="btn color-bg-02 btn-sm white-text"
+                (click)="modal.close()">{{'GenericClose' | translate }}</button>
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+  <div>
+    <div class='card-footer'>
+      <button class='btn btn-outline-secondary' (click)='onBack()' style='width:80px'>
+        <i class='fa fa-chevron-left'></i> {{'GenericBack' | translate }}
+      </button>
+    </div>
+  </div>
+
+</section>

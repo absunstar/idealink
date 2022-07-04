@@ -1,0 +1,110 @@
+﻿@model LoginViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@addTagHelper SimpleCaptcha.Helpers.CaptchaTagHelper, SimpleCaptcha
+
+
+@if (!string.IsNullOrEmpty(ViewBag.MessageSuccess))
+{
+    <div class="alert alert-success">
+        <span>@ViewBag.MessageSuccess</span>
+    </div>
+}
+<div>
+    <partial name="_ValidationSummary" />
+</div>
+@if (!string.IsNullOrEmpty(ViewBag.UserId))
+{
+    <div class="alert alert-danger">
+        <strong>Error</strong>
+        <p>Please verify your account first. If you haven't received your verification email click <a href='/Account/ResendVerify?UserId=@ViewBag.UserId'>here</a> to resend.</p>
+    </div>
+}
+
+@if (Model.EnableLocalLogin)
+{
+    <div class="container-fluid">
+        <div class="row justify-content-md-center my-5">
+            <div class="col col-lg-5">
+                <div class="card">
+
+                    <h6 class="card-header color-text-01 bb-color-01 text-center text-uppercase">
+                        Sign In
+                    </h6>
+
+                    <div class="card-body pt-3 pb-5">
+
+                        <form asp-route="Login">
+                            <input type="hidden" asp-for="ReturnUrl" />
+
+                            <div class="form-group md-form">
+                                <div class="prefix"><i class="fal fa-at"></i></div>
+                                <input class="form-control" placeholder="Email Address *" asp-for="Username" autofocus>
+                            </div>
+
+                            <div class="form-group md-form">
+                                <div class="prefix"><i class="fal fa-unlock-alt"></i></div>
+                                <input type="password" class="form-control" placeholder="Password *" asp-for="Password" autocomplete="off">
+                            </div>
+
+                            <div class="form-group">
+                                <div class="row">
+                                    @if (Model.AllowRememberLogin)
+                                    {
+                                        <div class="col-6">
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" name="signincheck" id="signincheck">
+                                                <label class="custom-control-label" for="signincheck">Remember me</label>
+                                            </div>
+                                        </div>
+                                    }
+
+
+                                    <div class="col-6">
+                                        <div class="float-right">
+                                            <a href="@Url.Action("ForgetPasswordHome","Account")" class="link-color-01">Forgot Password?</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group md-form hidden">
+                                <input width="150" class="form-control captchaInput" placeholder="Enter the characters from the image below" asp-for="CaptchaInput" autofocus><br />
+                                <captcha reload-icon-url="@Url.Content($"~/img/reload.png")" />
+                            </div>
+                            <center>
+                                <button class="btn btn-outline-color-01 btn-rounded" name="button" value="login">Login</button>
+                                <button class="btn btn-outline-color-01 btn-rounded" name="button" value="cancel">Cancel</button>
+                            </center>
+                        </form>
+                        <hr />
+                        <div>
+                            @if (Model.VisibleExternalProviders.Any())
+                            {
+                                <div class="col-md-12 col-sm-12 external-providers">
+                                    <div class="panel panel-default">
+                                        <div class="col-md-12 col-sm-12 text-center m-auto">
+                                            <center>
+                                                @foreach (var provider in Model.VisibleExternalProviders)
+                                                {
+
+                                                    <a class="btn float-left loginBtn loginBtn--@provider.DisplayName"
+                                                       asp-action="ExternalLogin"
+                                                       asp-route-provider="@provider.AuthenticationScheme"
+                                                       asp-route-returnUrl="@Model.ReturnUrl">
+                                                        @provider.DisplayName
+                                                    </a>
+
+                                                }
+                                            </center>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+}

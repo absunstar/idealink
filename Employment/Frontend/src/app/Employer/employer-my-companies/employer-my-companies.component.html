@@ -1,0 +1,108 @@
+<section class="cnddte_fvrt our-dashbord dashbord">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-xl-3 dn-smd">
+                <app-employer-menu [pageName]="'managecompany'"></app-employer-menu>
+            </div>
+            <div class="col-sm-12 col-lg-8 col-xl-9">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h4 class="mb30">{{'EmployerMyCompanyYouManaging' | translate }}<b>{{objUser?.MyCompanies?.length}}</b> {{'EmployerMyCompanyCompanies' | translate }}</h4>
+                    </div>
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="candidate_revew_select" >
+                            <mat-form-field class="w-75">
+                                <mat-label>{{'EmployerMyCompanySearchfor' | translate }}</mat-label>
+                                <input type="text" placeholder="{{'EmployerMyCompanySearchBy' | translate }}" matInput
+                                    [(ngModel)]="filtertxt">
+                            </mat-form-field>
+                            <input type="submit" value="{{'GenericSubmit' | translate }}" class="btn btn-thm" (click)="filterbtn()">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="candidate_job_alart_btn text-right">
+                            <input type="button" class="pull-right btn btn-orange" value="{{'GenericCreateNew' | translate }}"
+                            (click)="createBtn()">
+                        </div>
+                    </div>
+                    <div class="col-lg-12"><hr></div>
+
+                    <div *ngFor="let item of page.content" class="col-sm-6 col-lg-6 col-xl-4 mt30">
+                        <div class="col-lg-12 text-center">
+                            <ul class="view_edit_delete_list ">
+                                <li class="list-inline-item padding5 bg-orange"><a (click)="onView(item._id)" data-toggle="tooltip" data-placement="bottom" title="{{'GenericView' | translate }}"><span class="flaticon-eye"></span></a></li>
+                                <li class="list-inline-item padding5 bg-blue"><a (click)="onEdit(item._id)" data-toggle="tooltip" data-placement="bottom" title="{{'GenericEdit' | translate }}"><span class="flaticon-edit"></span></a></li>
+                                <li *ngIf="item.IsActive" class="list-inline-item padding5 bg-red"><a (click)="setDeActivate(item._id)" data-toggle="tooltip" data-placement="bottom" title="{{'GenericDeactivate' | translate }}"><span class="flaticon-rubbish-bin"></span></a></li>
+                                <li *ngIf="!item.IsActive" class="list-inline-item padding5 bg-green"><a (click)="setActivate(item._id)" data-toggle="tooltip" data-placement="bottom" title="{{'GenericActivate' | translate }}"><span class="flaticon-unlocked"></span></a></li>
+                                <li class="list-inline-item padding5 bg-yellow"><a (click)="AssignEmployer(content,item._id)" data-toggle="tooltip" data-placement="bottom" title="{{'EmployerMyCompanyAssign' | translate }}"><span class="flaticon-manager"></span></a></li>
+                                <li *ngIf="item.IsApproved" class="list-inline-item padding5 bg-green"><a data-toggle="tooltip" data-placement="bottom" title="{{'GenericApprove' | translate }}"><span class="flaticon-tickMark"></span></a></li>
+                            </ul>
+                        </div>
+                        <div class="employe_grid {{item.IsActive ? 'bg-green' : 'bg-red'}} text-center">
+                            <div class="thumb">
+                                
+                                <img src="{{item?.CompanyLogo}}" >
+                            </div>
+                            <div class="details">
+                                <h4>{{item.Name}}</h4>
+                                <p class="text-thm2">{{item.Industry.Name == '' ? "'EmployerMyCompanyNoIndustry' | translate" : item.Industry.Name}}</p>
+                                <p><span class="flaticon-location-pin"></span> {{item.Country.Name + ', ' + item.City.Name }}</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()"
+                        (previousPageEvent)="getPreviousPage()" (loadPageCurrentEvent)="getloadPageCurrent()">
+                        </app-custom-pagination>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div>
+    <ng-template role="dialog" #content let-modal class="modal fade">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header white-text text-center">
+
+                    <h6 class="modal-title">
+                        {{'EmployerMyCompanyAddOther' | translate }}
+                    </h6>
+                </div>
+                <div class="modal-body">
+
+                    <div>
+                        <app-search-employer (OnSelect)='OnSelectEmployer($event)'></app-search-employer>
+                    </div>
+                </div>
+                <div>
+                    <table class='table'
+                      *ngIf='modellstCompanyEmployer && modellstCompanyEmployer.length'>
+                      <thead>
+                        <tr>
+                          <th>{{'GenericName' | translate }}</th>
+                          <th>{{'GenericAction' | translate }}</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr *ngFor='let obj of modellstCompanyEmployer'>
+                          <td>{{ obj.Name }}
+                          </td>
+                          <td>
+                            <input type="button" class="btn btn-danger" value="{{'GenericRemove' | translate }}"
+                              (click)="RemoveEmployer(obj._id)">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn border-green btn-transparent"
+                        (click)="modal.close()">{{'GenericClose' | translate }}</button>
+                </div>
+            </div>
+        </div>
+    </ng-template>
+</div>

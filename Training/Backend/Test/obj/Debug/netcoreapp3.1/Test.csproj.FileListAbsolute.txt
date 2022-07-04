@@ -1,0 +1,100 @@
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.exe
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.deps.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.dev.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.csprojAssemblyReference.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfoInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfo.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.csproj.CoreCompileInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.MvcApplicationPartsAssemblyInfo.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\staticwebassets\Test.StaticWebAssets.Manifest.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\staticwebassets\Test.StaticWebAssets.xml
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\scopedcss\bundle\Test.styles.css
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.RazorTargetAssemblyInfo.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.csproj.CopyComplete
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.exe
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.deps.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.dev.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.csprojAssemblyReference.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfoInputs.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfo.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.csproj.CoreCompileInputs.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.MvcApplicationPartsAssemblyInfo.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\staticwebassets\Test.StaticWebAssets.Manifest.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\staticwebassets\Test.StaticWebAssets.xml
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\scopedcss\bundle\Test.styles.css
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.RazorTargetAssemblyInfo.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.csproj.CopyComplete
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\appsettings.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.exe
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.deps.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.dev.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Test.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.MvcApplicationPartsAssemblyInfo.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.RazorTargetAssemblyInfo.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.csproj.CopyComplete
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\staticwebassets\Test.StaticWebAssets.Manifest.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\staticwebassets\Test.StaticWebAssets.xml
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\Test.StaticWebAssets.xml
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\Test.exe
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\Test.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\Test.runtimeconfig.dev.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\Test.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\Test.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\obj\Debug\netcoreapp3.1\Test.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\obj\Debug\netcoreapp3.1\Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\obj\Debug\netcoreapp3.1\Test.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\obj\Debug\netcoreapp3.1\Test.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\obj\Debug\netcoreapp3.1\Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\obj\Debug\netcoreapp3.1\staticwebassets\Test.StaticWebAssets.Manifest.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\obj\Debug\netcoreapp3.1\Test.RazorTargetAssemblyInfo.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\obj\Debug\netcoreapp3.1\Test.csproj.CopyComplete
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\obj\Debug\netcoreapp3.1\Test.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\obj\Debug\netcoreapp3.1\Test.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Test\obj\Debug\netcoreapp3.1\Test.genruntimeconfig.cache

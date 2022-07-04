@@ -1,0 +1,96 @@
+<section class="accounts">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12 col-xl-12">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 ">
+                        <h4 class="fz20">{{'StatisticsPageTitleJob' | translate }}</h4>
+                    </div>
+                    <div class="col-sm-5 col-lg-5 mt-3">
+                        <div class="candidate_revew_select">
+                            <mat-form-field>
+                                <mat-label>{{'EmployerPostJobCompany' | translate }}</mat-label>
+                                <mat-select [(ngModel)]="modelObj.CompanyId" #modelCompanyVar="ngModel"
+                                    name="modelCompany"
+                                    [ngClass]="{'is-invalid': (modelCompanyVar.touched || modelCompanyVar.dirty) && !modelCompanyVar.valid }">
+                                    <mat-option value="-1">{{'EmployerPostJobCompanySelect' | translate }}</mat-option>
+                                    <mat-option *ngFor="let item of lstCompanies" value="{{item._id}}">
+                                        {{item.Name}}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-lg-5 mt-4">
+                        <div class="input-group">
+                            <input matInput class="form-control" placeholder="{{'SeekerResumeStartDate' | translate }}"
+                                readonly name="dps" requried (dateSelect)="onStartDateSelect($event)"
+                                [(ngModel)]="modelStartDate" ngbDatepicker #ds="ngbDatepicker" [maxDate]="dateToday">
+                            <div class="input-group-append">
+                                <button class="btn calcender" (click)="ds.toggle()" type="button"><i
+                                        class="fa fa-calendar" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-5 col-lg-5 mt-3">
+                        <div class="candidate_revew_select">
+                            <mat-form-field>
+                                <mat-label>{{'EmployerPostJobField' | translate }}</mat-label>
+                                <mat-select [(ngModel)]="modelObj.JobFieldId" #modelJobFieldVar="ngModel"
+                                    name="modelJobField"
+                                    [ngClass]="{'is-invalid': (modelJobFieldVar.touched || modelJobFieldVar.dirty) && !modelJobFieldVar.valid }">
+                                    <mat-option value="-1">{{'EmployerPostJobFieldSelect' | translate }}</mat-option>
+                                    <mat-option *ngFor="let item of LkupJobField" value="{{item._id}}">
+                                        {{item.Name}}
+                                    </mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 col-lg-5 mt-4">
+                        <div class="input-group">
+                            <input matInput class="form-control" placeholder="{{'SeekerResumeEndDate' | translate }}"
+                                readonly name="dpe" requried (dateSelect)="onEndDateSelect($event)"
+                                [(ngModel)]="modelEndDate" ngbDatepicker #de="ngbDatepicker">
+                            <div class="input-group-append">
+                                <button class="btn calcender" (click)="de.toggle()" type="button"><i
+                                        class="fa fa-calendar" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <mat-error class="matError" *ngIf="!IsDatesCorrect">{{'SeekerResumeDateError' |
+                            translate }}
+                        </mat-error>
+                    </div>
+                    <div class="col-md-2 col-lg-2 mt-4">
+                        <input type="submit" value="{{'GenericSubmit' | translate }}" class="btn btn-thm"
+                            (click)="Search()">
+                    </div>
+                    <div class="col-md-12 col-lg-12 mt-4">
+                        <div class="ui_kit_table">
+                            <table class="table">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th scope="col">{{'GenericCompanyName' | translate }}</th>
+                                        <th scope="col">{{'StatsCount' | translate }}</th>
+                                    </tr>
+                                </thead>
+                                <tbody *ngIf='lstJobCount && lstJobCount.length > 0'>
+                                    <tr *ngFor='let obj of lstJobCount'>
+                                        <td>{{ obj.Company.Name}} </td>
+                                        <td>{{ obj.Count}}</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-12 mt-4" *ngIf="lstJobCount?.length  == 0">
+                        <div class="text-center bg-red noresult">
+                            <span class="font-italic">{{'PageNoResult' | translate }} </span><span>&#9785;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

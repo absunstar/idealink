@@ -1,0 +1,52 @@
+<section class="accounts">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-12 col-xl-12">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 ">
+                        <h4 class="fz20">{{'AccountpageTitle' | translate }}</h4>
+                    </div>
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="candidate_revew_select">
+                            <mat-form-field class="w-75">
+                                <mat-label>{{'EmployerMyCompanySearchfor' | translate }}</mat-label>
+                                <input type="text" placeholder="{{'EmployerMyCompanySearchBy' | translate }}" matInput
+                                    [(ngModel)]="filtertxt">
+                            </mat-form-field>
+                            <input type="submit" value="{{'GenericSubmit' | translate }}" class="btn btn-thm"
+                                (click)="filterbtn()">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div *ngFor="let item of page.content" class="col-sm-6 col-lg-6 col-xl-4 mt30">
+                        <div class="employe_grid {{item.IsActive ? 'bg-green' : 'bg-red'}} text-center" (click)="onView(item._id)">
+                            <div class="thumb">
+
+                                <img src="{{item?.CompanyLogo}}">
+                            </div>
+                            <div class="details">
+                                <h4>{{item.Name}}</h4>
+                                <p class="text-thm2">{{item.Industry.Name == '' ? "'EmployerMyCompanyNoIndustry' |
+                                    translate" :
+                                    item.Industry.Name}}</p>
+                                <p><span class="flaticon-location-pin"></span> {{item.Country.Name + ', ' +
+                                    item.City.Name }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-12 col-lg-12">
+                    <app-custom-pagination [page]="page" (nextPageEvent)="getNextPage()"
+                        (previousPageEvent)="getPreviousPage()" (loadPageCurrentEvent)="getloadPageCurrent()">
+                    </app-custom-pagination>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

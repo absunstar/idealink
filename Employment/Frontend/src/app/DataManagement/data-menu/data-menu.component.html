@@ -1,0 +1,19 @@
+<div class="user_profile">
+    <div class="media">
+        <img src="/assets/images/team/e1.png" class="align-self-start mr-3 rounded-circle" alt="e1.png">
+        <div class="media-body">
+            <h5 class="mt-0">Hi</h5>
+            <!-- <p>Bothell, WA, USA</p> -->
+        </div>
+    </div>
+</div>
+<div class="dashbord_nav_list">
+    <ul>
+        <li class="{{pageName.toLocaleLowerCase() == 'languages' ? 'active' : ''}}"><a routerLink="/DataManagement/Languages"><span class="flaticon-dashboard"></span>{{'DataLanguage' | translate }}</a></li>
+        <li class="{{pageName.toLocaleLowerCase() == 'country' ? 'active' : ''}}"><a routerLink="/DataManagement/Country"><span class="flaticon-dashboard"></span>{{'DataCountry' | translate }}</a></li>
+        <li class="{{pageName.toLocaleLowerCase() == 'industry' ? 'active' : ''}}"><a routerLink="/DataManagement/Industry"><span class="flaticon-dashboard"></span>{{'DataIndustry' | translate }}</a></li>
+        <li class="{{pageName.toLocaleLowerCase() == 'jobfields' ? 'active' : ''}}"><a routerLink="/DataManagement/JobFields"><span class="flaticon-dashboard"></span>{{'DataJobField' | translate }}</a></li>
+        <li class="{{pageName.toLocaleLowerCase() == 'qualification' ? 'active' : ''}}"><a routerLink="/DataManagement/Qualification"><span class="flaticon-dashboard"></span>{{'DataQualification' | translate }}</a></li>
+        <li class="{{pageName.toLocaleLowerCase() == 'yearsofexperience' ? 'active' : ''}}"><a routerLink="/DataManagement/YearsOfExperience"><span class="flaticon-dashboard"></span>{{'DataYearsOfExperience' | translate }}</a></li>
+    </ul>
+</div>

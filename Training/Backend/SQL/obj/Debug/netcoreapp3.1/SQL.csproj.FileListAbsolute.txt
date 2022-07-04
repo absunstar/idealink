@@ -1,0 +1,37 @@
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\bin\Debug\netcoreapp3.1\SQL.deps.json
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\bin\Debug\netcoreapp3.1\SQL.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\bin\Debug\netcoreapp3.1\SQL.pdb
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.csprojAssemblyReference.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.AssemblyInfoInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.AssemblyInfo.cs
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.csproj.CoreCompileInputs.cache
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.dll
+D:\Backup\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\bin\Debug\netcoreapp3.1\SQL.deps.json
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\bin\Debug\netcoreapp3.1\SQL.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\bin\Debug\netcoreapp3.1\SQL.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.AssemblyInfoInputs.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.AssemblyInfo.cs
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.csproj.CoreCompileInputs.cache
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.dll
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.pdb
+D:\Trainingpotral\NRGIT\20210609\HandOver Code\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SQL\bin\Debug\netcoreapp3.1\SQL.deps.json
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SQL\bin\Debug\netcoreapp3.1\SQL.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SQL\bin\Debug\netcoreapp3.1\SQL.pdb
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.csprojAssemblyReference.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.AssemblyInfoInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.AssemblyInfo.cs
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.csproj.CoreCompileInputs.cache
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.dll
+E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SQL\bin\Debug\netcoreapp3.1\SQL.deps.json
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SQL\bin\Debug\netcoreapp3.1\SQL.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SQL\bin\Debug\netcoreapp3.1\SQL.pdb
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.csproj.AssemblyReference.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.AssemblyInfoInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.AssemblyInfo.cs
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.csproj.CoreCompileInputs.cache
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.dll
+C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\SQL\obj\Debug\netcoreapp3.1\SQL.pdb

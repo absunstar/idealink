@@ -1,0 +1,38 @@
+<section class="my-5">
+    <div class="container">
+        <div class='row'>
+            <h4 class="mb-4">{{'ContentAboutTitle' | translate }}</h4>
+        </div>
+        <div class='row'>
+            <div class="modal-body pt-0">
+                <form novalidate (ngSubmit)="modelSaveBtn(modelForm)" #modelForm="ngForm">
+                    <div class="col-md-8">
+                        <div class="form-group ">
+                            <mat-form-field class="example-full-width">
+                                <mat-label>{{'ContentTitle' | translate }}</mat-label>
+                                <input matInput id="modelNameId" type="text" placeholder="{{'ContentTitlePH' | translate }}" required
+                                    [(ngModel)]="modelObj.Name" #modelNameVar="ngModel" name="modelName"
+                                    [ngClass]="{'is-invalid': (modelNameVar.touched || modelNameVar.dirty) && !modelNameVar.valid }" />
+                                <mat-error *ngIf="modelNameVar.errors?.required">{{'ContentTitleError' | translate }}</mat-error>
+                            </mat-form-field>
+                        </div>
+                        <div class="form-group ">
+                            <mat-form-field class="example-full-width">
+                                <mat-label>{{'ContentData' | translate }}</mat-label>
+                                <textarea matInput id="modelDataId" type="text" placeholder="{{'ContentDataPH' | translate }}" required
+                                    [(ngModel)]="modelObj.Data" #modelDataVar="ngModel" name="modelData" rows="5" cols="20"
+                                    [ngClass]="{'is-invalid': (modelDataVar.touched || modelDataVar.dirty) && !modelDataVar.valid }"></textarea>
+                                <mat-error *ngIf="modelDataVar.errors?.required">{{'ContentDataError' | translate }}</mat-error>
+                            </mat-form-field>
+                        </div>
+                        <div class="form-group pull-right md-form">
+                            <button class="btn color-bg-01 btn-sm white-text btnSave" type="submit"
+                                (click)="modelSaveBtn(modelForm)"
+                                [disabled]="!modelForm.valid">{{'GenericSave' | translate }}</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,2299 @@
+
+Log Entry : 12:47:19 PM Tuesday, December 7, 2021
+  :
+  :Start
+-------------------------------
+
+Log Entry : 12:47:19 PM Tuesday, December 7, 2021
+  :
+  :before result 
+-------------------------------
+
+Log Entry : 12:47:19 PM Tuesday, December 7, 2021
+  :
+  :before result 
+-------------------------------
+
+Log Entry : 12:47:23 PM Tuesday, December 7, 2021
+  :
+  :after result 
+-------------------------------
+
+Log Entry : 12:47:23 PM Tuesday, December 7, 2021
+  :
+  :after result 
+-------------------------------
+
+Log Entry : 12:47:23 PM Tuesday, December 7, 2021
+  :
+  :after Response 
+-------------------------------
+
+Log Entry : 9:47:22 AM Thursday, December 9, 2021
+  :
+  :Start
+-------------------------------
+
+Log Entry : 9:47:23 AM Thursday, December 9, 2021
+  :
+  :before result 
+-------------------------------
+
+Log Entry : 9:47:27 AM Thursday, December 9, 2021
+  :
+  :after result 
+-------------------------------
+
+Log Entry : 9:47:33 AM Thursday, December 9, 2021
+  :
+  :after Response 
+-------------------------------
+
+Log Entry : 5:21:20 PM Thursday, December 9, 2021
+  :
+  :Start
+-------------------------------
+
+Log Entry : 5:21:20 PM Thursday, December 9, 2021
+  :
+  :JwtClaimTypes.Subject-sub
+-------------------------------
+
+Log Entry : 5:21:20 PM Thursday, December 9, 2021
+  :
+  :userid -2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 5:21:20 PM Thursday, December 9, 2021
+  :
+  :role -Admin
+-------------------------------
+
+Log Entry : 5:21:20 PM Thursday, December 9, 2021
+  :
+  :role is  Trainee -mahmoud@test.com
+-------------------------------
+
+Log Entry : 5:21:20 PM Thursday, December 9, 2021
+  :
+  :Connect Trainee mongodb
+-------------------------------
+
+Log Entry : 5:21:20 PM Thursday, December 9, 2021
+  :
+  :filter -MongoDB.Driver.ExpressionFilterDefinition`1[Tadrebat.Entity.Mongo.UserProfile]
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :role is  Admin -Mahmoud12ll
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :user is check -Mahmoud12ll
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :user is -Mahmoud12ll
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  : profile.Id -2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  : profile.FullName -Mahmoud12ll
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  : profile.Role -Admin
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  : profile not null 
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  : after fill context 
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :Start
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :JwtClaimTypes.Subject-sub
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :userid -2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :role -Admin
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :role is  Trainee -mahmoud@test.com
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :Connect Trainee mongodb
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :filter -MongoDB.Driver.ExpressionFilterDefinition`1[Tadrebat.Entity.Mongo.UserProfile]
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :role is  Admin -Mahmoud12ll
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :user is check -Mahmoud12ll
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  :user is -Mahmoud12ll
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  : profile.Id -2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  : profile.FullName -Mahmoud12ll
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  : profile.Role -Admin
+-------------------------------
+
+Log Entry : 5:21:24 PM Thursday, December 9, 2021
+  :
+  : profile not null 
+-------------------------------
+
+Log Entry : 5:21:25 PM Thursday, December 9, 2021
+  :
+  : after fill context 
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :Start
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :JwtClaimTypes.Subject-sub
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :userid -2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :role -Admin
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :role is  Trainee -mahmoud@test.com
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :Connect Trainee mongodb
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :filter -MongoDB.Driver.ExpressionFilterDefinition`1[Tadrebat.Entity.Mongo.UserProfile]
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :role is  Admin -Mahmoud12ll
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :user is check -Mahmoud12ll
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :user is -Mahmoud12ll
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  : profile.Id -2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  : profile.FullName -Mahmoud12ll
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  : profile.Role -Admin
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  : profile not null 
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  : after fill context 
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :Start
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :JwtClaimTypes.Subject-sub
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :userid -2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :role -Admin
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :role is  Trainee -mahmoud@test.com
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :Connect Trainee mongodb
+-------------------------------
+
+Log Entry : 2:28:10 PM Saturday, December 11, 2021
+  :
+  :filter -MongoDB.Driver.ExpressionFilterDefinition`1[Tadrebat.Entity.Mongo.UserProfile]
+-------------------------------
+
+Log Entry : 2:28:11 PM Saturday, December 11, 2021
+  :
+  :role is  Admin -Mahmoud12ll
+-------------------------------
+
+Log Entry : 2:28:11 PM Saturday, December 11, 2021
+  :
+  :user is check -Mahmoud12ll
+-------------------------------
+
+Log Entry : 2:28:11 PM Saturday, December 11, 2021
+  :
+  :user is -Mahmoud12ll
+-------------------------------
+
+Log Entry : 2:28:11 PM Saturday, December 11, 2021
+  :
+  : profile.Id -2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 2:28:11 PM Saturday, December 11, 2021
+  :
+  : profile.FullName -Mahmoud12ll
+-------------------------------
+
+Log Entry : 2:28:11 PM Saturday, December 11, 2021
+  :
+  : profile.Role -Admin
+-------------------------------
+
+Log Entry : 2:28:11 PM Saturday, December 11, 2021
+  :
+  : profile not null 
+-------------------------------
+
+Log Entry : 2:28:11 PM Saturday, December 11, 2021
+  :
+  : after fill context 
+-------------------------------
+
+Log Entry : 2:28:42 PM Saturday, December 11, 2021
+  :
+  :Start
+-------------------------------
+
+Log Entry : 2:28:42 PM Saturday, December 11, 2021
+  :
+  :JwtClaimTypes.Subject-sub
+-------------------------------
+
+Log Entry : 2:28:42 PM Saturday, December 11, 2021
+  :
+  :userid -9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 2:28:42 PM Saturday, December 11, 2021
+  :
+  :role -Trainee
+-------------------------------
+
+Log Entry : 2:28:42 PM Saturday, December 11, 2021
+  :
+  :role is  Trainee -pratik_moda@idealake.com
+-------------------------------
+
+Log Entry : 2:28:42 PM Saturday, December 11, 2021
+  :
+  :Connect Trainee mongodb-pratik_moda@idealake.com
+-------------------------------
+
+Log Entry : 2:29:14 PM Saturday, December 11, 2021
+  :
+  :Start
+-------------------------------
+
+Log Entry : 2:29:14 PM Saturday, December 11, 2021
+  :
+  :JwtClaimTypes.Subject-sub
+-------------------------------
+
+Log Entry : 2:29:14 PM Saturday, December 11, 2021
+  :
+  :userid -9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 2:29:14 PM Saturday, December 11, 2021
+  :
+  :role -Trainee
+-------------------------------
+
+Log Entry : 2:29:14 PM Saturday, December 11, 2021
+  :
+  :role is  Trainee -pratik_moda@idealake.com
+-------------------------------
+
+Log Entry : 2:29:14 PM Saturday, December 11, 2021
+  :
+  :Connect Trainee mongodb-pratik_moda@idealake.com
+-------------------------------
+
+Log Entry : 2:34:02 PM Saturday, December 11, 2021
+  :
+  :filter -MongoDB.Driver.ExpressionFilterDefinition`1[Tadrebat.Entity.Mongo.Trainee]
+-------------------------------
+
+Log Entry : 2:34:20 PM Saturday, December 11, 2021
+  :
+  :filter -MongoDB.Driver.ExpressionFilterDefinition`1[Tadrebat.Entity.Mongo.Trainee]
+-------------------------------
+
+Log Entry : 2:34:22 PM Saturday, December 11, 2021
+  :
+  :role is  Trainee -Pratik Moda
+-------------------------------
+
+Log Entry : 2:34:22 PM Saturday, December 11, 2021
+  :
+  : profile.Id -9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 2:34:22 PM Saturday, December 11, 2021
+  :
+  : profile.FullName -Pratik Moda
+-------------------------------
+
+Log Entry : 2:34:22 PM Saturday, December 11, 2021
+  :
+  : profile.Role -Trainee
+-------------------------------
+
+Log Entry : 2:34:22 PM Saturday, December 11, 2021
+  :
+  : profile not null 
+-------------------------------
+
+Log Entry : 2:34:22 PM Saturday, December 11, 2021
+  :
+  : after fill context 
+-------------------------------
+
+Log Entry : 2:34:22 PM Saturday, December 11, 2021
+  :
+  : profile.Id -9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 2:34:22 PM Saturday, December 11, 2021
+  :
+  : profile.FullName -Pratik Moda
+-------------------------------
+
+Log Entry : 2:34:22 PM Saturday, December 11, 2021
+  :
+  : profile.Role -Trainee
+-------------------------------
+
+Log Entry : 2:34:22 PM Saturday, December 11, 2021
+  :
+  : profile not null 
+-------------------------------
+
+Log Entry : 2:34:22 PM Saturday, December 11, 2021
+  :
+  : after fill context 
+-------------------------------
+
+Log Entry : 2:57:44 PM Saturday, December 11, 2021
+  :
+  :Start
+-------------------------------
+
+Log Entry : 2:57:44 PM Saturday, December 11, 2021
+  :
+  :JwtClaimTypes.Subject-sub
+-------------------------------
+
+Log Entry : 2:57:44 PM Saturday, December 11, 2021
+  :
+  :userid -9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 2:57:44 PM Saturday, December 11, 2021
+  :
+  :role -Trainee
+-------------------------------
+
+Log Entry : 2:57:44 PM Saturday, December 11, 2021
+  :
+  :role is  Trainee -pratik_moda@idealake.com
+-------------------------------
+
+Log Entry : 2:57:44 PM Saturday, December 11, 2021
+  :
+  :Connect Trainee mongodb-pratik_moda@idealake.com
+-------------------------------
+
+Log Entry : 2:57:47 PM Saturday, December 11, 2021
+  :
+  :filter -MongoDB.Driver.ExpressionFilterDefinition`1[Tadrebat.Entity.Mongo.Trainee]
+-------------------------------
+
+Log Entry : 2:57:51 PM Saturday, December 11, 2021
+  :
+  :role is  Trainee -Pratik Moda
+-------------------------------
+
+Log Entry : 2:57:51 PM Saturday, December 11, 2021
+  :
+  : profile.Id -9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 2:57:51 PM Saturday, December 11, 2021
+  :
+  : profile.FullName -Pratik Moda
+-------------------------------
+
+Log Entry : 2:57:51 PM Saturday, December 11, 2021
+  :
+  : profile.Role -Trainee
+-------------------------------
+
+Log Entry : 2:57:51 PM Saturday, December 11, 2021
+  :
+  : profile not null 
+-------------------------------
+
+Log Entry : 2:57:51 PM Saturday, December 11, 2021
+  :
+  : after fill context 
+-------------------------------
+
+Log Entry : 3:27:00 PM Saturday, December 11, 2021
+  :
+  :Start
+-------------------------------
+
+Log Entry : 3:27:00 PM Saturday, December 11, 2021
+  :
+  :JwtClaimTypes.Subject-sub
+-------------------------------
+
+Log Entry : 3:27:00 PM Saturday, December 11, 2021
+  :
+  :userid -9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 3:27:00 PM Saturday, December 11, 2021
+  :
+  :role -Trainee
+-------------------------------
+
+Log Entry : 3:27:00 PM Saturday, December 11, 2021
+  :
+  :role is  Trainee -pratik_moda@idealake.com
+-------------------------------
+
+Log Entry : 3:27:00 PM Saturday, December 11, 2021
+  :
+  :Connect Trainee mongodb-pratik_moda@idealake.com
+-------------------------------
+
+Log Entry : 10:11:22 PM Friday, February 11, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 10:11:22 PM Friday, February 11, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 10:11:22 PM Friday, February 11, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 10:11:22 PM Friday, February 11, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 10:11:22 PM Friday, February 11, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 10:11:22 PM Friday, February 11, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 10:11:22 PM Friday, February 11, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 10:11:22 PM Friday, February 11, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 10:11:22 PM Friday, February 11, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 10:11:22 PM Friday, February 11, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 10:11:22 PM Friday, February 11, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 10:11:23 PM Friday, February 11, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 10:11:23 PM Friday, February 11, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 10:11:23 PM Friday, February 11, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 2:21:49 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 2:21:49 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 2:21:49 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 2:21:49 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 2:21:51 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 2:21:51 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 2:21:51 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Trainee
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNamePratik Moda
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Trainee
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNamePratik Moda
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 2:34:29 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 3:03:30 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 3:03:30 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 3:03:30 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 3:03:30 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Trainee
+-------------------------------
+
+Log Entry : 3:03:30 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNamePratik Moda
+-------------------------------
+
+Log Entry : 3:03:30 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 3:03:30 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 3:17:18 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 3:17:18 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 3:17:18 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 3:17:18 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 3:17:19 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 3:17:19 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 3:17:19 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Trainee
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNamePratik Moda
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Trainee
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNamePratik Moda
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 3:34:26 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 3:47:05 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 3:47:05 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 3:47:05 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 3:47:05 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 3:47:05 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 3:47:05 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 3:47:05 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 4:01:21 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 4:01:21 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 4:01:21 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 4:01:21 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 4:01:21 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 4:01:21 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 4:01:21 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 4:01:56 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 4:01:56 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 4:01:56 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 4:01:56 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 4:01:56 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 4:01:56 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 4:01:56 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 4:03:27 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 4:03:27 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 4:03:27 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 4:03:27 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Trainee
+-------------------------------
+
+Log Entry : 4:03:27 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNamePratik Moda
+-------------------------------
+
+Log Entry : 4:03:27 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 4:03:27 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 4:12:21 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 4:12:21 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 4:12:21 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 4:12:21 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 4:12:22 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 4:12:22 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 4:12:22 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 4:12:22 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 4:12:22 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 4:12:22 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 4:12:22 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 4:12:22 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 4:12:22 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 4:12:22 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 4:31:03 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 4:31:03 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 4:31:03 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 4:31:03 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 4:31:05 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 4:31:05 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 4:31:05 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 4:33:03 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 4:33:03 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 4:33:03 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 4:33:03 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Trainee
+-------------------------------
+
+Log Entry : 4:33:03 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNamePratik Moda
+-------------------------------
+
+Log Entry : 4:33:03 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 4:33:03 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 4:42:03 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 4:42:03 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 4:42:03 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 4:42:03 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 4:42:03 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 4:42:03 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 4:42:03 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 5:01:03 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 5:01:03 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 5:01:03 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 5:01:03 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 5:01:05 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 5:01:05 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 5:01:05 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 5:03:03 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 5:03:03 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 5:03:03 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 5:03:03 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Trainee
+-------------------------------
+
+Log Entry : 5:03:03 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNamePratik Moda
+-------------------------------
+
+Log Entry : 5:03:03 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 5:03:03 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 5:12:03 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 5:12:03 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 5:12:03 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 5:12:03 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 5:12:03 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 5:12:03 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 5:12:03 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 5:31:03 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 5:31:03 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 5:31:03 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 5:31:03 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 5:31:05 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 5:31:05 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 5:31:05 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 5:33:03 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 5:33:03 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 5:33:03 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 5:33:03 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Trainee
+-------------------------------
+
+Log Entry : 5:33:03 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNamePratik Moda
+-------------------------------
+
+Log Entry : 5:33:03 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 5:33:03 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 5:42:03 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 5:42:03 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 5:42:03 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 5:42:03 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 5:42:03 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 5:42:03 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 5:42:03 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 6:01:03 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 6:01:03 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 6:01:03 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 6:01:03 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 6:01:05 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 6:01:05 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 6:01:05 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 6:03:03 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 6:03:03 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 6:03:03 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 6:03:03 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Trainee
+-------------------------------
+
+Log Entry : 6:03:03 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNamePratik Moda
+-------------------------------
+
+Log Entry : 6:03:03 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 6:03:03 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 6:12:03 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 6:12:03 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 6:12:03 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 6:12:03 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 6:12:03 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 6:12:03 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 6:12:03 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 6:30:04 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 6:30:04 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 6:30:04 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 6:30:04 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 6:30:04 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 6:30:04 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 6:30:04 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 6:32:04 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 6:32:04 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 6:32:04 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 6:32:04 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Trainee
+-------------------------------
+
+Log Entry : 6:32:04 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNamePratik Moda
+-------------------------------
+
+Log Entry : 6:32:04 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id9eae2815-2b5f-47eb-9f91-8a884dad004b
+-------------------------------
+
+Log Entry : 6:32:04 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 7:22:17 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 7:22:17 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 7:22:17 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 7:22:17 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 7:22:18 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 7:22:18 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 7:22:18 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 7:41:06 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 7:41:06 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 7:41:06 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 7:41:06 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 7:41:09 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 7:41:09 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 7:41:09 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 7:41:09 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 7:41:09 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 7:41:09 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 7:41:09 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 7:41:09 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 7:41:09 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 7:41:09 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 7:47:38 PM Saturday, February 12, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 7:47:38 PM Saturday, February 12, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 7:47:38 PM Saturday, February 12, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 7:47:38 PM Saturday, February 12, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 7:47:38 PM Saturday, February 12, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 7:47:38 PM Saturday, February 12, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 7:47:38 PM Saturday, February 12, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 12:22:02 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 12:22:02 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 12:22:02 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 12:22:02 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 12:22:08 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 12:22:08 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 12:22:08 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 12:23:01 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 12:23:01 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 12:23:01 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 12:23:01 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 12:23:01 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 12:23:01 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 12:23:01 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 12:23:02 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 12:23:02 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 12:23:02 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 12:23:02 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 12:23:02 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 12:23:02 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 12:23:02 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 4:20:44 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 4:20:44 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 4:20:44 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 4:20:44 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 4:20:48 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 4:20:48 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 4:20:48 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 4:20:48 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 4:20:48 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 4:20:48 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 4:20:48 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 4:20:48 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 4:20:48 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 4:20:48 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 4:21:32 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 8:55:09 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 8:55:11 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 8:56:48 PM Monday, February 14, 2022
+  :
+  :Exception-System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tadrebat.API.Controllers.BaseController.GetUserRole() in E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.API\Controllers\BaseController.cs:line 50
+   at Tadrebat.API.Controllers.MiscController.AuthContext() in E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.API\Controllers\MiscController.cs:line 103
+-------------------------------
+
+Log Entry : 8:56:56 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 8:56:57 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 9:05:18 PM Monday, February 14, 2022
+  :
+  :Exception-System.NullReferenceException: Object reference not set to an instance of an object.
+   at Tadrebat.API.Controllers.BaseController.GetUserRole() in E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.API\Controllers\BaseController.cs:line 50
+   at Tadrebat.API.Controllers.MiscController.AuthContext() in E:\Sanay\Working\Empoyment\Training\Training\Code\Backend\Tadrebat.API\Controllers\MiscController.cs:line 103
+-------------------------------
+
+Log Entry : 9:05:30 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 9:05:30 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 9:05:30 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 9:05:35 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 9:05:37 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 9:05:37 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 9:05:37 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 9:05:37 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 9:05:37 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 9:05:37 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 9:05:39 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 9:05:39 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 9:05:39 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 9:05:39 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 9:06:22 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 9:06:22 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 9:06:22 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 9:06:36 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 9:06:36 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 9:06:36 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 9:06:36 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 9:06:36 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 9:06:36 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 9:06:36 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 9:06:38 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 9:06:38 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 9:06:38 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 9:06:38 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 9:07:43 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 9:07:45 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 9:08:17 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 9:08:21 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 9:08:23 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 9:08:32 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 11:05:39 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 11:05:39 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 11:05:39 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 11:32:40 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 11:32:40 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 11:32:40 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 11:32:46 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 11:32:47 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 11:32:47 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 11:32:47 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 11:32:47 PM Monday, February 14, 2022
+  :
+  :Controller - 
+-------------------------------
+
+Log Entry : 11:32:47 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 11:32:47 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 11:32:52 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 11:32:53 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 11:32:53 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 11:32:53 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 11:41:02 PM Monday, February 14, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 11:41:04 PM Monday, February 14, 2022
+  :
+  :setp -2 -sub
+-------------------------------
+
+Log Entry : 11:43:01 PM Monday, February 14, 2022
+  :
+  :setp -3 -Admin
+-------------------------------
+
+Log Entry : 11:43:46 PM Monday, February 14, 2022
+  :
+  :setp -4 -userNameMahmoud12ll
+-------------------------------
+
+Log Entry : 11:43:48 PM Monday, February 14, 2022
+  :
+  :setp -5 -user id2cd1a640-d5ea-4f2c-9293-bdb5217ff01d
+-------------------------------
+
+Log Entry : 11:44:16 PM Monday, February 14, 2022
+  :
+  :setp -6 -
+-------------------------------
+
+Log Entry : 10:33:15 AM Tuesday, February 15, 2022
+  :
+  :Start -AuthContext
+-------------------------------
+
+Log Entry : 10:33:15 AM Tuesday, February 15, 2022
+  :
+  :setp -2 -sub
+-------------------------------

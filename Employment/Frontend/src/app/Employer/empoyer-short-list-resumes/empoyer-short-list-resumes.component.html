@@ -1,0 +1,41 @@
+<section class="our-dashbord dashbord">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-4 col-xl-3 dn-smd">
+                <app-employer-menu [pageName]="'shortlist'"></app-employer-menu>
+            </div>
+            <div class="col-sm-12 col-lg-8 col-xl-9">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h4 class="fz20">{{'EmployerShortlistedResumesPageTitle' | translate }}</h4>
+                    </div>
+                    <div class="col-lg-12" *ngFor="let item of lstResult">
+                        <div class="candidate_list_view style2">
+                            <div class="thumb">
+                                <img class="img-fluid rounded-circle ProfilePicture ProfilePictureSmaller" src="{{item.ImageURL}}">
+                                <div class="cpi_av_rating ProfilePictureCircleSmaller"><span></span></div>
+                            </div>
+                            <div class="content mt25 fn-xl">
+                                <h4 class="title">{{item.Name}} <small class="verified text-thm2 pl10"><i class="fa fa-check-circle"></i></small></h4>
+                                <p class="text-thm2">{{item.Title}} </p>
+                            </div>
+                            <ul class="view_edit_delete_list mt25 float-right fn-xl">
+                                <li *ngIf="item.ResumeURL != ''" class="list-inline-item"><a href="{{item.ResumeURL}}" target="_blank" data-toggle="tooltip" data-placement="top" title="{{'EmployerShortlistedResumesDownloadCV' | translate }}"><span class="flaticon-resume"></span>{{'EmployerShortlistedResumesDownloadCV' | translate }}</a></li>
+                                <li class="list-inline-item  bg-orange" (click)="onView(item.EntityId)"><a
+                                    (click)="onView(item.EntityId)" data-toggle="tooltip"
+                                    data-placement="bottom" title="{{'GenericView' | translate }}"><span
+                                        class="flaticon-eye"></span></a></li>
+                                <li class="list-inline-item" (click)="setDeActivate(item._id)"><a (click)="setDeActivate(item._id)" data-toggle="tooltip" data-placement="top" title="{{'GenericDelete' | translate }}"><span class="flaticon-rubbish-bin"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-12" *ngIf="lstResult?.length == 0">
+                        <div class="text-center bg-red noresult">
+                            <span class="font-italic">{{'EmployerShortlistedResumesNotFound' | translate }} </span><span>&#9785;</span>
+                           </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
