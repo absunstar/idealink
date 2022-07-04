@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1024, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="/assets/js/oidc-client.min.js"></script>
+</head>
+
+<body>
+  <script>
+    // const stsSettings = {
+    //   authority: "http://localhost:6500/",
+    //   client_id: "spa-Tadrebat-client",
+    //   scope: "openid profile projects-api",
+    //   response_type: "code"
+    // };
+    const stsSettings = {
+      authority: "http://sts.ms-training.digisummits.com/",
+      client_id: "spa-Tadrebat-client",
+      scope: "openid profile projects-api",
+      response_type: "code"
+    };
+    // const stsSettings = {
+    //   authority: "http://tadrebatdemo.tawarwghayar.com:5500/",
+    //   client_id: "spa-Tadrebat-client",
+    //   scope: "openid profile projects-api",
+    //   response_type: "code"
+    // };
+    new Oidc.UserManager(stsSettings).signinSilentCallback().catch(error => {
+      console.error(error);
+    });
+  </script>
+</body>
+
+</html>

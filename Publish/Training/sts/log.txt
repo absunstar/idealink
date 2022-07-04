@@ -1,0 +1,54 @@
+
+Log Entry : 10:01:13 AM Tuesday, April 26, 2022
+  :
+  :Exception - System.Exception: invalid return URL
+   at IdentityServer4.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\Quickstart\Account\AccountController.cs:line 170
+-------------------------------
+
+Log Entry : 10:01:39 AM Tuesday, April 26, 2022
+  :
+  :Exception - System.Exception: invalid return URL
+   at IdentityServer4.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\Quickstart\Account\AccountController.cs:line 170
+-------------------------------
+
+Log Entry : 10:20:30 AM Tuesday, April 26, 2022
+  :
+  :Exception - System.Exception: invalid return URL
+   at IdentityServer4.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\Quickstart\Account\AccountController.cs:line 170
+-------------------------------
+
+Log Entry : 12:08:16 PM Tuesday, April 26, 2022
+  :
+  :Exception - System.Exception: invalid return URL
+   at IdentityServer4.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\Quickstart\Account\AccountController.cs:line 170
+-------------------------------
+
+Log Entry : 12:08:29 PM Tuesday, April 26, 2022
+  :
+  :Exception - System.Exception: invalid return URL
+   at IdentityServer4.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\Quickstart\Account\AccountController.cs:line 170
+-------------------------------
+
+Log Entry : 12:09:30 PM Tuesday, April 26, 2022
+  :
+  :Exception - System.Exception: invalid return URL
+   at IdentityServer4.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\Quickstart\Account\AccountController.cs:line 170
+-------------------------------
+
+Log Entry : 7:51:32 AM Sunday, May 8, 2022
+  :
+  :Exception - System.Exception: invalid return URL
+   at IdentityServer4.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\Quickstart\Account\AccountController.cs:line 170
+-------------------------------
+
+Log Entry : 7:51:40 AM Sunday, May 8, 2022
+  :
+  :Exception - System.Exception: invalid return URL
+   at IdentityServer4.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\Quickstart\Account\AccountController.cs:line 170
+-------------------------------
+
+Log Entry : 7:53:03 AM Sunday, May 8, 2022
+  :
+  :Exception - System.Exception: invalid return URL
+   at IdentityServer4.Quickstart.UI.AccountController.Login(LoginInputModel model, String button) in C:\Users\absunstar\Desktop\FinalHandOver-idealink\Training\Backend\Tadrebat.STS\Quickstart\Account\AccountController.cs:line 170
+-------------------------------
